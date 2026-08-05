@@ -107,15 +107,22 @@ class LegaSdpProvider:
 
     def _season(self, competition_id: str) -> dict[str, Any]:
         safe_competition_id = quote(competition_id, safe=":")
-        seasons = self._get(f"/competitions/{safe_competition_id}/seasons").get("seasons", [])
+        payload = self._get(f"/competitions/{safe_competition_id}/seasons")
+        seasons = payload.get("seasons") or payload.get("items") or payload.get("data") or []
+        if not isinstance(seasons, list):
+            raise UpstreamError("Lega Serie A returned an invalid seasons list")
         today = date.today()
         candidates = []
         for season in seasons:
+            if not isinstance(season, dict):
+                continue
             try:
-                start = date.fromisoformat(str(season["startDateUtc"])[:10])
-                end = date.fromisoformat(str(season["endDateUtc"])[:10])
+                start_value = _first(season, "startDateUtc", "startDate", "start", "seasonStartDate")
+                end_value = _first(season, "endDateUtc", "endDate", "end", "seasonEndDate")
+                start = date.fromisoformat(str(start_value)[:10])
+                end = date.fromisoformat(str(end_value)[:10])
                 candidates.append((start, end, season))
-            except (KeyError, ValueError):
+            except (TypeError, ValueError):
                 continue
         active = [item for item in candidates if item[0] <= today <= item[1]]
         if active:
@@ -125,6 +132,18 @@ class LegaSdpProvider:
             return min(upcoming, key=lambda item: item[0])[2]
         if candidates:
             return max(candidates, key=lambda item: item[0])[2]
+        # Some official competition feeds do not expose date bounds. Their season
+        # names sort chronologically (for example, 2026/2027), so this remains a
+        # safe fallback while avoiding an unnecessary publication outage.
+        id_only_seasons = [
+            season for season in seasons
+            if isinstance(season, dict) and _first(season, "seasonId", "id")
+        ]
+        if id_only_seasons:
+            return max(
+                id_only_seasons,
+                key=lambda season: str(_first(season, "seasonName", "name", "label") or ""),
+            )
         raise UpstreamError("No usable seasons returned by Lega Serie A")
 
     def fetch(self, competition: CompetitionConfig, club: str) -> list[Fixture]:
