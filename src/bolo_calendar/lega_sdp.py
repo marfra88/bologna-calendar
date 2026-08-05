@@ -8,6 +8,7 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
 
 from .config import CompetitionConfig
 from .models import Fixture
@@ -15,6 +16,7 @@ from .models import Fixture
 
 BASE_URL = "https://api-sdp.legaseriea.it/v1/serie-a/football"
 USER_AGENT = "bologna-calendar/1.0 (+https://github.com/OWNER/REPOSITORY)"
+SOURCE_TIMEZONE = ZoneInfo("Europe/Rome")
 
 
 class UpstreamError(RuntimeError):
@@ -45,7 +47,10 @@ def _team_name(value: Any) -> str:
 def _parse_datetime(value: str) -> datetime:
     parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
     if parsed.tzinfo is None:
-        raise ValueError("upstream kickoff has no timezone")
+        # The official feed occasionally labels a local Italian time as UTC but
+        # omits the offset. The competition is played in Italy, so interpret this
+        # documented-in-practice variant in Europe/Rome before converting to UTC.
+        parsed = parsed.replace(tzinfo=SOURCE_TIMEZONE)
     return parsed.astimezone(UTC)
 
 
