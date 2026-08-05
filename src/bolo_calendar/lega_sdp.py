@@ -54,28 +54,46 @@ def _parse_datetime(value: str) -> datetime:
     return parsed.astimezone(UTC)
 
 
-def _find_broadcast(value: Any) -> str | None:
-    """Find a broadcaster field even if the provider nests it in a new schema."""
-    labels: list[str] = []
+def _text_values(value: Any) -> list[str]:
+    if isinstance(value, str):
+        return [value.strip()] if value.strip() else []
+    if isinstance(value, list):
+        return [item for child in value for item in _text_values(child)]
     if isinstance(value, dict):
-        for key, child in value.items():
-            if any(token in key.casefold() for token in ("broadcast", "broadcaster", "television", "tvchannel")):
-                if isinstance(child, str) and child.strip():
-                    labels.append(child.strip())
-                elif isinstance(child, list):
-                    labels.extend(str(item).strip() for item in child if isinstance(item, str) and item.strip())
-                elif isinstance(child, dict):
-                    name = _first(child, "name", "label", "displayName")
-                    if name:
-                        labels.append(str(name).strip())
-            labels.extend(filter(None, [_find_broadcast(child)]))
-    elif isinstance(value, list):
-        for child in value:
-            found = _find_broadcast(child)
-            if found:
-                labels.append(found)
-    unique = list(dict.fromkeys(labels))
-    return " + ".join(unique) if unique else None
+        labels = []
+        for key in ("name", "label", "displayName", "title", "value"):
+            if key in value:
+                labels.extend(_text_values(value[key]))
+        return labels
+    return []
+
+
+def _find_broadcast(value: Any) -> str | None:
+    """Extract one official broadcaster value without combining duplicate fields."""
+    labels: list[str] = []
+
+    def visit(node: Any) -> None:
+        if isinstance(node, dict):
+            for key, child in node.items():
+                if any(token in key.casefold() for token in ("broadcast", "broadcaster", "television", "tvchannel")):
+                    labels.extend(_text_values(child))
+                visit(child)
+        elif isinstance(node, list):
+            for child in node:
+                visit(child)
+
+    visit(value)
+    normalised = " ".join(labels).casefold()
+    has_dazn = "dazn" in normalised
+    has_sky = "sky" in normalised
+    if has_dazn and has_sky:
+        return "DAZN | SKY"
+    if has_dazn:
+        return "DAZN"
+    if has_sky:
+        return "SKY"
+    unique = list(dict.fromkeys(label for label in labels if label))
+    return " | ".join(unique) if unique else None
 
 
 class LegaSdpProvider:
