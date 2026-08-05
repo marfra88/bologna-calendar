@@ -88,12 +88,24 @@ def _description(fixture: Fixture, timezone: ZoneInfo) -> str:
         f"🏆 Competizione: {fixture.competition_name} {fixture.season_name}",
         f"📅 Giornata: {_round_label(fixture.round_name)}",
         f"🏟️ Stadio: {fixture.stadium or 'Da definire'}",
-        f"📺 Diretta TV: {fixture.broadcaster or 'Da definire'}",
+        f"📺 Diretta TV: {_broadcast_display(fixture.broadcaster)}",
         f"🕘 Orario: {kickoff:%H:%M} ({timezone.key})",
     ]
     if fixture.home_score is not None and fixture.away_score is not None:
         lines.append(f"Risultato: {fixture.home_score}–{fixture.away_score}")
     return "\n".join(lines)
+
+
+def _broadcast_display(broadcaster: str | None) -> str:
+    """Use lightweight, universally rendered channel badges in calendar clients."""
+    value = (broadcaster or "").casefold()
+    if "dazn" in value and "sky" in value:
+        return "⬛ DAZN | 🔵 SKY"
+    if "dazn" in value:
+        return "⬛ DAZN"
+    if "sky" in value:
+        return "🔵 SKY"
+    return broadcaster or "Da definire"
 
 
 def build_calendar(fixtures: list[Fixture], calendar_name: str, timezone_name: str) -> bytes:
