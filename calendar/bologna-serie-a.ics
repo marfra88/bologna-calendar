@@ -65,8 +65,8 @@ DTSTART;TZID=Europe/Helsinki:20260824T193000
 DTEND;TZID=Europe/Helsinki:20260824T213000
 SUMMARY:Bologna – Lazio
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 Giornata: Campionato\n
- 🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: DAZN + Dazn\n🕘 Orari
- o: 19:30 (Europe/Helsinki)
+ 🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 
+ 19:30 (Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -84,8 +84,8 @@ DTSTART;TZID=Europe/Helsinki:20260831T214500
 DTEND;TZID=Europe/Helsinki:20260831T234500
 SUMMARY:Atalanta – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 Giornata: Campionato\n
- 🏟️ Stadio: New Balance Arena\n📺 Diretta TV: DAZN + SKY + Dazn/Sky
- \n🕘 Orario: 21:45 (Europe/Helsinki)
+ 🏟️ Stadio: New Balance Arena\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n
+ 🕘 Orario: 21:45 (Europe/Helsinki)
 LOCATION:New Balance Arena
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -103,7 +103,7 @@ DTSTART;TZID=Europe/Helsinki:20260906T190000
 DTEND;TZID=Europe/Helsinki:20260906T210000
 SUMMARY:Bologna – Sassuolo
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 Giornata: Campionato\n
- 🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: DAZN + SKY + Dazn/Sky\n
+ 🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n
  🕘 Orario: 19:00 (Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
@@ -122,8 +122,8 @@ DTSTART;TZID=Europe/Helsinki:20260913T190000
 DTEND;TZID=Europe/Helsinki:20260913T210000
 SUMMARY:Napoli – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 Giornata: Campionato\n
- 🏟️ Stadio: Diego Armando Maradona\n📺 Diretta TV: DAZN + SKY + Daz
- n/Sky\n🕘 Orario: 19:00 (Europe/Helsinki)
+ 🏟️ Stadio: Diego Armando Maradona\n📺 Diretta TV: ⬛ DAZN | 🔵 
+ SKY\n🕘 Orario: 19:00 (Europe/Helsinki)
 LOCATION:Diego Armando Maradona
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -141,8 +141,8 @@ DTSTART;TZID=Europe/Helsinki:20260919T160000
 DTEND;TZID=Europe/Helsinki:20260919T180000
 SUMMARY:Bologna – Torino
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 Giornata: Campionato\n
- 🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: DAZN + Dazn\n🕘 Orari
- o: 16:00 (Europe/Helsinki)
+ 🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 
+ 16:00 (Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
