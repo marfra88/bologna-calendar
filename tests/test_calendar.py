@@ -22,7 +22,7 @@ class CalendarTests(unittest.TestCase):
         self.assertIn("BEGIN:VCALENDAR\r\n", text)
         self.assertIn("BEGIN:VTIMEZONE\r\nTZID:Europe/Helsinki", text)
         self.assertIn("DTSTART;TZID=Europe/Helsinki:20261018T204500", text)
-        self.assertIn("📺 Diretta TV: DAZN + Sky", text)
+        self.assertIn("📺 Diretta TV: ⬛ DAZN | 🔵 SKY", text)
         self.assertIn("TRIGGER:-PT30M", text)
 
     def test_calendar_is_deterministic(self) -> None:
