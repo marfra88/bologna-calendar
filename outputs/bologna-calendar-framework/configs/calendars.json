@@ -1,0 +1,16 @@
+{
+  "club": "Bologna",
+  "timezone": "Europe/Helsinki",
+  "competitions": [
+    {
+      "key": "serie-a",
+      "competition_names": ["Serie A", "Serie A Enilive"],
+      "output": "calendar/bologna-serie-a.ics"
+    },
+    {
+      "key": "coppa-italia",
+      "competition_names": ["Coppa Italia", "Coppa Italia Frecciarossa"],
+      "output": "calendar/bologna-coppa-italia.ics"
+    }
+  ]
+}

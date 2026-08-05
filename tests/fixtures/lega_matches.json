@@ -1,0 +1,20 @@
+{
+  "matches": [
+    {
+      "matchId": "opta:Match:123",
+      "home": {"mediaName": "Bologna"},
+      "away": {"mediaName": "Milan"},
+      "matchDateUtc": "2026-10-18T17:45:00Z",
+      "stadiumName": "Stadio Renato Dall'Ara",
+      "roundName": "Matchday 7",
+      "status": "SCHEDULED",
+      "broadcast": {"name": "DAZN | SKY"}
+    },
+    {
+      "matchId": "opta:Match:124",
+      "home": {"mediaName": "Inter"},
+      "away": {"mediaName": "Roma"},
+      "matchDateUtc": "2026-10-19T17:45:00Z"
+    }
+  ]
+}
