@@ -54,6 +54,29 @@ def _parse_datetime(value: str) -> datetime:
     return parsed.astimezone(UTC)
 
 
+def _round_name(match: dict[str, Any], competition_key: str) -> str | None:
+    """Return a matchweek number or a named knockout round from official metadata."""
+    direct = _first(match, "roundName", "matchdayName", "matchSetName")
+    match_set = match.get("matchSet")
+    match_set = match_set if isinstance(match_set, dict) else {}
+    match_set_name = _first(match_set, "name", "displayName", "label", "roundName", "matchSetName")
+    provider_id = str(_first(match_set, "providerId", "matchSetId", "id") or "")
+
+    # League fixtures use the generic phase name "Campionato". The authoritative
+    # match-set provider id carries the actual matchday, e.g. opta:MatchDay:12.
+    matchday = re.search(r"match\s*day\D*(\d+)", " ".join(filter(None, (str(direct or ""), str(match_set_name or ""), provider_id))), re.I)
+    if matchday:
+        return f"Matchday {matchday.group(1)}"
+
+    # Coppa Italia's human-readable round is preferred (Ottavi, Quarti, etc.).
+    for value in (match_set_name, direct):
+        if value and _normalise(str(value)) not in {
+            "campionato", "seriea", "serieaenilive", "coppaitalia", "coppaitaliafrecciarossa",
+        }:
+            return str(value)
+    return None if competition_key == "serie-a" else str(direct) if direct else None
+
+
 def _text_values(value: Any) -> list[str]:
     if isinstance(value, str):
         return [value.strip()] if value.strip() else []
@@ -198,7 +221,7 @@ class LegaSdpProvider:
                     away_team=away,
                     kickoff_utc=_parse_datetime(str(kickoff)),
                     stadium=_first(match, "stadiumName", "venueName"),
-                    round_name=_first(match, "roundName", "matchdayName", "matchSetName"),
+                    round_name=_round_name(match, competition.key),
                     broadcaster=_find_broadcast(match),
                     status=_first(match, "status", "matchStatus"),
                     source_url="https://www.legaseriea.it/serie-a/calendario-risultati",
