@@ -86,7 +86,7 @@ def _description(fixture: Fixture, timezone: ZoneInfo) -> str:
     kickoff = fixture.kickoff_utc.astimezone(timezone)
     lines = [
         f"🏆 Competizione: {fixture.competition_name} {fixture.season_name}",
-        f"📅 Giornata: {_round_label(fixture.round_name)}",
+        f"📅 {_round_label(fixture.round_name)}",
         f"🏟️ Stadio: {fixture.stadium or 'Da definire'}",
         f"📺 Diretta TV: {_broadcast_display(fixture.broadcaster)}",
         f"🕘 Orario: {kickoff:%H:%M} ({timezone.key})",
