@@ -1,7 +1,8 @@
 import unittest
+from datetime import UTC
 
 from bolo_calendar.config import CompetitionConfig
-from bolo_calendar.lega_sdp import LegaSdpProvider
+from bolo_calendar.lega_sdp import LegaSdpProvider, _find_broadcast, _parse_datetime, _round_name
 
 
 class FakeProvider(LegaSdpProvider):
@@ -22,3 +23,26 @@ class LegaSdpTests(unittest.TestCase):
         self.assertEqual(fixtures[0].season_name, "2026/27")
         self.assertEqual(fixtures[0].broadcaster, "Italia 1")
         self.assertEqual(fixtures[0].uid, "bologna-coppa-italia-match-1@github.com")
+
+    def test_uses_latest_named_season_when_date_bounds_are_omitted(self) -> None:
+        provider = LegaSdpProvider()
+        provider._get = lambda path: {"seasons": [  # type: ignore[method-assign]
+            {"seasonId": "old", "seasonName": "2025/2026"},
+            {"seasonId": "current", "seasonName": "2026/2027"},
+        ]}
+        self.assertEqual(provider._season("competition")["seasonId"], "current")
+
+    def test_interprets_offsetless_kickoffs_as_italian_local_time(self) -> None:
+        self.assertEqual(_parse_datetime("2026-10-18T20:45:00"), _parse_datetime("2026-10-18T18:45:00Z"))
+
+    def test_normalises_repeated_dazn_and_sky_values(self) -> None:
+        value = {"broadcast": {"name": "DAZN | SKY"}, "broadcasts": [{"name": "DAZN"}, {"name": "Sky"}]}
+        self.assertEqual(_find_broadcast(value), "DAZN | SKY")
+
+    def test_uses_match_set_id_for_serie_a_matchday(self) -> None:
+        match = {"roundName": "Campionato", "matchSet": {"providerId": "opta:MatchDay:12"}}
+        self.assertEqual(_round_name(match, "serie-a"), "Matchday 12")
+
+    def test_preserves_named_coppa_italia_round(self) -> None:
+        match = {"roundName": "Quarti di finale", "matchSet": {"providerId": "opta:Round:4"}}
+        self.assertEqual(_round_name(match, "coppa-italia"), "Quarti di finale")
