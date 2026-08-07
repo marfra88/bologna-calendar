@@ -177,7 +177,7 @@ UID:bologna-serie-a-serie-a::Football_Match::96f25bcc9f15484da0a9a5260f15ac
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261017T010000
 DTEND;TZID=Europe/Helsinki:20261017T030000
-SUMMARY:Bologna – Inter
+SUMMARY:Bologna – Internazionale
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 7ª giornata\n🏟️ 
  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00
   (Europe/Helsinki)
@@ -186,7 +186,7 @@ URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Bologna – Inter
+DESCRIPTION:Tra 30 minuti: Bologna – Internazionale
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -671,7 +671,7 @@ UID:bologna-serie-a-serie-a::Football_Match::7f33baedc4d6435488bf7fdd140fc8
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270424T010000
 DTEND;TZID=Europe/Helsinki:20270424T030000
-SUMMARY:Inter – Bologna
+SUMMARY:Internazionale – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 33ª giornata\n🏟️
   Stadio: Giuseppe Meazza\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
  0 (Europe/Helsinki)
@@ -680,7 +680,7 @@ URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Inter – Bologna
+DESCRIPTION:Tra 30 minuti: Internazionale – Bologna
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
