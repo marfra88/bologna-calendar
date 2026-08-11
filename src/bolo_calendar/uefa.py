@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import UTC, datetime
 import re
 from typing import Any
+from urllib.parse import urlencode
 
 from .config import CompetitionConfig
 from .http import get_json
@@ -16,7 +17,7 @@ COMPETITION_IDS = {
     "europa-league-italian-teams": "2",
     "conference-league-italian-teams": "3",
 }
-BASE_URL = "https://www.uefa.com/api/v1/matches"
+BASE_URL = "https://match.uefa.com/v5/matches"
 
 
 def _value(value: Any, *keys: str) -> Any:
@@ -61,7 +62,14 @@ class UefaProvider:
         competition_id = COMPETITION_IDS.get(competition.key)
         if not competition_id:
             raise UpstreamError(f"No UEFA competition id configured for {competition.key}")
-        payload = get_json(f"{BASE_URL}?competitionId={competition_id}&seasonYear={datetime.now().year}")
+        query = urlencode({
+            "competitionId": competition_id,
+            "seasonYear": datetime.now().year,
+            "limit": 500,
+            "offset": 0,
+            "order": "ASC",
+        })
+        payload = get_json(f"{BASE_URL}?{query}")
         matches = payload.get("matches", payload) if isinstance(payload, dict) else payload
         if not isinstance(matches, list):
             raise UpstreamError("UEFA returned no usable fixture list")

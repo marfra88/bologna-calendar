@@ -5,6 +5,7 @@ from bolo_calendar.calendar import build_calendar
 from bolo_calendar.models import Fixture
 from bolo_calendar.virtus import _schedule_rows
 from bolo_calendar.formula1 import _race_details, _slugs
+from bolo_calendar.uefa import BASE_URL
 
 
 class ExtraCalendarTests(unittest.TestCase):
@@ -36,3 +37,6 @@ class ExtraCalendarTests(unittest.TestCase):
         self.assertEqual(_slugs(calendar, 2026), ["italy"])
         page = "<h1>FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026</h1><h2>Schedule</h2><p>06 Sep Race 13:00</p>"
         self.assertEqual(_race_details(page, 2026), ("FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026", datetime(2026, 9, 6, 13, 0)))
+
+    def test_uefa_uses_the_current_official_match_service(self) -> None:
+        self.assertEqual(BASE_URL, "https://match.uefa.com/v5/matches")
