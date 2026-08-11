@@ -4,6 +4,7 @@ import unittest
 from bolo_calendar.calendar import build_calendar
 from bolo_calendar.models import Fixture
 from bolo_calendar.virtus import _schedule_rows
+from bolo_calendar.formula1 import _race_details, _slugs
 
 
 class ExtraCalendarTests(unittest.TestCase):
@@ -29,3 +30,9 @@ class ExtraCalendarTests(unittest.TestCase):
     def test_virtus_parser_reads_schedule_table(self) -> None:
         html = "<table><tr><td>25/09/26</td><td>Fenerbahce Istanbul<img alt='ignored'></td><td>19:45</td><td>Virtus Bologna</td></tr></table>"
         self.assertEqual(_schedule_rows(html), [("25/09/26", "Fenerbahce Istanbul", "19:45", "Virtus Bologna")])
+
+    def test_formula_one_parser_reads_official_page_markup(self) -> None:
+        calendar = '<a href="/en/racing/2026/italy">Italy</a>'
+        self.assertEqual(_slugs(calendar, 2026), ["italy"])
+        page = "<h1>FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026</h1><h2>Schedule</h2><p>06 Sep Race 13:00</p>"
+        self.assertEqual(_race_details(page, 2026), ("FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026", datetime(2026, 9, 6, 13, 0)))

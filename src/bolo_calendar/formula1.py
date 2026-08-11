@@ -1,9 +1,9 @@
 from __future__ import annotations
 
 from datetime import UTC, datetime
-import json
+from html import unescape
 import re
-from typing import Any
+from zoneinfo import ZoneInfo
 
 from .config import CompetitionConfig
 from .http import get_text
@@ -12,73 +12,72 @@ from .models import Fixture
 
 
 CALENDAR_URL = "https://www.formula1.com/en/racing/{year}"
+RACE_URL = "https://www.formula1.com/en/racing/{year}/{slug}"
+
+# Track time is what Formula 1 publishes on each official event page. These
+# permanent circuit locations convert that local time correctly to UTC.
+TRACKS = {
+    "netherlands": ("Zandvoort, Netherlands", "Europe/Amsterdam"),
+    "italy": ("Monza, Italy", "Europe/Rome"),
+    "spain": ("Madrid, Spain", "Europe/Madrid"),
+    "azerbaijan": ("Baku, Azerbaijan", "Asia/Baku"),
+    "bahrain": ("Sakhir, Bahrain", "Asia/Bahrain"),
+    "singapore": ("Singapore", "Asia/Singapore"),
+    "united-states": ("Austin, United States", "America/Chicago"),
+    "mexico": ("Mexico City, Mexico", "America/Mexico_City"),
+    "brazil": ("São Paulo, Brazil", "America/Sao_Paulo"),
+    "las-vegas": ("Las Vegas, United States", "America/Los_Angeles"),
+    "qatar": ("Lusail, Qatar", "Asia/Qatar"),
+    "abu-dhabi": ("Abu Dhabi, United Arab Emirates", "Asia/Dubai"),
+}
 
 
-def _walk(value: Any):
-    if isinstance(value, dict):
-        yield value
-        for child in value.values():
-            yield from _walk(child)
-    elif isinstance(value, list):
-        for child in value:
-            yield from _walk(child)
+def _text(html: str) -> str:
+    return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", html))).strip()
 
 
-def _json_blocks(page: str) -> list[Any]:
-    blocks = re.findall(r"<script[^>]*>(.*?)</script>", page, re.S | re.I)
-    result = []
-    for block in blocks:
-        try:
-            result.append(json.loads(block))
-        except json.JSONDecodeError:
-            pass
-    return result
+def _slugs(calendar_html: str, year: int) -> list[str]:
+    pattern = rf'href=["\'](?:https://www\.formula1\.com)?/en/racing/{year}/([^"\'/?#]+)'
+    return list(dict.fromkeys(re.findall(pattern, calendar_html, re.I)))
 
 
-def _first(value: dict[str, Any], *names: str) -> Any:
-    for name in names:
-        if value.get(name) not in (None, ""):
-            return value[name]
-    return None
+def _race_details(page_html: str, year: int) -> tuple[str, datetime] | None:
+    page = _text(page_html)
+    title = re.search(r"(FORMULA 1 .*? 20\d{2})\s+Schedule", page, re.I)
+    race = re.search(r"(\d{1,2})\s+([A-Za-z]{3})\s+Race\s+(\d{1,2}:\d{2})", page, re.I)
+    if not (title and race):
+        return None
+    try:
+        local = datetime.strptime(f"{race.group(1)} {race.group(2)} {year} {race.group(3)}", "%d %b %Y %H:%M")
+    except ValueError:
+        return None
+    return title.group(1).upper(), local
 
 
 class Formula1Provider:
-    """Uses the official Formula 1 calendar's embedded structured event data."""
+    """Reads official F1 calendar links then official race schedule pages."""
 
     def fetch(self, competition: CompetitionConfig, _club: str) -> list[Fixture]:
         year = datetime.now().year
-        page = get_text(CALENDAR_URL.format(year=year))
-        events: list[dict[str, Any]] = []
-        for data in _json_blocks(page):
-            for candidate in _walk(data):
-                name = _first(candidate, "eventName", "meetingName", "name")
-                start = _first(candidate, "raceStartDate", "startDate", "startTime", "date")
-                if name and start and ("grand prix" in str(name).casefold() or "gran premio" in str(name).casefold()):
-                    events.append(candidate)
+        slugs = _slugs(get_text(CALENDAR_URL.format(year=year)), year)
         fixtures: list[Fixture] = []
-        seen: set[str] = set()
         now = datetime.now(UTC)
-        for event in events:
-            identifier = str(_first(event, "id", "eventId", "meetingKey") or "")
-            start = _first(event, "raceStartDate", "startDate", "startTime", "date")
-            try:
-                kickoff = datetime.fromisoformat(str(start).replace("Z", "+00:00")).astimezone(UTC)
-            except ValueError:
+        for slug in slugs:
+            track = TRACKS.get(slug)
+            if track is None:
+                continue  # A new circuit needs an explicit IANA track-time zone.
+            details = _race_details(get_text(RACE_URL.format(year=year, slug=slug)), year)
+            if details is None:
                 continue
-            if not identifier or identifier in seen or kickoff < now:
+            name, local = details
+            kickoff = local.replace(tzinfo=ZoneInfo(track[1])).astimezone(UTC)
+            if kickoff < now:
                 continue
-            seen.add(identifier)
-            name = str(_first(event, "eventName", "meetingName", "name"))
-            city = _first(event, "city", "location", "meetingLocation")
-            country = _first(event, "country", "countryName")
-            if isinstance(country, dict):
-                country = _first(country, "name", "countryName")
-            location = ", ".join(str(item) for item in (city, country) if item)
             fixtures.append(Fixture(
-                source_id=identifier, competition_key=competition.key, competition_name="Formula 1",
+                source_id=f"{year}-{slug}", competition_key=competition.key, competition_name="Formula 1",
                 season_name=str(year), home_team="", away_team="", summary=name,
-                kickoff_utc=kickoff, stadium=location or None, round_name=None,
-                broadcaster=None, status="SCHEDULED", source_url=CALENDAR_URL.format(year=year), event_kind="formula1",
+                kickoff_utc=kickoff, stadium=track[0], round_name=None, broadcaster=None,
+                status="SCHEDULED", source_url=RACE_URL.format(year=year, slug=slug), event_kind="formula1",
             ))
         if not fixtures:
             raise UpstreamError("No usable upcoming Formula 1 race data found")
