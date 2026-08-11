@@ -1,0 +1,26 @@
+from datetime import UTC, datetime
+import unittest
+
+from bolo_calendar.calendar import build_calendar
+from bolo_calendar.models import Fixture
+
+
+class ExtraCalendarTests(unittest.TestCase):
+    def test_uefa_calendar_includes_venue_and_city(self) -> None:
+        fixture = Fixture("42", "champions-league-italian-teams", "UEFA Champions League", "2026/27", "Inter", "Arsenal", datetime(2026, 10, 1, 18, 0, tzinfo=UTC), "Milan — Stadio Giuseppe Meazza", "Matchday 2", None, "SCHEDULED", "https://uefa.example", event_kind="uefa")
+        result = build_calendar([fixture], "Sports — UEFA Champions League", "Europe/Helsinki").decode()
+        self.assertIn("LOCATION:Milan — Stadio Giuseppe Meazza", result)
+        self.assertIn("TRIGGER:-PT30M", result)
+
+    def test_virtus_has_no_tv_or_venue(self) -> None:
+        fixture = Fixture("1", "virtus-euroleague", "EuroLeague", "2026/27", "Virtus Bologna", "Olympiacos", datetime(2026, 9, 1, 18, 0, tzinfo=UTC), None, "Matchday 1", None, "SCHEDULED", "https://virtus.example", event_kind="euroleague")
+        result = build_calendar([fixture], "Sports — EuroLeague", "Europe/Helsinki").decode()
+        self.assertIn("📅 Matchday 1", result)
+        self.assertNotIn("Diretta TV", result)
+        self.assertNotIn("🏟️", result)
+
+    def test_formula_one_uses_official_title_and_location(self) -> None:
+        fixture = Fixture("monza", "formula-1", "Formula 1", "2026", "", "", datetime(2026, 9, 6, 13, 0, tzinfo=UTC), "Monza, Italy", None, None, "SCHEDULED", "https://f1.example", summary="FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026", event_kind="formula1")
+        result = build_calendar([fixture], "Sports — Formula 1", "Europe/Helsinki").decode()
+        self.assertIn("SUMMARY:FORMULA 1 PIRELLI GRAN PREMIO", result)
+        self.assertIn("📍 Monza\\, Italy", result)
