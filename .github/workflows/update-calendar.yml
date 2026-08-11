@@ -1,0 +1,35 @@
+name: Update Bologna calendars
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Test calendar generator
+        run: PYTHONPATH=src python -m unittest discover -s tests
+      - name: Generate calendars
+        run: PYTHONPATH=src python -m bolo_calendar.cli
+      - name: Commit changed calendars
+        run: |
+          if git diff --quiet -- calendar/; then
+            echo "No calendar changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add calendar/
+          git commit -m "chore: update Bologna calendars"
+          git push

@@ -1,0 +1,2 @@
+# No third-party runtime dependencies.
+# The project uses Python's standard library so it can run unchanged in GitHub Actions.
