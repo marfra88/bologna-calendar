@@ -3,6 +3,7 @@ import unittest
 
 from bolo_calendar.calendar import build_calendar
 from bolo_calendar.models import Fixture
+from bolo_calendar.virtus import _schedule_rows
 
 
 class ExtraCalendarTests(unittest.TestCase):
@@ -24,3 +25,7 @@ class ExtraCalendarTests(unittest.TestCase):
         result = build_calendar([fixture], "Sports — Formula 1", "Europe/Helsinki").decode()
         self.assertIn("SUMMARY:FORMULA 1 PIRELLI GRAN PREMIO", result)
         self.assertIn("📍 Monza\\, Italy", result)
+
+    def test_virtus_parser_reads_schedule_table(self) -> None:
+        html = "<table><tr><td>25/09/26</td><td>Fenerbahce Istanbul<img alt='ignored'></td><td>19:45</td><td>Virtus Bologna</td></tr></table>"
+        self.assertEqual(_schedule_rows(html), [("25/09/26", "Fenerbahce Istanbul", "19:45", "Virtus Bologna")])
