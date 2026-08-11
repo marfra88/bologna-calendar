@@ -45,4 +45,23 @@ TZOFFSETTO:+0200
 TZNAME:EET
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:bologna-coppa-italia-serie-a::Football_Match::092d872486fc462f9569fd502
+ 7fd13e1@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261202T010000
+DTEND;TZID=Europe/Helsinki:20261202T030000
+SUMMARY:Bologna – TBC
+DESCRIPTION:🏆 Competizione: Coppa Italia 2026/27\n📅 4944ª giornata\n
+ 🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orari
+ o: 01:00 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – TBC
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
 END:VCALENDAR

@@ -44,5 +44,739 @@ TZOFFSETFROM:+0300
 TZOFFSETTO:+0200
 TZNAME:EET
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20280326T040000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20281029T030000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::e5e1363d12bf4adfb494f64c3654c1
+ 6c@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260824T193000
+DTEND;TZID=Europe/Helsinki:20260824T213000
+SUMMARY:Bologna – Lazio
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 1ª giornata\n🏟️ 
+ Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 19:30 (E
+ urope/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Lazio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::8955e66c6ca5484d8500e78890332c
+ 59@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260831T214500
+DTEND;TZID=Europe/Helsinki:20260831T234500
+SUMMARY:Atalanta – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 2ª giornata\n🏟️ 
+ Stadio: New Balance Arena\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n🕘 Ora
+ rio: 21:45 (Europe/Helsinki)
+LOCATION:New Balance Arena
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Atalanta – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::e9c3a062798b4974badf0c9f4c6b86
+ 80@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260906T190000
+DTEND;TZID=Europe/Helsinki:20260906T210000
+SUMMARY:Bologna – Sassuolo
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 3ª giornata\n🏟️ 
+ Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n🕘 Orari
+ o: 19:00 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Sassuolo
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::eefcca4b6f0f47c38acd745f612d30
+ af@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260913T190000
+DTEND;TZID=Europe/Helsinki:20260913T210000
+SUMMARY:Napoli – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 4ª giornata\n🏟️ 
+ Stadio: Diego Armando Maradona\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n
+ 🕘 Orario: 19:00 (Europe/Helsinki)
+LOCATION:Diego Armando Maradona
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Napoli – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::9dc5081d9da34e7ebc9f5f399f4fde
+ 3e@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260919T160000
+DTEND;TZID=Europe/Helsinki:20260919T180000
+SUMMARY:Bologna – Torino
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 5ª giornata\n🏟️ 
+ Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 16:00 (E
+ urope/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Torino
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::319953aed1404a84a0d9b28149b674
+ de@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261010T010000
+DTEND;TZID=Europe/Helsinki:20261010T030000
+SUMMARY:Lecce – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 6ª giornata\n🏟️ 
+ Stadio: Ettore Giardiniero - Via Del Mare\n📺 Diretta TV: Da definire\n
+ 🕘 Orario: 01:00 (Europe/Helsinki)
+LOCATION:Ettore Giardiniero - Via Del Mare
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Lecce – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::96f25bcc9f15484da0a9a5260f15ac
+ 6d@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261017T010000
+DTEND;TZID=Europe/Helsinki:20261017T030000
+SUMMARY:Bologna – Internazionale
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 7ª giornata\n🏟️ 
+ Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00
+  (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Internazionale
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::35dc3bf2680a41d2a83a242a8a4e61
+ a7@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261024T010000
+DTEND;TZID=Europe/Helsinki:20261024T030000
+SUMMARY:Cagliari – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 8ª giornata\n🏟️ 
+ Stadio: Unipol Domus\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00 (E
+ urope/Helsinki)
+LOCATION:Unipol Domus
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Cagliari – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::cc0031f17e30431f8d97e2a220243d
+ 76@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261027T010000
+DTEND;TZID=Europe/Helsinki:20261027T030000
+SUMMARY:Milan – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 9ª giornata\n🏟️ 
+ Stadio: Giuseppe Meazza\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00
+  (Europe/Helsinki)
+LOCATION:Giuseppe Meazza
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Milan – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::57863eae8e0847799fe6160a7d946d
+ 95@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261031T010000
+DTEND;TZID=Europe/Helsinki:20261031T030000
+SUMMARY:Bologna – Monza
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 10ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Monza
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::9ed516bb6d154cc783d9f8e49494be
+ ae@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261107T010000
+DTEND;TZID=Europe/Helsinki:20261107T030000
+SUMMARY:Parma – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 11ª giornata\n🏟️
+  Stadio: Ennio Tardini\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00 
+ (Europe/Helsinki)
+LOCATION:Ennio Tardini
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Parma – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::92e5cb913a5f4c638e51243ad1ccc9
+ 4a@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261121T010000
+DTEND;TZID=Europe/Helsinki:20261121T030000
+SUMMARY:Bologna – Udinese
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 12ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Udinese
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::561c74842f9f41568b1d1bf518b853
+ 15@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261128T010000
+DTEND;TZID=Europe/Helsinki:20261128T030000
+SUMMARY:Venezia – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 13ª giornata\n🏟️
+  Stadio: Pier Luigi Penzo\n📺 Diretta TV: Da definire\n🕘 Orario: 01:
+ 00 (Europe/Helsinki)
+LOCATION:Pier Luigi Penzo
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Venezia – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::839fd8be82ae470d8d25b46a98ccdd
+ 22@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261205T010000
+DTEND;TZID=Europe/Helsinki:20261205T030000
+SUMMARY:Bologna – Roma
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 14ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Roma
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::b163589825fa4344940bd2c74e7eee
+ 29@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261212T010000
+DTEND;TZID=Europe/Helsinki:20261212T030000
+SUMMARY:Como – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 15ª giornata\n🏟️
+  Stadio: Giuseppe Sinigaglia\n📺 Diretta TV: Da definire\n🕘 Orario: 
+ 01:00 (Europe/Helsinki)
+LOCATION:Giuseppe Sinigaglia
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Como – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::6159cd08ca144f4eab5069f1be14bd
+ 37@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261219T010000
+DTEND;TZID=Europe/Helsinki:20261219T030000
+SUMMARY:Fiorentina – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 16ª giornata\n🏟️
+  Stadio: Artemio Franchi\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Artemio Franchi
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Fiorentina – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::bfeee5e5facf42b496bcd9ce386d86
+ 9d@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270102T010000
+DTEND;TZID=Europe/Helsinki:20270102T030000
+SUMMARY:Bologna – Juventus
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 17ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Juventus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::75cddc42ba3c409caa5fdc329117dd
+ 16@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270105T010000
+DTEND;TZID=Europe/Helsinki:20270105T030000
+SUMMARY:Frosinone – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 18ª giornata\n🏟️
+  Stadio: Benito Stirpe\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00 
+ (Europe/Helsinki)
+LOCATION:Benito Stirpe
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Frosinone – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::1270fabb66d5497fb357d7b5f89d9e
+ 48@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270109T010000
+DTEND;TZID=Europe/Helsinki:20270109T030000
+SUMMARY:Bologna – Genoa
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 19ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Genoa
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::0bfce1e871a34d1abdabbadcf3bf5f
+ f8@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270116T010000
+DTEND;TZID=Europe/Helsinki:20270116T030000
+SUMMARY:Lazio – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 20ª giornata\n🏟️
+  Stadio: Olimpico\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00 (Euro
+ pe/Helsinki)
+LOCATION:Olimpico
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Lazio – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::d3d202a88962412088112f2540ed7e
+ 82@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270123T010000
+DTEND;TZID=Europe/Helsinki:20270123T030000
+SUMMARY:Bologna – Atalanta
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 21ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Atalanta
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::fd5f58b138f64a108cb92c7d6fcc4f
+ 45@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270130T010000
+DTEND;TZID=Europe/Helsinki:20270130T030000
+SUMMARY:Udinese – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 22ª giornata\n🏟️
+  Stadio: Friuli/Bluenergy stadium\n📺 Diretta TV: Da definire\n🕘 Ora
+ rio: 01:00 (Europe/Helsinki)
+LOCATION:Friuli/Bluenergy stadium
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Udinese – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::c88adc513dba4ff9885769e64794db
+ 3c@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270206T010000
+DTEND;TZID=Europe/Helsinki:20270206T030000
+SUMMARY:Bologna – Milan
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 23ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Milan
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::09774000702049ef8e856b42a092fa
+ 19@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270213T010000
+DTEND;TZID=Europe/Helsinki:20270213T030000
+SUMMARY:Bologna – Como
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 24ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Como
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::50ebdcd2afb547eead35206e79c2a5
+ 7b@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270220T010000
+DTEND;TZID=Europe/Helsinki:20270220T030000
+SUMMARY:Juventus – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 25ª giornata\n🏟️
+  Stadio: Allianz Stadium\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Allianz Stadium
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Juventus – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::7dd8326129944e218711570188bd11
+ 34@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270227T010000
+DTEND;TZID=Europe/Helsinki:20270227T030000
+SUMMARY:Bologna – Lecce
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 26ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Lecce
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::ace6fea9f9634f9f954782f03fd063
+ d8@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270306T010000
+DTEND;TZID=Europe/Helsinki:20270306T030000
+SUMMARY:Sassuolo – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 27ª giornata\n🏟️
+  Stadio: Mapei Stadium\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00 
+ (Europe/Helsinki)
+LOCATION:Mapei Stadium
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Sassuolo – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::9b0b75ba08e747eb9c8754b39e8ef1
+ 44@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270313T010000
+DTEND;TZID=Europe/Helsinki:20270313T030000
+SUMMARY:Bologna – Napoli
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 28ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Napoli
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::f599e35418ad44b1b88065ddf8d4c7
+ a2@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270320T010000
+DTEND;TZID=Europe/Helsinki:20270320T030000
+SUMMARY:Monza – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 29ª giornata\n🏟️
+  Stadio: Brianteo\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00 (Euro
+ pe/Helsinki)
+LOCATION:Brianteo
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Monza – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::3c09ac0fdf6d4840bfc1154aba80a8
+ e1@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270403T010000
+DTEND;TZID=Europe/Helsinki:20270403T030000
+SUMMARY:Roma – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 30ª giornata\n🏟️
+  Stadio: Olimpico\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00 (Euro
+ pe/Helsinki)
+LOCATION:Olimpico
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Roma – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::648d4253f4c442c69c1d08f558cbf4
+ de@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270410T010000
+DTEND;TZID=Europe/Helsinki:20270410T030000
+SUMMARY:Bologna – Venezia
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 31ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Venezia
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::a617d2749e644417bb056b5e798268
+ d5@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270417T010000
+DTEND;TZID=Europe/Helsinki:20270417T030000
+SUMMARY:Bologna – Cagliari
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 32ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Cagliari
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::7f33baedc4d6435488bf7fdd140fc8
+ aa@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270424T010000
+DTEND;TZID=Europe/Helsinki:20270424T030000
+SUMMARY:Internazionale – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 33ª giornata\n🏟️
+  Stadio: Giuseppe Meazza\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Giuseppe Meazza
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Internazionale – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::6fcd40f83097497f8ce46dc32e62c0
+ 06@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270501T010000
+DTEND;TZID=Europe/Helsinki:20270501T030000
+SUMMARY:Bologna – Fiorentina
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 34ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Fiorentina
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::7913202919ae4679a783e325fc57f8
+ be@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270508T010000
+DTEND;TZID=Europe/Helsinki:20270508T030000
+SUMMARY:Torino – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 35ª giornata\n🏟️
+  Stadio: Olimpico - Grande Torino\n📺 Diretta TV: Da definire\n🕘 Ora
+ rio: 01:00 (Europe/Helsinki)
+LOCATION:Olimpico - Grande Torino
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Torino – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::627c12c0cb9a4014b7c4727c8dad34
+ 37@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270515T010000
+DTEND;TZID=Europe/Helsinki:20270515T030000
+SUMMARY:Bologna – Frosinone
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 36ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Frosinone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::844e96f7ebf640dba0ac9e9fecfbb8
+ 8d@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270522T010000
+DTEND;TZID=Europe/Helsinki:20270522T030000
+SUMMARY:Genoa – Bologna
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 37ª giornata\n🏟️
+  Stadio: Luigi Ferraris\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00
+  (Europe/Helsinki)
+LOCATION:Luigi Ferraris
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Genoa – Bologna
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bologna-serie-a-serie-a::Football_Match::f6c20a4073104aae9b0636bc2d7b46
+ 05@github.com
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270529T010000
+DTEND;TZID=Europe/Helsinki:20270529T030000
+SUMMARY:Bologna – Parma
+DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 38ª giornata\n🏟️
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
+ 0 (Europe/Helsinki)
+LOCATION:Renato Dall'Ara
+URL:https://www.legaseriea.it/serie-a/calendario-risultati
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bologna – Parma
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
 END:VCALENDAR
