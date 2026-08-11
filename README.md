@@ -2,7 +2,7 @@
 
 ## Italiano
 
-Calendari iCalendar (`.ics`) aggiornati automaticamente per le partite del Bologna FC. I feed sono pensati per essere sottoscritti in Apple Calendar, Google Calendar e in qualunque app compatibile con lo standard iCalendar.
+Calendari iCalendar (`.ics`) aggiornati automaticamente per Bologna FC, Virtus Bologna, Formula 1 e le squadre italiane nelle competizioni UEFA. I feed sono pensati per essere sottoscritti in Apple Calendar, Google Calendar e in qualunque app compatibile con lo standard iCalendar.
 
 ### Feed disponibili
 
@@ -10,6 +10,11 @@ Dopo aver pubblicato il repository su GitHub, sostituisci `<OWNER>` e `<REPOSITO
 
 - Serie A: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/bologna-serie-a.ics`
 - Coppa Italia: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/bologna-coppa-italia.ics`
+- Virtus Bologna EuroLeague: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/virtus-bologna-euroleague.ics`
+- Formula 1: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/formula-1.ics`
+- Squadre italiane — UEFA Champions League: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/italian-teams-champions-league.ics`
+- Squadre italiane — UEFA Europa League: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/italian-teams-europa-league.ics`
+- Squadre italiane — UEFA Conference League: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/italian-teams-conference-league.ics`
 
 In Apple Calendar scegli **File → Nuova sottoscrizione calendario**, incolla uno degli indirizzi e scegli la frequenza di aggiornamento desiderata.
 
@@ -32,6 +37,8 @@ Il progetto interroga il servizio dati strutturato di Lega Serie A, individua au
 La configurazione in `configs/calendars.json` definisce le competizioni e i file generati. Gli identificativi ufficiali delle partite diventano UID iCalendar stabili: una partita rinviata viene aggiornata, non duplicata.
 
 Quando l'emittente non è ancora stata comunicata ufficialmente, il feed mostra `Da definire` senza fare supposizioni.
+
+I feed Virtus mostrano competizione, `Matchday` e orario (senza TV o impianto). Formula 1 mostra il nome ufficiale del Gran Premio, città e Paese. I tre feed UEFA filtrano automaticamente le squadre con federazione italiana e mostrano turno, città e stadio; se UEFA non ha ancora assegnato l'impianto, il feed indica `Venue to be confirmed`.
 
 ### Esecuzione locale
 
@@ -56,7 +63,7 @@ In **Settings → Actions → General**, imposta **Workflow permissions** su **R
 
 ## English
 
-Automatically updated iCalendar (`.ics`) feeds for Bologna FC fixtures. The feeds can be subscribed to in Apple Calendar, Google Calendar, and any iCalendar-compatible app.
+Automatically updated iCalendar (`.ics`) feeds for Bologna FC, Virtus Bologna, Formula 1, and Italian teams in UEFA competitions. The feeds can be subscribed to in Apple Calendar, Google Calendar, and any iCalendar-compatible app.
 
 ### Available feeds
 
@@ -64,6 +71,11 @@ After publishing the repository on GitHub, replace `<OWNER>` and `<REPOSITORY>` 
 
 - Serie A: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/bologna-serie-a.ics`
 - Coppa Italia: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/bologna-coppa-italia.ics`
+- Virtus Bologna EuroLeague: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/virtus-bologna-euroleague.ics`
+- Formula 1: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/formula-1.ics`
+- Italian teams — UEFA Champions League: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/italian-teams-champions-league.ics`
+- Italian teams — UEFA Europa League: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/italian-teams-europa-league.ics`
+- Italian teams — UEFA Conference League: `https://raw.githubusercontent.com/<OWNER>/<REPOSITORY>/main/calendar/italian-teams-conference-league.ics`
 
 In Apple Calendar, choose **File → New Calendar Subscription**, paste a URL, and select your preferred refresh frequency.
 
@@ -86,6 +98,8 @@ The project reads Lega Serie A's structured fixture service, automatically finds
 `configs/calendars.json` defines competitions and generated files. Official match IDs become stable iCalendar UIDs, so a postponed match updates instead of being duplicated.
 
 If a broadcaster has not yet been officially announced, the feed shows `Da definire` and does not guess.
+
+Virtus feeds show the competition, `Matchday`, and kickoff only (no TV or venue). Formula 1 shows the official Grand Prix name, city, and country. The three UEFA feeds automatically filter teams with an Italian association and show the round, city, and stadium; if UEFA has not assigned a venue yet, the feed says `Venue to be confirmed`.
 
 ### Run locally
 

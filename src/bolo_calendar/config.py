@@ -10,6 +10,7 @@ class CompetitionConfig:
     key: str
     competition_names: tuple[str, ...]
     output: Path
+    source: str = "lega_sdp"
 
 
 @dataclass(frozen=True)
@@ -27,6 +28,7 @@ def load_config(path: Path) -> AppConfig:
             key=item["key"],
             competition_names=tuple(item["competition_names"]),
             output=root / item["output"],
+            source=item.get("source", "lega_sdp"),
         )
         for item in raw["competitions"]
     )

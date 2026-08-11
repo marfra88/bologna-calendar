@@ -22,7 +22,13 @@ class Fixture:
     source_url: str
     home_score: str | None = None
     away_score: str | None = None
+    summary: str | None = None
+    event_kind: str = "football"
 
     @property
     def uid(self) -> str:
-        return f"bologna-{self.competition_key}-{self.source_id}@github.com"
+        return f"sports-calendar-{self.competition_key}-{self.source_id}@github.com"
+
+    @property
+    def title(self) -> str:
+        return self.summary or f"{self.home_team} – {self.away_team}"

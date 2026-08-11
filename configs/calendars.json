@@ -11,6 +11,36 @@
       "key": "coppa-italia",
       "competition_names": ["Coppa Italia", "Coppa Italia Frecciarossa"],
       "output": "calendar/bologna-coppa-italia.ics"
+    },
+    {
+      "key": "virtus-euroleague",
+      "competition_names": ["EuroLeague"],
+      "output": "calendar/virtus-bologna-euroleague.ics",
+      "source": "virtus_euroleague"
+    },
+    {
+      "key": "formula-1",
+      "competition_names": ["Formula 1"],
+      "output": "calendar/formula-1.ics",
+      "source": "formula1"
+    },
+    {
+      "key": "champions-league-italian-teams",
+      "competition_names": ["UEFA Champions League"],
+      "output": "calendar/italian-teams-champions-league.ics",
+      "source": "uefa"
+    },
+    {
+      "key": "europa-league-italian-teams",
+      "competition_names": ["UEFA Europa League"],
+      "output": "calendar/italian-teams-europa-league.ics",
+      "source": "uefa"
+    },
+    {
+      "key": "conference-league-italian-teams",
+      "competition_names": ["UEFA Conference League"],
+      "output": "calendar/italian-teams-conference-league.ics",
+      "source": "uefa"
     }
   ]
 }

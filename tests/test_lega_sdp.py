@@ -22,7 +22,7 @@ class LegaSdpTests(unittest.TestCase):
         self.assertEqual(len(fixtures), 1)
         self.assertEqual(fixtures[0].season_name, "2026/27")
         self.assertEqual(fixtures[0].broadcaster, "Italia 1")
-        self.assertEqual(fixtures[0].uid, "bologna-coppa-italia-match-1@github.com")
+        self.assertEqual(fixtures[0].uid, "sports-calendar-coppa-italia-match-1@github.com")
 
     def test_uses_latest_named_season_when_date_bounds_are_omitted(self) -> None:
         provider = LegaSdpProvider()

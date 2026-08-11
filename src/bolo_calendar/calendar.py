@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 from .models import Fixture
 
 
-PRODID = "-//Bologna FC Calendar Generator//EN"
+PRODID = "-//Sports Calendar Generator//EN"
 SOURCE_STAMP = datetime(2000, 1, 1, tzinfo=UTC)
 
 
@@ -84,6 +84,25 @@ def _round_label(round_name: str | None) -> str:
 
 def _description(fixture: Fixture, timezone: ZoneInfo) -> str:
     kickoff = fixture.kickoff_utc.astimezone(timezone)
+    if fixture.event_kind == "uefa":
+        return "\n".join([
+            f"🏆 {fixture.competition_name} {fixture.season_name}",
+            f"📅 {fixture.round_name or 'Da definire'}",
+            f"📍 {fixture.stadium or 'Venue to be confirmed'}",
+            f"🕘 Orario: {kickoff:%H:%M} ({timezone.key})",
+        ])
+    if fixture.event_kind == "euroleague":
+        return "\n".join([
+            f"🏆 {fixture.competition_name} {fixture.season_name}",
+            f"📅 {fixture.round_name or 'Matchday da definire'}",
+            f"🕘 Orario: {kickoff:%H:%M} ({timezone.key})",
+        ])
+    if fixture.event_kind == "formula1":
+        return "\n".join([
+            f"🏆 {fixture.competition_name} {fixture.season_name}",
+            f"📍 {fixture.stadium or 'Location to be confirmed'}",
+            f"🕘 Orario: {kickoff:%H:%M} ({timezone.key})",
+        ])
     lines = [
         f"🏆 Competizione: {fixture.competition_name} {fixture.season_name}",
         f"📅 {_round_label(fixture.round_name)}",
@@ -125,12 +144,12 @@ def build_calendar(fixtures: list[Fixture], calendar_name: str, timezone_name: s
             "BEGIN:VEVENT", f"UID:{_escape(fixture.uid)}", f"DTSTAMP:{SOURCE_STAMP:%Y%m%dT%H%M%SZ}",
             f"DTSTART;TZID={timezone.key}:{start:%Y%m%dT%H%M%S}",
             f"DTEND;TZID={timezone.key}:{end:%Y%m%dT%H%M%S}",
-            f"SUMMARY:{_escape(fixture.home_team + ' – ' + fixture.away_team)}",
+            f"SUMMARY:{_escape(fixture.title)}",
             f"DESCRIPTION:{_escape(_description(fixture, timezone))}",
             f"LOCATION:{_escape(fixture.stadium or 'Da definire')}", f"URL:{_escape(fixture.source_url)}",
             f"STATUS:{'CANCELLED' if fixture.status == 'CANCELLED' else 'CONFIRMED'}",
             "BEGIN:VALARM", "ACTION:DISPLAY",
-            f"DESCRIPTION:{_escape('Tra 30 minuti: ' + fixture.home_team + ' – ' + fixture.away_team)}",
+            f"DESCRIPTION:{_escape('Tra 30 minuti: ' + fixture.title)}",
             "TRIGGER:-PT30M", "END:VALARM", "END:VEVENT",
         ])
     lines.append("END:VCALENDAR")
