@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Bologna FC Calendar Generator//EN
+PRODID:-//Sports Calendar Generator//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Bologna FC — Serie A
@@ -58,8 +58,8 @@ TZNAME:EET
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::e5e1363d12bf4adfb494f64c3654c1
- 6c@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::e5e1363d12bf4adfb494f6
+ 4c3654c16c@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260824T193000
 DTEND;TZID=Europe/Helsinki:20260824T213000
@@ -77,8 +77,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::8955e66c6ca5484d8500e78890332c
- 59@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::8955e66c6ca5484d8500e7
+ 8890332c59@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260831T214500
 DTEND;TZID=Europe/Helsinki:20260831T234500
@@ -96,8 +96,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::e9c3a062798b4974badf0c9f4c6b86
- 80@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::e9c3a062798b4974badf0c
+ 9f4c6b8680@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260906T190000
 DTEND;TZID=Europe/Helsinki:20260906T210000
@@ -115,8 +115,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::eefcca4b6f0f47c38acd745f612d30
- af@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::eefcca4b6f0f47c38acd74
+ 5f612d30af@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260913T190000
 DTEND;TZID=Europe/Helsinki:20260913T210000
@@ -134,8 +134,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::9dc5081d9da34e7ebc9f5f399f4fde
- 3e@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::9dc5081d9da34e7ebc9f5f
+ 399f4fde3e@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260919T160000
 DTEND;TZID=Europe/Helsinki:20260919T180000
@@ -153,8 +153,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::319953aed1404a84a0d9b28149b674
- de@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::319953aed1404a84a0d9b2
+ 8149b674de@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261010T010000
 DTEND;TZID=Europe/Helsinki:20261010T030000
@@ -172,8 +172,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::96f25bcc9f15484da0a9a5260f15ac
- 6d@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::96f25bcc9f15484da0a9a5
+ 260f15ac6d@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261017T010000
 DTEND;TZID=Europe/Helsinki:20261017T030000
@@ -191,8 +191,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::35dc3bf2680a41d2a83a242a8a4e61
- a7@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::35dc3bf2680a41d2a83a24
+ 2a8a4e61a7@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261024T010000
 DTEND;TZID=Europe/Helsinki:20261024T030000
@@ -210,8 +210,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::cc0031f17e30431f8d97e2a220243d
- 76@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::cc0031f17e30431f8d97e2
+ a220243d76@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261027T010000
 DTEND;TZID=Europe/Helsinki:20261027T030000
@@ -229,8 +229,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::57863eae8e0847799fe6160a7d946d
- 95@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::57863eae8e0847799fe616
+ 0a7d946d95@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261031T010000
 DTEND;TZID=Europe/Helsinki:20261031T030000
@@ -248,8 +248,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::9ed516bb6d154cc783d9f8e49494be
- ae@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::9ed516bb6d154cc783d9f8
+ e49494beae@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261107T010000
 DTEND;TZID=Europe/Helsinki:20261107T030000
@@ -267,8 +267,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::92e5cb913a5f4c638e51243ad1ccc9
- 4a@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::92e5cb913a5f4c638e5124
+ 3ad1ccc94a@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261121T010000
 DTEND;TZID=Europe/Helsinki:20261121T030000
@@ -286,8 +286,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::561c74842f9f41568b1d1bf518b853
- 15@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::561c74842f9f41568b1d1b
+ f518b85315@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261128T010000
 DTEND;TZID=Europe/Helsinki:20261128T030000
@@ -305,8 +305,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::839fd8be82ae470d8d25b46a98ccdd
- 22@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::839fd8be82ae470d8d25b4
+ 6a98ccdd22@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261205T010000
 DTEND;TZID=Europe/Helsinki:20261205T030000
@@ -324,8 +324,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::b163589825fa4344940bd2c74e7eee
- 29@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::b163589825fa4344940bd2
+ c74e7eee29@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261212T010000
 DTEND;TZID=Europe/Helsinki:20261212T030000
@@ -343,8 +343,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::6159cd08ca144f4eab5069f1be14bd
- 37@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::6159cd08ca144f4eab5069
+ f1be14bd37@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261219T010000
 DTEND;TZID=Europe/Helsinki:20261219T030000
@@ -362,8 +362,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::bfeee5e5facf42b496bcd9ce386d86
- 9d@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::bfeee5e5facf42b496bcd9
+ ce386d869d@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270102T010000
 DTEND;TZID=Europe/Helsinki:20270102T030000
@@ -381,8 +381,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::75cddc42ba3c409caa5fdc329117dd
- 16@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::75cddc42ba3c409caa5fdc
+ 329117dd16@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270105T010000
 DTEND;TZID=Europe/Helsinki:20270105T030000
@@ -400,8 +400,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::1270fabb66d5497fb357d7b5f89d9e
- 48@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::1270fabb66d5497fb357d7
+ b5f89d9e48@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270109T010000
 DTEND;TZID=Europe/Helsinki:20270109T030000
@@ -419,8 +419,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::0bfce1e871a34d1abdabbadcf3bf5f
- f8@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::0bfce1e871a34d1abdabba
+ dcf3bf5ff8@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270116T010000
 DTEND;TZID=Europe/Helsinki:20270116T030000
@@ -438,8 +438,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::d3d202a88962412088112f2540ed7e
- 82@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::d3d202a88962412088112f
+ 2540ed7e82@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270123T010000
 DTEND;TZID=Europe/Helsinki:20270123T030000
@@ -457,8 +457,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::fd5f58b138f64a108cb92c7d6fcc4f
- 45@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::fd5f58b138f64a108cb92c
+ 7d6fcc4f45@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270130T010000
 DTEND;TZID=Europe/Helsinki:20270130T030000
@@ -476,8 +476,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::c88adc513dba4ff9885769e64794db
- 3c@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::c88adc513dba4ff9885769
+ e64794db3c@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270206T010000
 DTEND;TZID=Europe/Helsinki:20270206T030000
@@ -495,8 +495,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::09774000702049ef8e856b42a092fa
- 19@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::09774000702049ef8e856b
+ 42a092fa19@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270213T010000
 DTEND;TZID=Europe/Helsinki:20270213T030000
@@ -514,8 +514,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::50ebdcd2afb547eead35206e79c2a5
- 7b@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::50ebdcd2afb547eead3520
+ 6e79c2a57b@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270220T010000
 DTEND;TZID=Europe/Helsinki:20270220T030000
@@ -533,8 +533,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::7dd8326129944e218711570188bd11
- 34@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::7dd8326129944e21871157
+ 0188bd1134@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270227T010000
 DTEND;TZID=Europe/Helsinki:20270227T030000
@@ -552,8 +552,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::ace6fea9f9634f9f954782f03fd063
- d8@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::ace6fea9f9634f9f954782
+ f03fd063d8@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270306T010000
 DTEND;TZID=Europe/Helsinki:20270306T030000
@@ -571,8 +571,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::9b0b75ba08e747eb9c8754b39e8ef1
- 44@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::9b0b75ba08e747eb9c8754
+ b39e8ef144@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270313T010000
 DTEND;TZID=Europe/Helsinki:20270313T030000
@@ -590,8 +590,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::f599e35418ad44b1b88065ddf8d4c7
- a2@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::f599e35418ad44b1b88065
+ ddf8d4c7a2@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270320T010000
 DTEND;TZID=Europe/Helsinki:20270320T030000
@@ -609,8 +609,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::3c09ac0fdf6d4840bfc1154aba80a8
- e1@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::3c09ac0fdf6d4840bfc115
+ 4aba80a8e1@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270403T010000
 DTEND;TZID=Europe/Helsinki:20270403T030000
@@ -628,8 +628,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::648d4253f4c442c69c1d08f558cbf4
- de@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::648d4253f4c442c69c1d08
+ f558cbf4de@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270410T010000
 DTEND;TZID=Europe/Helsinki:20270410T030000
@@ -647,8 +647,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::a617d2749e644417bb056b5e798268
- d5@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::a617d2749e644417bb056b
+ 5e798268d5@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270417T010000
 DTEND;TZID=Europe/Helsinki:20270417T030000
@@ -666,8 +666,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::7f33baedc4d6435488bf7fdd140fc8
- aa@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::7f33baedc4d6435488bf7f
+ dd140fc8aa@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270424T010000
 DTEND;TZID=Europe/Helsinki:20270424T030000
@@ -685,8 +685,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::6fcd40f83097497f8ce46dc32e62c0
- 06@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::6fcd40f83097497f8ce46d
+ c32e62c006@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270501T010000
 DTEND;TZID=Europe/Helsinki:20270501T030000
@@ -704,8 +704,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::7913202919ae4679a783e325fc57f8
- be@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::7913202919ae4679a783e3
+ 25fc57f8be@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270508T010000
 DTEND;TZID=Europe/Helsinki:20270508T030000
@@ -723,8 +723,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::627c12c0cb9a4014b7c4727c8dad34
- 37@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::627c12c0cb9a4014b7c472
+ 7c8dad3437@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270515T010000
 DTEND;TZID=Europe/Helsinki:20270515T030000
@@ -742,8 +742,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::844e96f7ebf640dba0ac9e9fecfbb8
- 8d@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::844e96f7ebf640dba0ac9e
+ 9fecfbb88d@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270522T010000
 DTEND;TZID=Europe/Helsinki:20270522T030000
@@ -761,8 +761,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bologna-serie-a-serie-a::Football_Match::f6c20a4073104aae9b0636bc2d7b46
- 05@github.com
+UID:sports-calendar-serie-a-serie-a::Football_Match::f6c20a4073104aae9b0636
+ bc2d7b4605@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270529T010000
 DTEND;TZID=Europe/Helsinki:20270529T030000
