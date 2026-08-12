@@ -99,9 +99,8 @@ def _description(fixture: Fixture, timezone: ZoneInfo) -> str:
         ])
     if fixture.event_kind == "formula1":
         return "\n".join([
-            f"🏆 {fixture.competition_name} {fixture.season_name}",
             f"📍 {fixture.stadium or 'Location to be confirmed'}",
-            f"🕘 Orario: {kickoff:%H:%M} ({timezone.key})",
+            f"🕘 Race start: {kickoff:%H:%M} ({timezone.key})",
         ])
     lines = [
         f"🏆 Competizione: {fixture.competition_name} {fixture.season_name}",

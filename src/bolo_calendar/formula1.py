@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from datetime import UTC, datetime
-from html import unescape
+from html.parser import HTMLParser
 import re
 from zoneinfo import ZoneInfo
 
@@ -32,8 +32,31 @@ TRACKS = {
 }
 
 
+class _VisibleText(HTMLParser):
+    """Collect displayed F1 page text, excluding Next.js JSON and scripts."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.parts: list[str] = []
+        self._ignored = 0
+
+    def handle_starttag(self, tag: str, _attrs: list[tuple[str, str | None]]) -> None:
+        if tag in {"script", "style", "noscript", "template"}:
+            self._ignored += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in {"script", "style", "noscript", "template"} and self._ignored:
+            self._ignored -= 1
+
+    def handle_data(self, data: str) -> None:
+        if not self._ignored:
+            self.parts.append(data)
+
+
 def _text(html: str) -> str:
-    return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", html))).strip()
+    parser = _VisibleText()
+    parser.feed(html)
+    return re.sub(r"\s+", " ", " ".join(parser.parts)).strip()
 
 
 def _slugs(calendar_html: str, year: int) -> list[str]:
