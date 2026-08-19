@@ -58,12 +58,12 @@ TZNAME:EET
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:sports-calendar-virtus-euroleague-25/09/26-Fenerbahce Istanbul-Virtus B
- ologna@github.com
+UID:sports-calendar-virtus-euroleague-25/09/26-Fenerbahce Tarfin Istanbul-V
+ irtus Bologna@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260925T204500
 DTEND;TZID=Europe/Helsinki:20260925T224500
-SUMMARY:Fenerbahce Istanbul – Virtus Bologna
+SUMMARY:Fenerbahce Tarfin Istanbul – Virtus Bologna
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 1\n🕘 Orario: 20:45 (E
  urope/Helsinki)
 LOCATION:Da definire
@@ -71,7 +71,7 @@ URL:https://www.virtus.it/stagione/eurolegue/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Fenerbahce Istanbul – Virtus Bologna
+DESCRIPTION:Tra 30 minuti: Fenerbahce Tarfin Istanbul – Virtus Bologna
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -583,12 +583,12 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sports-calendar-virtus-euroleague-09/03/27-Virtus Bologna-Fenerbahce Is
- tanbul@github.com
+UID:sports-calendar-virtus-euroleague-09/03/27-Virtus Bologna-Fenerbahce Ta
+ rfin Istanbul@github.com
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270309T213000
 DTEND;TZID=Europe/Helsinki:20270309T233000
-SUMMARY:Virtus Bologna – Fenerbahce Istanbul
+SUMMARY:Virtus Bologna – Fenerbahce Tarfin Istanbul
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 30\n🕘 Orario: 21:30 (
  Europe/Helsinki)
 LOCATION:Da definire
@@ -596,7 +596,7 @@ URL:https://www.virtus.it/stagione/eurolegue/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Virtus Bologna – Fenerbahce Istanbul
+DESCRIPTION:Tra 30 minuti: Virtus Bologna – Fenerbahce Tarfin Istanbul
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
