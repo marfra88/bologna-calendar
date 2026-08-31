@@ -7,6 +7,7 @@ from bolo_calendar.virtus import _schedule_rows
 from bolo_calendar.formula1 import _race_details, _slugs
 from bolo_calendar.uefa import BASE_URL
 from bolo_calendar.uefa import _is_italian
+from bolo_calendar.uefa import _parse_datetime
 
 
 class ExtraCalendarTests(unittest.TestCase):
@@ -52,3 +53,7 @@ class ExtraCalendarTests(unittest.TestCase):
         self.assertTrue(_is_italian({"internationalName": "AS Roma", "association": {"countryName": "Italy"}}))
         self.assertTrue(_is_italian({"internationalName": "Juventus"}))
         self.assertFalse(_is_italian({"internationalName": "Arsenal", "countryCode": "ENG"}))
+
+    def test_uefa_accepts_object_kickoff_timestamp(self) -> None:
+        value = {"date": "2025-09-16", "dateTime": "2025-09-16T19:00:00+00:00", "utcOffsetInHours": 2}
+        self.assertEqual(_parse_datetime(value), datetime(2025, 9, 16, 19, 0, tzinfo=UTC))

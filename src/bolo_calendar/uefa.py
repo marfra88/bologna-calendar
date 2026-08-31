@@ -70,7 +70,16 @@ def _is_italian(team: Any) -> bool:
 
 
 def _parse_datetime(value: Any) -> datetime:
-    parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    # Current UEFA data returns either an ISO timestamp or an object such as
+    # {"dateTime": "2025-09-16T19:00:00+00:00", "utcOffsetInHours": 2}.
+    if isinstance(value, dict):
+        value = _value(value, "dateTime", "utcDate", "value")
+    if not value:
+        raise UpstreamError("UEFA fixture has no kickoff timestamp")
+    try:
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError as error:
+        raise UpstreamError(f"UEFA fixture has invalid kickoff timestamp: {value}") from error
     if parsed.tzinfo is None:
         raise UpstreamError("UEFA fixture has no UTC offset")
     return parsed.astimezone(UTC)
