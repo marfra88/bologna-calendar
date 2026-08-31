@@ -9,6 +9,18 @@ BEGIN:VTIMEZONE
 TZID:Europe/Helsinki
 X-LIC-LOCATION:Europe/Helsinki
 BEGIN:DAYLIGHT
+DTSTART:20240331T040000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20241027T030000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
+BEGIN:DAYLIGHT
 DTSTART:20250330T040000
 TZOFFSETFROM:+0200
 TZOFFSETTO:+0300
@@ -45,4 +57,971 @@ TZOFFSETTO:+0200
 TZNAME:EET
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045905@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20250916T220000
+DTEND;TZID=Europe/Helsinki:20250917T000000
+SUMMARY:Juventus – B. Dortmund
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'EN': 'Turin
+ '\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Turim'\, 'IT'
+ : 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تورينو'}}
+ }\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'
+ EN': 'Turin'\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Tu
+ rim'\, 'IT': 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تو
+ رينو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Juventus – B. Dortmund
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045909@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20250917T220000
+DTEND;TZID=Europe/Helsinki:20250918T000000
+SUMMARY:Paris – Atalanta
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'FRA'\, 'id': '2470'\, 'translations': {'name': {'EN': 'Paris
+ '\, 'FR': 'Paris'\, 'DE': 'Paris'\, 'ES': 'París'\, 'PT': 'Paris'\, 'IT'
+ : 'Parigi'\, 'RU': 'Париж'\, 'ZH': '巴黎'\, 'AR': 'باريس'}}}\
+ n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'FRA'\, 'id': '2470'\, 'translations': {'name': {'
+ EN': 'Paris'\, 'FR': 'Paris'\, 'DE': 'Paris'\, 'ES': 'París'\, 'PT': 'Pa
+ ris'\, 'IT': 'Parigi'\, 'RU': 'Париж'\, 'ZH': '巴黎'\, 'AR': 'با
+ ريس'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Paris – Atalanta
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045912@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20250917T220000
+DTEND;TZID=Europe/Helsinki:20250918T000000
+SUMMARY:Ajax – Inter
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'NED'\, 'id': '1074'\, 'translations': {'name': {'EN': 'Amste
+ rdam'\, 'FR': 'Amsterdam'\, 'DE': 'Amsterdam'\, 'ES': 'Ámsterdam'\, 'PT'
+ : 'Amesterdão'\, 'IT': 'Amsterdam'\, 'RU': 'Амстердам'\, 'ZH': 
+ '阿姆斯特丹'\, 'AR': 'أمستردام'}}}\n🕘 Orario: 22:00 (Euro
+ pe/Helsinki)
+LOCATION:{'countryCode': 'NED'\, 'id': '1074'\, 'translations': {'name': {'
+ EN': 'Amsterdam'\, 'FR': 'Amsterdam'\, 'DE': 'Amsterdam'\, 'ES': 'Ámster
+ dam'\, 'PT': 'Amesterdão'\, 'IT': 'Amsterdam'\, 'RU': 'Амстерда
+ м'\, 'ZH': '阿姆斯特丹'\, 'AR': 'أمستردام'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Ajax – Inter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045915@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20250918T220000
+DTEND;TZID=Europe/Helsinki:20250919T000000
+SUMMARY:Man City – Napoli
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ENG'\, 'id': '2179'\, 'translations': {'name': {'EN': 'Manch
+ ester'\, 'FR': 'Manchester'\, 'DE': 'Manchester'\, 'ES': 'Mánchester'\, 
+ 'PT': 'Manchester'\, 'IT': 'Manchester'\, 'RU': 'Манчестер'\, 'Z
+ H': '曼彻斯特'\, 'AR': 'مانشستر '}}}\n🕘 Orario: 22:00 (Euro
+ pe/Helsinki)
+LOCATION:{'countryCode': 'ENG'\, 'id': '2179'\, 'translations': {'name': {'
+ EN': 'Manchester'\, 'FR': 'Manchester'\, 'DE': 'Manchester'\, 'ES': 'Mán
+ chester'\, 'PT': 'Manchester'\, 'IT': 'Manchester'\, 'RU': 'Манчес
+ тер'\, 'ZH': '曼彻斯特'\, 'AR': 'مانشستر '}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Man City – Napoli
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045924@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20250930T194500
+DTEND;TZID=Europe/Helsinki:20250930T214500
+SUMMARY:Atalanta – Club Brugge
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'EN': 'Berga
+ mo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, 'PT': 'Berga
+ mo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加莫'\, 'AR'
+ : 'بيرجامو'}}}\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'
+ EN': 'Bergamo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, '
+ PT': 'Bergamo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加
+ 莫'\, 'AR': 'بيرجامو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Atalanta – Club Brugge
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045921@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20250930T220000
+DTEND;TZID=Europe/Helsinki:20251001T000000
+SUMMARY:Inter – Slavia Praha
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan
+ '\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, '
+ IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو
+ '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
+ EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
+ Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
+ ميلانو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Inter – Slavia Praha
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045932@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251001T220000
+DTEND;TZID=Europe/Helsinki:20251002T000000
+SUMMARY:Villarreal – Juventus
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ESP'\, 'id': '3102'\, 'translations': {'name': {'EN': 'Villa
+ rreal'\, 'FR': 'Villarreal'\, 'DE': 'Villarreal'\, 'ES': 'Villarreal'\, '
+ PT': 'Villarreal'\, 'IT': 'Villarreal'\, 'RU': 'Вильяреал'\, 'ZH
+ ': '比利亚雷亚尔'\, 'AR': 'فياريال'}}}\n🕘 Orario: 22:00 (
+ Europe/Helsinki)
+LOCATION:{'countryCode': 'ESP'\, 'id': '3102'\, 'translations': {'name': {'
+ EN': 'Villarreal'\, 'FR': 'Villarreal'\, 'DE': 'Villarreal'\, 'ES': 'Vill
+ arreal'\, 'PT': 'Villarreal'\, 'IT': 'Villarreal'\, 'RU': 'Вильяре
+ ал'\, 'ZH': '比利亚雷亚尔'\, 'AR': 'فياريال'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Villarreal – Juventus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045933@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251001T220000
+DTEND;TZID=Europe/Helsinki:20251002T000000
+SUMMARY:Napoli – Sporting CP
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'EN': 'Naple
+ s'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT': 'Nápoles
+ '\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒斯'\, 'AR'
+ : 'نابولي'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'
+ EN': 'Naples'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT'
+ : 'Nápoles'\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒
+ 斯'\, 'AR': 'نابولي'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Napoli – Sporting CP
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045943@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251021T220000
+DTEND;TZID=Europe/Helsinki:20251022T000000
+SUMMARY:PSV – Napoli
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'NED'\, 'id': '1568'\, 'translations': {'name': {'EN': 'Eindh
+ oven'\, 'FR': 'Eindhoven'\, 'DE': 'Eindhoven'\, 'ES': 'Eindhoven'\, 'PT':
+  'Eindhoven'\, 'IT': 'Eindhoven'\, 'RU': 'Эйндховен'\, 'ZH': '
+ 埃因霍温'\, 'AR': 'أيندهوفن'}}}\n🕘 Orario: 22:00 (Europe/H
+ elsinki)
+LOCATION:{'countryCode': 'NED'\, 'id': '1568'\, 'translations': {'name': {'
+ EN': 'Eindhoven'\, 'FR': 'Eindhoven'\, 'DE': 'Eindhoven'\, 'ES': 'Eindhov
+ en'\, 'PT': 'Eindhoven'\, 'IT': 'Eindhoven'\, 'RU': 'Эйндховен'\
+ , 'ZH': '埃因霍温'\, 'AR': 'أيندهوفن'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: PSV – Napoli
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045945@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251021T220000
+DTEND;TZID=Europe/Helsinki:20251022T000000
+SUMMARY:Union SG – Inter
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'BEL'\, 'id': '1323'\, 'translations': {'name': {'EN': 'Bruss
+ els'\, 'FR': 'Bruxelles'\, 'DE': 'Brüssel'\, 'ES': 'Bruselas'\, 'PT': 'B
+ ruxelas'\, 'IT': 'Bruxelles'\, 'RU': 'Брюссель'\, 'ZH': '布鲁
+ 塞尔'\, 'AR': 'بروكسل'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'BEL'\, 'id': '1323'\, 'translations': {'name': {'
+ EN': 'Brussels'\, 'FR': 'Bruxelles'\, 'DE': 'Brüssel'\, 'ES': 'Bruselas'
+ \, 'PT': 'Bruxelas'\, 'IT': 'Bruxelles'\, 'RU': 'Брюссель'\, 'ZH'
+ : '布鲁塞尔'\, 'AR': 'بروكسل'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Union SG – Inter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045949@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251022T220000
+DTEND;TZID=Europe/Helsinki:20251023T000000
+SUMMARY:Atalanta – Slavia Praha
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'EN': 'Berga
+ mo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, 'PT': 'Berga
+ mo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加莫'\, 'AR'
+ : 'بيرجامو'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'
+ EN': 'Bergamo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, '
+ PT': 'Bergamo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加
+ 莫'\, 'AR': 'بيرجامو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Atalanta – Slavia Praha
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045955@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251022T220000
+DTEND;TZID=Europe/Helsinki:20251023T000000
+SUMMARY:Real Madrid – Juventus
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ESP'\, 'id': '2163'\, 'translations': {'name': {'EN': 'Madri
+ d'\, 'FR': 'Madrid'\, 'DE': 'Madrid'\, 'ES': 'Madrid'\, 'PT': 'Madrid'\, 
+ 'IT': 'Madrid'\, 'RU': 'Мадрид'\, 'ZH': '马德里'\, 'AR': 'Madrid
+ '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ESP'\, 'id': '2163'\, 'translations': {'name': {'
+ EN': 'Madrid'\, 'FR': 'Madrid'\, 'DE': 'Madrid'\, 'ES': 'Madrid'\, 'PT': 
+ 'Madrid'\, 'IT': 'Madrid'\, 'RU': 'Мадрид'\, 'ZH': '马德里'\, 'A
+ R': 'Madrid'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Real Madrid – Juventus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045962@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251104T194500
+DTEND;TZID=Europe/Helsinki:20251104T214500
+SUMMARY:Napoli – Frankfurt
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'EN': 'Naple
+ s'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT': 'Nápoles
+ '\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒斯'\, 'AR'
+ : 'نابولي'}}}\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'
+ EN': 'Naples'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT'
+ : 'Nápoles'\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒
+ 斯'\, 'AR': 'نابولي'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Napoli – Frankfurt
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045960@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251104T220000
+DTEND;TZID=Europe/Helsinki:20251105T000000
+SUMMARY:Juventus – Sporting CP
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'EN': 'Turin
+ '\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Turim'\, 'IT'
+ : 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تورينو'}}
+ }\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'
+ EN': 'Turin'\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Tu
+ rim'\, 'IT': 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تو
+ رينو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Juventus – Sporting CP
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045967@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251105T220000
+DTEND;TZID=Europe/Helsinki:20251106T000000
+SUMMARY:Inter – Kairat Almaty
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan
+ '\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, '
+ IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو
+ '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
+ EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
+ Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
+ ميلانو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Inter – Kairat Almaty
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045971@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251105T220000
+DTEND;TZID=Europe/Helsinki:20251106T000000
+SUMMARY:Marseille – Atalanta
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'FRA'\, 'id': '2201'\, 'translations': {'name': {'EN': 'Marse
+ ille'\, 'FR': 'Marseille'\, 'DE': 'Marseille'\, 'ES': 'Marsella'\, 'PT': 
+ 'Marselha'\, 'IT': 'Marsiglia'\, 'RU': 'Марсель'\, 'ZH': '马赛'\
+ , 'AR': 'مارسيليا'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'FRA'\, 'id': '2201'\, 'translations': {'name': {'
+ EN': 'Marseille'\, 'FR': 'Marseille'\, 'DE': 'Marseille'\, 'ES': 'Marsell
+ a'\, 'PT': 'Marselha'\, 'IT': 'Marsiglia'\, 'RU': 'Марсель'\, 'ZH'
+ : '马赛'\, 'AR': 'مارسيليا'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Marseille – Atalanta
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045979@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251125T220000
+DTEND;TZID=Europe/Helsinki:20251126T000000
+SUMMARY:Napoli – Qarabağ
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'EN': 'Naple
+ s'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT': 'Nápoles
+ '\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒斯'\, 'AR'
+ : 'نابولي'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'
+ EN': 'Naples'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT'
+ : 'Nápoles'\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒
+ 斯'\, 'AR': 'نابولي'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Napoli – Qarabağ
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045981@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251125T220000
+DTEND;TZID=Europe/Helsinki:20251126T000000
+SUMMARY:Bodø/Glimt – Juventus
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'NOR'\, 'id': '1260'\, 'translations': {'name': {'EN': 'Bodø
+ '\, 'FR': 'Bodø'\, 'DE': 'Bodø'\, 'ES': 'Bodø'\, 'PT': 'Bodø'\, 'IT':
+  'Bodø'\, 'RU': 'Буде'\, 'ZH': 'Bodø'\, 'AR': 'بودو'}}}\n🕘 O
+ rario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'NOR'\, 'id': '1260'\, 'translations': {'name': {'
+ EN': 'Bodø'\, 'FR': 'Bodø'\, 'DE': 'Bodø'\, 'ES': 'Bodø'\, 'PT': 'Bod
+ ø'\, 'IT': 'Bodø'\, 'RU': 'Буде'\, 'ZH': 'Bodø'\, 'AR': 'بودو'
+ }}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bodø/Glimt – Juventus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045987@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251126T220000
+DTEND;TZID=Europe/Helsinki:20251127T000000
+SUMMARY:Atleti – Inter
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ESP'\, 'id': '2163'\, 'translations': {'name': {'EN': 'Madri
+ d'\, 'FR': 'Madrid'\, 'DE': 'Madrid'\, 'ES': 'Madrid'\, 'PT': 'Madrid'\, 
+ 'IT': 'Madrid'\, 'RU': 'Мадрид'\, 'ZH': '马德里'\, 'AR': 'Madrid
+ '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ESP'\, 'id': '2163'\, 'translations': {'name': {'
+ EN': 'Madrid'\, 'FR': 'Madrid'\, 'DE': 'Madrid'\, 'ES': 'Madrid'\, 'PT': 
+ 'Madrid'\, 'IT': 'Madrid'\, 'RU': 'Мадрид'\, 'ZH': '马德里'\, 'A
+ R': 'Madrid'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Atleti – Inter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045988@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251126T220000
+DTEND;TZID=Europe/Helsinki:20251127T000000
+SUMMARY:Frankfurt – Atalanta
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'GER'\, 'id': '1648'\, 'translations': {'name': {'EN': 'Frank
+ furt am Main'\, 'FR': 'Francfort'\, 'DE': 'Frankfurt'\, 'ES': 'Fráncfort
+  del Meno'\, 'PT': 'Frankfurt Am Main'\, 'IT': 'Francoforte'\, 'RU': 'Ф
+ ранкфурт-на-Майне'\, 'ZH': '法兰克福'\, 'AR': 'فرا
+ نكفورت أم ماين'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'GER'\, 'id': '1648'\, 'translations': {'name': {'
+ EN': 'Frankfurt am Main'\, 'FR': 'Francfort'\, 'DE': 'Frankfurt'\, 'ES': 
+ 'Fráncfort del Meno'\, 'PT': 'Frankfurt Am Main'\, 'IT': 'Francoforte'\,
+  'RU': 'Франкфурт-на-Майне'\, 'ZH': '法兰克福'\, 'AR'
+ : 'فرانكفورت أم ماين'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Frankfurt – Atalanta
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045994@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251209T220000
+DTEND;TZID=Europe/Helsinki:20251210T000000
+SUMMARY:Inter – Liverpool
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan
+ '\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, '
+ IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو
+ '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
+ EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
+ Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
+ ميلانو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Inter – Liverpool
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2045996@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251209T220000
+DTEND;TZID=Europe/Helsinki:20251210T000000
+SUMMARY:Atalanta – Chelsea
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'EN': 'Berga
+ mo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, 'PT': 'Berga
+ mo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加莫'\, 'AR'
+ : 'بيرجامو'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'
+ EN': 'Bergamo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, '
+ PT': 'Bergamo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加
+ 莫'\, 'AR': 'بيرجامو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Atalanta – Chelsea
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2046004@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251210T220000
+DTEND;TZID=Europe/Helsinki:20251211T000000
+SUMMARY:Benfica – Napoli
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'POR'\, 'id': '2095'\, 'translations': {'name': {'EN': 'Lisbo
+ n'\, 'FR': 'Lisbonne'\, 'DE': 'Lissabon'\, 'ES': 'Lisboa'\, 'PT': 'Lisboa
+ '\, 'IT': 'Lisbona'\, 'RU': 'Лиссабон'\, 'ZH': '里斯本'\, 'AR'
+ : 'لشبونة'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'POR'\, 'id': '2095'\, 'translations': {'name': {'
+ EN': 'Lisbon'\, 'FR': 'Lisbonne'\, 'DE': 'Lissabon'\, 'ES': 'Lisboa'\, 'P
+ T': 'Lisboa'\, 'IT': 'Lisbona'\, 'RU': 'Лиссабон'\, 'ZH': '里斯
+ 本'\, 'AR': 'لشبونة'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Benfica – Napoli
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2046006@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20251210T220000
+DTEND;TZID=Europe/Helsinki:20251211T000000
+SUMMARY:Juventus – Pafos
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'EN': 'Turin
+ '\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Turim'\, 'IT'
+ : 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تورينو'}}
+ }\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'
+ EN': 'Turin'\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Tu
+ rim'\, 'IT': 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تو
+ رينو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Juventus – Pafos
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2046012@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260120T220000
+DTEND;TZID=Europe/Helsinki:20260121T000000
+SUMMARY:Inter – Arsenal
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan
+ '\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, '
+ IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو
+ '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
+ EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
+ Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
+ ميلانو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Inter – Arsenal
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2046018@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260120T220000
+DTEND;TZID=Europe/Helsinki:20260121T000000
+SUMMARY:Copenhagen – Napoli
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'DEN'\, 'id': '1449'\, 'translations': {'name': {'EN': 'Copen
+ hagen'\, 'FR': 'Copenhague'\, 'DE': 'Kopenhagen'\, 'ES': 'Copenhague'\, '
+ PT': 'Copenhaga'\, 'IT': 'Copenhagen'\, 'RU': 'Копенгаген'\, 'Z
+ H': '哥本哈根'\, 'AR': 'كوبنهاجن'}}}\n🕘 Orario: 22:00 (Eur
+ ope/Helsinki)
+LOCATION:{'countryCode': 'DEN'\, 'id': '1449'\, 'translations': {'name': {'
+ EN': 'Copenhagen'\, 'FR': 'Copenhague'\, 'DE': 'Kopenhagen'\, 'ES': 'Cope
+ nhague'\, 'PT': 'Copenhaga'\, 'IT': 'Copenhagen'\, 'RU': 'Копенга
+ ген'\, 'ZH': '哥本哈根'\, 'AR': 'كوبنهاجن'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Copenhagen – Napoli
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2046021@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260121T220000
+DTEND;TZID=Europe/Helsinki:20260122T000000
+SUMMARY:Atalanta – Athletic Club
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'EN': 'Berga
+ mo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, 'PT': 'Berga
+ mo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加莫'\, 'AR'
+ : 'بيرجامو'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'
+ EN': 'Bergamo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, '
+ PT': 'Bergamo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加
+ 莫'\, 'AR': 'بيرجامو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Atalanta – Athletic Club
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2046022@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260121T220000
+DTEND;TZID=Europe/Helsinki:20260122T000000
+SUMMARY:Juventus – Benfica
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'EN': 'Turin
+ '\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Turim'\, 'IT'
+ : 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تورينو'}}
+ }\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'
+ EN': 'Turin'\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Tu
+ rim'\, 'IT': 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تو
+ رينو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Juventus – Benfica
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2046032@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260128T220000
+DTEND;TZID=Europe/Helsinki:20260129T000000
+SUMMARY:B. Dortmund – Inter
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'GER'\, 'id': '1527'\, 'translations': {'name': {'EN': 'Dortm
+ und'\, 'FR': 'Dortmund'\, 'DE': 'Dortmund'\, 'ES': 'Dortmund'\, 'PT': 'Do
+ rtmund'\, 'IT': 'Dortmund'\, 'RU': 'Дортмунд'\, 'ZH': '多特蒙
+ 德'\, 'AR': 'Dortmund'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'GER'\, 'id': '1527'\, 'translations': {'name': {'
+ EN': 'Dortmund'\, 'FR': 'Dortmund'\, 'DE': 'Dortmund'\, 'ES': 'Dortmund'\
+ , 'PT': 'Dortmund'\, 'IT': 'Dortmund'\, 'RU': 'Дортмунд'\, 'ZH': 
+ '多特蒙德'\, 'AR': 'Dortmund'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: B. Dortmund – Inter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2046042@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260128T220000
+DTEND;TZID=Europe/Helsinki:20260129T000000
+SUMMARY:Napoli – Chelsea
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'EN': 'Naple
+ s'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT': 'Nápoles
+ '\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒斯'\, 'AR'
+ : 'نابولي'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'
+ EN': 'Naples'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT'
+ : 'Nápoles'\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒
+ 斯'\, 'AR': 'نابولي'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Napoli – Chelsea
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2046043@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260128T220000
+DTEND;TZID=Europe/Helsinki:20260129T000000
+SUMMARY:Monaco – Juventus
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'MCO'\, 'id': '2260'\, 'translations': {'name': {'EN': 'Monac
+ o'\, 'FR': 'Monaco'\, 'DE': 'Monaco'\, 'ES': 'Mónaco'\, 'PT': 'Mónaco'\
+ , 'IT': 'Principato di Monaco'\, 'RU': 'Монако'\, 'ZH': '摩纳哥'
+ \, 'AR': 'موناكو'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'MCO'\, 'id': '2260'\, 'translations': {'name': {'
+ EN': 'Monaco'\, 'FR': 'Monaco'\, 'DE': 'Monaco'\, 'ES': 'Mónaco'\, 'PT':
+  'Mónaco'\, 'IT': 'Principato di Monaco'\, 'RU': 'Монако'\, 'ZH': 
+ '摩纳哥'\, 'AR': 'موناكو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Monaco – Juventus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2046044@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260128T220000
+DTEND;TZID=Europe/Helsinki:20260129T000000
+SUMMARY:Union SG – Atalanta
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'BEL'\, 'id': '1323'\, 'translations': {'name': {'EN': 'Bruss
+ els'\, 'FR': 'Bruxelles'\, 'DE': 'Brüssel'\, 'ES': 'Bruselas'\, 'PT': 'B
+ ruxelas'\, 'IT': 'Bruxelles'\, 'RU': 'Брюссель'\, 'ZH': '布鲁
+ 塞尔'\, 'AR': 'بروكسل'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'BEL'\, 'id': '1323'\, 'translations': {'name': {'
+ EN': 'Brussels'\, 'FR': 'Bruxelles'\, 'DE': 'Brüssel'\, 'ES': 'Bruselas'
+ \, 'PT': 'Bruxelas'\, 'IT': 'Bruxelles'\, 'RU': 'Брюссель'\, 'ZH'
+ : '布鲁塞尔'\, 'AR': 'بروكسل'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Union SG – Atalanta
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2047762@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260217T194500
+DTEND;TZID=Europe/Helsinki:20260217T214500
+SUMMARY:Galatasaray – Juventus
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'TUR'\, 'id': '1859'\, 'translations': {'name': {'EN': 'Istan
+ bul'\, 'FR': 'Istanbul'\, 'DE': 'Istanbul'\, 'ES': 'Estambul'\, 'PT': 'Is
+ tambul'\, 'IT': 'Istanbul'\, 'RU': 'Стамбул'\, 'ZH': '伊斯坦布
+ 尔'\, 'AR': 'إسطنبول'}}}\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:{'countryCode': 'TUR'\, 'id': '1859'\, 'translations': {'name': {'
+ EN': 'Istanbul'\, 'FR': 'Istanbul'\, 'DE': 'Istanbul'\, 'ES': 'Estambul'\
+ , 'PT': 'Istambul'\, 'IT': 'Istanbul'\, 'RU': 'Стамбул'\, 'ZH': '
+ 伊斯坦布尔'\, 'AR': 'إسطنبول'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Galatasaray – Juventus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2047764@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260217T221500
+DTEND;TZID=Europe/Helsinki:20260218T001500
+SUMMARY:B. Dortmund – Atalanta
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'GER'\, 'id': '1527'\, 'translations': {'name': {'EN': 'Dortm
+ und'\, 'FR': 'Dortmund'\, 'DE': 'Dortmund'\, 'ES': 'Dortmund'\, 'PT': 'Do
+ rtmund'\, 'IT': 'Dortmund'\, 'RU': 'Дортмунд'\, 'ZH': '多特蒙
+ 德'\, 'AR': 'Dortmund'}}}\n🕘 Orario: 22:15 (Europe/Helsinki)
+LOCATION:{'countryCode': 'GER'\, 'id': '1527'\, 'translations': {'name': {'
+ EN': 'Dortmund'\, 'FR': 'Dortmund'\, 'DE': 'Dortmund'\, 'ES': 'Dortmund'\
+ , 'PT': 'Dortmund'\, 'IT': 'Dortmund'\, 'RU': 'Дортмунд'\, 'ZH': 
+ '多特蒙德'\, 'AR': 'Dortmund'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: B. Dortmund – Atalanta
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2047766@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260218T220000
+DTEND;TZID=Europe/Helsinki:20260219T000000
+SUMMARY:Bodø/Glimt – Inter
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'NOR'\, 'id': '1260'\, 'translations': {'name': {'EN': 'Bodø
+ '\, 'FR': 'Bodø'\, 'DE': 'Bodø'\, 'ES': 'Bodø'\, 'PT': 'Bodø'\, 'IT':
+  'Bodø'\, 'RU': 'Буде'\, 'ZH': 'Bodø'\, 'AR': 'بودو'}}}\n🕘 O
+ rario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'NOR'\, 'id': '1260'\, 'translations': {'name': {'
+ EN': 'Bodø'\, 'FR': 'Bodø'\, 'DE': 'Bodø'\, 'ES': 'Bodø'\, 'PT': 'Bod
+ ø'\, 'IT': 'Bodø'\, 'RU': 'Буде'\, 'ZH': 'Bodø'\, 'AR': 'بودو'
+ }}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bodø/Glimt – Inter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2047774@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260224T220000
+DTEND;TZID=Europe/Helsinki:20260225T000000
+SUMMARY:Inter – Bodø/Glimt
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan
+ '\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, '
+ IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو
+ '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
+ EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
+ Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
+ ميلانو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Inter – Bodø/Glimt
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2047772@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260225T194500
+DTEND;TZID=Europe/Helsinki:20260225T214500
+SUMMARY:Atalanta – B. Dortmund
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'EN': 'Berga
+ mo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, 'PT': 'Berga
+ mo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加莫'\, 'AR'
+ : 'بيرجامو'}}}\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'
+ EN': 'Bergamo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, '
+ PT': 'Bergamo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加
+ 莫'\, 'AR': 'بيرجامو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Atalanta – B. Dortmund
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2047770@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260225T220000
+DTEND;TZID=Europe/Helsinki:20260226T000000
+SUMMARY:Juventus – Galatasaray
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'EN': 'Turin
+ '\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Turim'\, 'IT'
+ : 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تورينو'}}
+ }\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'
+ EN': 'Turin'\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Tu
+ rim'\, 'IT': 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تو
+ رينو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Juventus – Galatasaray
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2048050@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260310T220000
+DTEND;TZID=Europe/Helsinki:20260311T000000
+SUMMARY:Atalanta – Bayern München
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'EN': 'Berga
+ mo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, 'PT': 'Berga
+ mo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加莫'\, 'AR'
+ : 'بيرجامو'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'
+ EN': 'Bergamo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, '
+ PT': 'Bergamo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加
+ 莫'\, 'AR': 'بيرجامو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Atalanta – Bayern München
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-champions-league-italian-teams-2048058@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260318T220000
+DTEND;TZID=Europe/Helsinki:20260319T000000
+SUMMARY:Bayern München – Atalanta
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
+ untryCode': 'GER'\, 'id': '2298'\, 'translations': {'name': {'EN': 'Munic
+ h'\, 'FR': 'Munich'\, 'DE': 'München'\, 'ES': 'Múnich'\, 'PT': 'Munique
+ '\, 'IT': 'Monaco di Baviera'\, 'RU': 'Мюнхен'\, 'ZH': '慕尼黑'\
+ , 'AR': 'ميونخ'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'GER'\, 'id': '2298'\, 'translations': {'name': {'
+ EN': 'Munich'\, 'FR': 'Munich'\, 'DE': 'München'\, 'ES': 'Múnich'\, 'PT
+ ': 'Munique'\, 'IT': 'Monaco di Baviera'\, 'RU': 'Мюнхен'\, 'ZH': '
+ 慕尼黑'\, 'AR': 'ميونخ'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bayern München – Atalanta
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
 END:VCALENDAR

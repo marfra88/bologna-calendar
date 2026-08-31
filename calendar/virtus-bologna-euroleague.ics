@@ -60,6 +60,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-25/09/26-Fenerbahce Tarfin Istanbul-V
  irtus Bologna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260925T204500
 DTEND;TZID=Europe/Helsinki:20260925T224500
@@ -78,6 +79,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-29/09/26-Armani Olimpia Milan-Virtus 
  Bologna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260929T213000
 DTEND;TZID=Europe/Helsinki:20260929T233000
@@ -96,6 +98,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-01/10/26-Virtus Bologna-Olympiacos Pi
  raeus@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261001T213000
 DTEND;TZID=Europe/Helsinki:20261001T233000
@@ -114,6 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-08/10/26-FC Bayern Munich-Virtus Bolo
  gna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261008T213000
 DTEND;TZID=Europe/Helsinki:20261008T233000
@@ -132,6 +136,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-14/10/26-Paris Basketball-Virtus Bolo
  gna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261014T214500
 DTEND;TZID=Europe/Helsinki:20261014T234500
@@ -150,6 +155,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-16/10/26-Virtus Bologna-Kosner Baskon
  ia Vitoria-gasteiz@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261016T213000
 DTEND;TZID=Europe/Helsinki:20261016T233000
@@ -169,6 +175,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-21/10/26-Hapoel Ibi Tel Aviv-Virtus B
  ologna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261021T200000
 DTEND;TZID=Europe/Helsinki:20261021T220000
@@ -187,6 +194,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-28/10/26-Virtus Bologna-Zalgiris Kaun
  as@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261028T213000
 DTEND;TZID=Europe/Helsinki:20261028T233000
@@ -205,6 +213,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-30/10/26-Virtus Bologna-Besiktas Ista
  nbul@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261030T213000
 DTEND;TZID=Europe/Helsinki:20261030T233000
@@ -223,6 +232,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-06/11/26-Virtus Bologna-Dubai Basketb
  all@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261106T213000
 DTEND;TZID=Europe/Helsinki:20261106T233000
@@ -241,6 +251,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-13/11/26-Anadolu Efes Istanbul-Virtus
   Bologna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261113T193000
 DTEND;TZID=Europe/Helsinki:20261113T213000
@@ -259,6 +270,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-17/11/26-Virtus Bologna-Panathinaikos
   Aktor Athens@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261117T220000
 DTEND;TZID=Europe/Helsinki:20261118T000000
@@ -277,6 +289,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-19/11/26-Valencia Basket-Virtus Bolog
  na@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261119T220000
 DTEND;TZID=Europe/Helsinki:20261120T000000
@@ -295,6 +308,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-24/11/26-Crvena Zvezda Meridianbet Be
  lgrade-Virtus Bologna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261124T200000
 DTEND;TZID=Europe/Helsinki:20261124T220000
@@ -314,6 +328,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-04/12/26-Virtus Bologna-Partizan Mozz
  art Bet Belgrade@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261204T213000
 DTEND;TZID=Europe/Helsinki:20261204T233000
@@ -332,6 +347,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-11/12/26-Virtus Bologna-Maccabi Rapyd
   Tel Aviv@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261211T213000
 DTEND;TZID=Europe/Helsinki:20261211T233000
@@ -350,6 +366,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-15/12/26-Virtus Bologna-LDLC ASvel Vi
  lleurbanne@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261215T213000
 DTEND;TZID=Europe/Helsinki:20261215T233000
@@ -368,6 +385,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-18/12/26-FC Barcelona-Virtus Bologna@
  github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261218T214500
 DTEND;TZID=Europe/Helsinki:20261218T234500
@@ -386,6 +404,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-22/12/26-Virtus Bologna-Real Madrid@g
  ithub.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261222T213000
 DTEND;TZID=Europe/Helsinki:20261222T233000
@@ -404,6 +423,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-30/12/26-Virtus Bologna-Armani Olimpi
  a Milan@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261230T213000
 DTEND;TZID=Europe/Helsinki:20261230T233000
@@ -422,6 +442,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-08/01/27-Kosner Baskonia Vitoria-gast
  eiz-Virtus Bologna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270108T213000
 DTEND;TZID=Europe/Helsinki:20270108T233000
@@ -441,6 +462,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-12/01/27-Virtus Bologna-Anadolu Efes 
  Istanbul@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270112T213000
 DTEND;TZID=Europe/Helsinki:20270112T233000
@@ -459,6 +481,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-15/01/27-Virtus Bologna-FC Barcelona@
  github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270115T213000
 DTEND;TZID=Europe/Helsinki:20270115T233000
@@ -477,6 +500,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-22/01/27-Zalgiris Kaunas-Virtus Bolog
  na@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270122T200000
 DTEND;TZID=Europe/Helsinki:20270122T220000
@@ -495,6 +519,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-28/01/27-Virtus Bologna-Paris Basketb
  all@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270128T213000
 DTEND;TZID=Europe/Helsinki:20270128T233000
@@ -513,6 +538,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-02/02/27-Maccabi Rapyd Tel Aviv-Virtu
  s Bologna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270202T210500
 DTEND;TZID=Europe/Helsinki:20270202T230500
@@ -531,6 +557,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-04/02/27-Dubai Basketball-Virtus Bolo
  gna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270204T180000
 DTEND;TZID=Europe/Helsinki:20270204T200000
@@ -549,6 +576,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-11/02/27-Virtus Bologna-FC Bayern Mun
  ich@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270211T213000
 DTEND;TZID=Europe/Helsinki:20270211T233000
@@ -567,6 +595,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-04/03/27-Virtus Bologna-Hapoel Ibi Te
  l Aviv@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270304T213000
 DTEND;TZID=Europe/Helsinki:20270304T233000
@@ -585,6 +614,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-09/03/27-Virtus Bologna-Fenerbahce Ta
  rfin Istanbul@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270309T213000
 DTEND;TZID=Europe/Helsinki:20270309T233000
@@ -603,6 +633,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-11/03/27-Real Madrid-Virtus Bologna@g
  ithub.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270311T214500
 DTEND;TZID=Europe/Helsinki:20270311T234500
@@ -621,6 +652,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-19/03/27-LDLC ASvel Villeurbanne-Virt
  us Bologna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270319T210000
 DTEND;TZID=Europe/Helsinki:20270319T230000
@@ -639,6 +671,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-23/03/27-Partizan Mozzart Bet Belgrad
  e-Virtus Bologna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270323T214500
 DTEND;TZID=Europe/Helsinki:20270323T234500
@@ -657,6 +690,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-26/03/27-Olympiacos Piraeus-Virtus Bo
  logna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270326T211500
 DTEND;TZID=Europe/Helsinki:20270326T231500
@@ -675,6 +709,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-31/03/27-Virtus Bologna-Crvena Zvezda
   Meridianbet Belgrade@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270331T213000
 DTEND;TZID=Europe/Helsinki:20270331T233000
@@ -694,6 +729,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-06/04/27-Virtus Bologna-Valencia Bask
  et@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270406T213000
 DTEND;TZID=Europe/Helsinki:20270406T233000
@@ -712,6 +748,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-08/04/27-Panathinaikos Aktor Athens-V
  irtus Bologna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270408T211500
 DTEND;TZID=Europe/Helsinki:20270408T231500
@@ -730,6 +767,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-16/04/27-Besiktas Istanbul-Virtus Bol
  ogna@github.com
+SEQUENCE:1
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270416T200000
 DTEND;TZID=Europe/Helsinki:20270416T220000
