@@ -8,6 +8,10 @@ from .models import Fixture
 
 
 PRODID = "-//Sports Calendar Generator//EN"
+# Bump this only when the generated event representation changes in a way that
+# subscribed clients must actively replace. Apple Calendar uses UID/SEQUENCE to
+# decide whether an existing event should be refreshed.
+EVENT_REVISION = 1
 SOURCE_STAMP = datetime(2000, 1, 1, tzinfo=UTC)
 
 
@@ -140,7 +144,8 @@ def build_calendar(fixtures: list[Fixture], calendar_name: str, timezone_name: s
         start = fixture.kickoff_utc.astimezone(timezone)
         end = start + timedelta(hours=2)
         lines.extend([
-            "BEGIN:VEVENT", f"UID:{_escape(fixture.uid)}", f"DTSTAMP:{SOURCE_STAMP:%Y%m%dT%H%M%SZ}",
+            "BEGIN:VEVENT", f"UID:{_escape(fixture.uid)}", f"SEQUENCE:{EVENT_REVISION}",
+            f"DTSTAMP:{SOURCE_STAMP:%Y%m%dT%H%M%SZ}",
             f"DTSTART;TZID={timezone.key}:{start:%Y%m%dT%H%M%S}",
             f"DTEND;TZID={timezone.key}:{end:%Y%m%dT%H%M%S}",
             f"SUMMARY:{_escape(fixture.title)}",
