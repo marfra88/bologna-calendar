@@ -36,10 +36,37 @@ def _team_name(team: Any) -> str:
 
 
 def _is_italian(team: Any) -> bool:
-    country = _value(team, "country", "association")
-    if isinstance(country, dict):
-        country = _value(country, "code", "name", "countryCode")
-    return str(country or "").casefold() in {"ita", "italy", "italia"}
+    """Recognise Italian clubs across UEFA's changing team metadata shapes."""
+    if not isinstance(team, dict):
+        return False
+    country_values: list[str] = []
+
+    def collect(value: Any, key: str = "") -> None:
+        # UEFA has used countryCode, country.name, association.countryName and
+        # associationCode in different competition endpoints and seasons.
+        if isinstance(value, dict):
+            for child_key, child in value.items():
+                collect(child, child_key)
+        elif isinstance(value, list):
+            for child in value:
+                collect(child, key)
+        elif any(token in key.casefold() for token in ("country", "association", "nation", "federation")):
+            country_values.append(str(value))
+
+    collect(team)
+    if any(value.casefold() in {"ita", "it", "italy", "italia"} for value in country_values):
+        return True
+
+    # Defensive fallback for a known UEFA response variant that exposes just
+    # team identity. This prevents an empty public feed while keeping the set
+    # limited to Italian clubs that can be entered in UEFA competitions.
+    name = re.sub(r"[^a-z0-9]+", "", _team_name(team).casefold())
+    italian_names = {
+        "atalanta", "bologna", "fiorentina", "inter", "internazionale",
+        "internazionalemilano", "juventus", "lazio", "milan", "napoli",
+        "roma", "asroma", "torino",
+    }
+    return name in italian_names
 
 
 def _parse_datetime(value: Any) -> datetime:

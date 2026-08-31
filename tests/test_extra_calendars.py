@@ -6,6 +6,7 @@ from bolo_calendar.models import Fixture
 from bolo_calendar.virtus import _schedule_rows
 from bolo_calendar.formula1 import _race_details, _slugs
 from bolo_calendar.uefa import BASE_URL
+from bolo_calendar.uefa import _is_italian
 
 
 class ExtraCalendarTests(unittest.TestCase):
@@ -27,6 +28,7 @@ class ExtraCalendarTests(unittest.TestCase):
         result = build_calendar([fixture], "Sports — Formula 1", "Europe/Helsinki").decode()
         self.assertIn("SUMMARY:FORMULA 1 PIRELLI GRAN PREMIO", result)
         self.assertIn("📍 Monza\\, Italy", result)
+        self.assertIn("SEQUENCE:1", result)
 
     def test_virtus_parser_reads_schedule_table(self) -> None:
         html = "<table><tr><td>25/09/26</td><td>Fenerbahce Istanbul<img alt='ignored'></td><td>19:45</td><td>Virtus Bologna</td></tr></table>"
@@ -44,3 +46,9 @@ class ExtraCalendarTests(unittest.TestCase):
 
     def test_uefa_uses_the_current_official_match_service(self) -> None:
         self.assertEqual(BASE_URL, "https://match.uefa.com/v5/matches")
+
+    def test_uefa_italian_filter_supports_current_country_fields(self) -> None:
+        self.assertTrue(_is_italian({"internationalName": "Inter", "countryCode": "ITA"}))
+        self.assertTrue(_is_italian({"internationalName": "AS Roma", "association": {"countryName": "Italy"}}))
+        self.assertTrue(_is_italian({"internationalName": "Juventus"}))
+        self.assertFalse(_is_italian({"internationalName": "Arsenal", "countryCode": "ENG"}))
