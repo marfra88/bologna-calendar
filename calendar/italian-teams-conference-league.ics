@@ -52,15 +52,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260820T213000
 DTEND;TZID=Europe/Helsinki:20260820T233000
 SUMMARY:Atalanta – H. Tel-Aviv
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 {'c
- ountryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'EN': 'Berg
- amo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, 'PT': 'Berg
- amo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加莫'\, 'AR
- ': 'بيرجامو'}}}\n🕘 Orario: 21:30 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'
- EN': 'Bergamo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, '
- PT': 'Bergamo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加
- 莫'\, 'AR': 'بيرجامو'}}}
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ber
+ gamo\, Italy\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bergamo\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -76,15 +70,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260827T210000
 DTEND;TZID=Europe/Helsinki:20260827T230000
 SUMMARY:H. Tel-Aviv – Atalanta
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 {'c
- ountryCode': 'HUN'\, 'id': '2243'\, 'translations': {'name': {'EN': 'Misk
- olc'\, 'FR': 'Miskolc'\, 'DE': 'Miskolc'\, 'ES': 'Miskolc'\, 'PT': 'Misko
- lc'\, 'IT': 'Miskolc'\, 'RU': 'Мишкольц'\, 'ZH': '密什科尔茨
- '\, 'AR': 'ميشكولتس'}}}\n🕘 Orario: 21:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'HUN'\, 'id': '2243'\, 'translations': {'name': {'
- EN': 'Miskolc'\, 'FR': 'Miskolc'\, 'DE': 'Miskolc'\, 'ES': 'Miskolc'\, 'P
- T': 'Miskolc'\, 'IT': 'Miskolc'\, 'RU': 'Мишкольц'\, 'ZH': '密
- 什科尔茨'\, 'AR': 'ميشكولتس'}}}
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Mis
+ kolc\, Hungary\n🕘 Orario: 21:00 (Europe/Helsinki)
+LOCATION:Miskolc\, Hungary
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -100,15 +88,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261015T220000
 DTEND;TZID=Europe/Helsinki:20261016T000000
 SUMMARY:Atalanta – Pafos
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 {'c
- ountryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'EN': 'Berg
- amo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, 'PT': 'Berg
- amo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加莫'\, 'AR
- ': 'بيرجامو'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'
- EN': 'Bergamo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, '
- PT': 'Bergamo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加
- 莫'\, 'AR': 'بيرجامو'}}}
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ber
+ gamo\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Bergamo\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -124,16 +106,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261022T220000
 DTEND;TZID=Europe/Helsinki:20261023T000000
 SUMMARY:Ajax – Atalanta
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 {'c
- ountryCode': 'NED'\, 'id': '1074'\, 'translations': {'name': {'EN': 'Amst
- erdam'\, 'FR': 'Amsterdam'\, 'DE': 'Amsterdam'\, 'ES': 'Ámsterdam'\, 'PT
- ': 'Amesterdão'\, 'IT': 'Amsterdam'\, 'RU': 'Амстердам'\, 'ZH':
-  '阿姆斯特丹'\, 'AR': 'أمستردام'}}}\n🕘 Orario: 22:00 (Eur
- ope/Helsinki)
-LOCATION:{'countryCode': 'NED'\, 'id': '1074'\, 'translations': {'name': {'
- EN': 'Amsterdam'\, 'FR': 'Amsterdam'\, 'DE': 'Amsterdam'\, 'ES': 'Ámster
- dam'\, 'PT': 'Amesterdão'\, 'IT': 'Amsterdam'\, 'RU': 'Амстерда
- м'\, 'ZH': '阿姆斯特丹'\, 'AR': 'أمستردام'}}}
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ams
+ terdam\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Amsterdam\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -149,15 +124,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261105T194500
 DTEND;TZID=Europe/Helsinki:20261105T214500
 SUMMARY:Atalanta – Kairat Almaty
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 {'c
- ountryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'EN': 'Berg
- amo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, 'PT': 'Berg
- amo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加莫'\, 'AR
- ': 'بيرجامو'}}}\n🕘 Orario: 19:45 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'
- EN': 'Bergamo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, '
- PT': 'Bergamo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加
- 莫'\, 'AR': 'بيرجامو'}}}
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ber
+ gamo\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:Bergamo\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -173,16 +142,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261126T220000
 DTEND;TZID=Europe/Helsinki:20261127T000000
 SUMMARY:Borac – Atalanta
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 {'c
- ountryCode': 'BIH'\, 'id': '1174'\, 'translations': {'name': {'EN': 'Banj
- aluka'\, 'FR': 'Banjaluka'\, 'DE': 'Banjaluka'\, 'ES': 'Banjaluka'\, 'PT'
- : 'Banjaluka'\, 'IT': 'Banjaluka'\, 'RU': 'Баня-Лука'\, 'ZH': '
- 班哈卢卡'\, 'AR': 'بانجالوكا'}}}\n🕘 Orario: 22:00 (Europe
- /Helsinki)
-LOCATION:{'countryCode': 'BIH'\, 'id': '1174'\, 'translations': {'name': {'
- EN': 'Banjaluka'\, 'FR': 'Banjaluka'\, 'DE': 'Banjaluka'\, 'ES': 'Banjalu
- ka'\, 'PT': 'Banjaluka'\, 'IT': 'Banjaluka'\, 'RU': 'Баня-Лука'\,
-  'ZH': '班哈卢卡'\, 'AR': 'بانجالوكا'}}}
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ban
+ jaluka\, Bosnia and Herzegovina\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Banjaluka\, Bosnia and Herzegovina
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -198,14 +160,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261210T194500
 DTEND;TZID=Europe/Helsinki:20261210T214500
 SUMMARY:Riga – Atalanta
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 {'c
- ountryCode': 'LVA'\, 'id': '2621'\, 'translations': {'name': {'EN': 'Riga
- '\, 'FR': 'Riga'\, 'DE': 'Riga'\, 'ES': 'Riga'\, 'PT': 'Riga'\, 'IT': 'Ri
- ga'\, 'RU': 'Рига'\, 'ZH': '里加'\, 'AR': 'ريجا'}}}\n🕘 Orari
- o: 19:45 (Europe/Helsinki)
-LOCATION:{'countryCode': 'LVA'\, 'id': '2621'\, 'translations': {'name': {'
- EN': 'Riga'\, 'FR': 'Riga'\, 'DE': 'Riga'\, 'ES': 'Riga'\, 'PT': 'Riga'\,
-  'IT': 'Riga'\, 'RU': 'Рига'\, 'ZH': '里加'\, 'AR': 'ريجا'}}}
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Rig
+ a\, LVA\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:Riga\, LVA
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -221,15 +178,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261217T220000
 DTEND;TZID=Europe/Helsinki:20261218T000000
 SUMMARY:Atalanta – Mjällby
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 {'c
- ountryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'EN': 'Berg
- amo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, 'PT': 'Berg
- amo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加莫'\, 'AR
- ': 'بيرجامو'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '1223'\, 'translations': {'name': {'
- EN': 'Bergamo'\, 'FR': 'Bergame'\, 'DE': 'Bergamo'\, 'ES': 'Bérgamo'\, '
- PT': 'Bergamo'\, 'IT': 'Bergamo'\, 'RU': 'Бергамо'\, 'ZH': '贝加
- 莫'\, 'AR': 'بيرجامو'}}}
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ber
+ gamo\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Bergamo\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM

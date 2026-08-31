@@ -64,15 +64,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260908T220000
 DTEND;TZID=Europe/Helsinki:20260909T000000
 SUMMARY:Real Madrid – Inter
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ESP'\, 'id': '2163'\, 'translations': {'name': {'EN': 'Madri
- d'\, 'FR': 'Madrid'\, 'DE': 'Madrid'\, 'ES': 'Madrid'\, 'PT': 'Madrid'\, 
- 'IT': 'Madrid'\, 'RU': 'Мадрид'\, 'ZH': '马德里'\, 'AR': 'Madrid
- '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ESP'\, 'id': '2163'\, 'translations': {'name': {'
- EN': 'Madrid'\, 'FR': 'Madrid'\, 'DE': 'Madrid'\, 'ES': 'Madrid'\, 'PT': 
- 'Madrid'\, 'IT': 'Madrid'\, 'RU': 'Мадрид'\, 'ZH': '马德里'\, 'A
- R': 'Madrid'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Madr
+ id\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Madrid\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -88,15 +82,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260909T220000
 DTEND;TZID=Europe/Helsinki:20260910T000000
 SUMMARY:Napoli – Arsenal
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'EN': 'Naple
- s'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT': 'Nápoles
- '\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒斯'\, 'AR'
- : 'نابولي'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'
- EN': 'Naples'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT'
- : 'Nápoles'\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒
- 斯'\, 'AR': 'نابولي'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Napl
+ es\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Naples\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -112,15 +100,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260910T194500
 DTEND;TZID=Europe/Helsinki:20260910T214500
 SUMMARY:Fenerbahçe – Roma
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'TUR'\, 'id': '1859'\, 'translations': {'name': {'EN': 'Istan
- bul'\, 'FR': 'Istanbul'\, 'DE': 'Istanbul'\, 'ES': 'Estambul'\, 'PT': 'Is
- tambul'\, 'IT': 'Istanbul'\, 'RU': 'Стамбул'\, 'ZH': '伊斯坦布
- 尔'\, 'AR': 'إسطنبول'}}}\n🕘 Orario: 19:45 (Europe/Helsinki)
-LOCATION:{'countryCode': 'TUR'\, 'id': '1859'\, 'translations': {'name': {'
- EN': 'Istanbul'\, 'FR': 'Istanbul'\, 'DE': 'Istanbul'\, 'ES': 'Estambul'\
- , 'PT': 'Istambul'\, 'IT': 'Istanbul'\, 'RU': 'Стамбул'\, 'ZH': '
- 伊斯坦布尔'\, 'AR': 'إسطنبول'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Ista
+ nbul\, Türkiye\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:Istanbul\, Türkiye
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -136,14 +118,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20260910T220000
 DTEND;TZID=Europe/Helsinki:20260911T000000
 SUMMARY:Como – Leipzig
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '1444'\, 'translations': {'name': {'EN': 'Como'
- \, 'FR': 'Côme'\, 'DE': 'Como'\, 'ES': 'Como'\, 'PT': 'Como'\, 'IT': 'Co
- mo'\, 'RU': 'Комо'\, 'ZH': 'Como'\, 'AR': 'كومو'}}}\n🕘 Orario:
-  22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '1444'\, 'translations': {'name': {'
- EN': 'Como'\, 'FR': 'Côme'\, 'DE': 'Como'\, 'ES': 'Como'\, 'PT': 'Como'\
- , 'IT': 'Como'\, 'RU': 'Комо'\, 'ZH': 'Como'\, 'AR': 'كومو'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Como
+ \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -159,15 +136,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261013T220000
 DTEND;TZID=Europe/Helsinki:20261014T000000
 SUMMARY:Inter – Club Brugge
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan
- '\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, '
- IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو
- '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
- EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
- Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
- ميلانو'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Mila
+ n\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -183,16 +154,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261013T220000
 DTEND;TZID=Europe/Helsinki:20261014T000000
 SUMMARY:Villarreal – Napoli
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ESP'\, 'id': '3102'\, 'translations': {'name': {'EN': 'Villa
- rreal'\, 'FR': 'Villarreal'\, 'DE': 'Villarreal'\, 'ES': 'Villarreal'\, '
- PT': 'Villarreal'\, 'IT': 'Villarreal'\, 'RU': 'Вильяреал'\, 'ZH
- ': '比利亚雷亚尔'\, 'AR': 'فياريال'}}}\n🕘 Orario: 22:00 (
- Europe/Helsinki)
-LOCATION:{'countryCode': 'ESP'\, 'id': '3102'\, 'translations': {'name': {'
- EN': 'Villarreal'\, 'FR': 'Villarreal'\, 'DE': 'Villarreal'\, 'ES': 'Vill
- arreal'\, 'PT': 'Villarreal'\, 'IT': 'Villarreal'\, 'RU': 'Вильяре
- ал'\, 'ZH': '比利亚雷亚尔'\, 'AR': 'فياريال'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Vill
+ arreal\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Villarreal\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -208,16 +172,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261014T194500
 DTEND;TZID=Europe/Helsinki:20261014T214500
 SUMMARY:Feyenoord – Como
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'NED'\, 'id': '2649'\, 'translations': {'name': {'EN': 'Rotte
- rdam'\, 'FR': 'Rotterdam'\, 'DE': 'Rotterdam'\, 'ES': 'Róterdam'\, 'PT':
-  'Roterdão'\, 'IT': 'Rotterdam'\, 'RU': 'Роттердам'\, 'ZH': '
- 鹿特丹'\, 'AR': 'روتردام'}}}\n🕘 Orario: 19:45 (Europe/Helsin
- ki)
-LOCATION:{'countryCode': 'NED'\, 'id': '2649'\, 'translations': {'name': {'
- EN': 'Rotterdam'\, 'FR': 'Rotterdam'\, 'DE': 'Rotterdam'\, 'ES': 'Róterd
- am'\, 'PT': 'Roterdão'\, 'IT': 'Rotterdam'\, 'RU': 'Роттердам'\
- , 'ZH': '鹿特丹'\, 'AR': 'روتردام'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rott
+ erdam\, Netherlands\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:Rotterdam\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -233,14 +190,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261014T220000
 DTEND;TZID=Europe/Helsinki:20261015T000000
 SUMMARY:Roma – Real Madrid
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2637'\, 'translations': {'name': {'EN': 'Rome'
- \, 'FR': 'Rome'\, 'DE': 'Rom'\, 'ES': 'Roma'\, 'PT': 'Roma'\, 'IT': 'Roma
- '\, 'RU': 'Рим'\, 'ZH': '罗马'\, 'AR': 'روما'}}}\n🕘 Orario: 2
- 2:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2637'\, 'translations': {'name': {'
- EN': 'Rome'\, 'FR': 'Rome'\, 'DE': 'Rom'\, 'ES': 'Roma'\, 'PT': 'Roma'\, 
- 'IT': 'Roma'\, 'RU': 'Рим'\, 'ZH': '罗马'\, 'AR': 'روما'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rome
+ \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Rome\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -256,14 +208,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261020T220000
 DTEND;TZID=Europe/Helsinki:20261021T000000
 SUMMARY:Roma – S. Bratislava
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2637'\, 'translations': {'name': {'EN': 'Rome'
- \, 'FR': 'Rome'\, 'DE': 'Rom'\, 'ES': 'Roma'\, 'PT': 'Roma'\, 'IT': 'Roma
- '\, 'RU': 'Рим'\, 'ZH': '罗马'\, 'AR': 'روما'}}}\n🕘 Orario: 2
- 2:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2637'\, 'translations': {'name': {'
- EN': 'Rome'\, 'FR': 'Rome'\, 'DE': 'Rom'\, 'ES': 'Roma'\, 'PT': 'Roma'\, 
- 'IT': 'Roma'\, 'RU': 'Рим'\, 'ZH': '罗马'\, 'AR': 'روما'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rome
+ \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Rome\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -279,15 +226,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261020T220000
 DTEND;TZID=Europe/Helsinki:20261021T000000
 SUMMARY:Napoli – Bodø/Glimt
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'EN': 'Naple
- s'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT': 'Nápoles
- '\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒斯'\, 'AR'
- : 'نابولي'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'
- EN': 'Naples'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT'
- : 'Nápoles'\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒
- 斯'\, 'AR': 'نابولي'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Napl
+ es\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Naples\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -303,14 +244,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261021T194500
 DTEND;TZID=Europe/Helsinki:20261021T214500
 SUMMARY:Como – Man Utd
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '1444'\, 'translations': {'name': {'EN': 'Como'
- \, 'FR': 'Côme'\, 'DE': 'Como'\, 'ES': 'Como'\, 'PT': 'Como'\, 'IT': 'Co
- mo'\, 'RU': 'Комо'\, 'ZH': 'Como'\, 'AR': 'كومو'}}}\n🕘 Orario:
-  19:45 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '1444'\, 'translations': {'name': {'
- EN': 'Como'\, 'FR': 'Côme'\, 'DE': 'Como'\, 'ES': 'Como'\, 'PT': 'Como'\
- , 'IT': 'Como'\, 'RU': 'Комо'\, 'ZH': 'Como'\, 'AR': 'كومو'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Como
+ \, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -326,15 +262,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261021T220000
 DTEND;TZID=Europe/Helsinki:20261022T000000
 SUMMARY:Inter – Shakhtar
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan
- '\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, '
- IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو
- '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
- EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
- Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
- ميلانو'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Mila
+ n\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -350,16 +280,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261103T220000
 DTEND;TZID=Europe/Helsinki:20261104T000000
 SUMMARY:Man Utd – Roma
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ENG'\, 'id': '2179'\, 'translations': {'name': {'EN': 'Manch
- ester'\, 'FR': 'Manchester'\, 'DE': 'Manchester'\, 'ES': 'Mánchester'\, 
- 'PT': 'Manchester'\, 'IT': 'Manchester'\, 'RU': 'Манчестер'\, 'Z
- H': '曼彻斯特'\, 'AR': 'مانشستر '}}}\n🕘 Orario: 22:00 (Euro
- pe/Helsinki)
-LOCATION:{'countryCode': 'ENG'\, 'id': '2179'\, 'translations': {'name': {'
- EN': 'Manchester'\, 'FR': 'Manchester'\, 'DE': 'Manchester'\, 'ES': 'Mán
- chester'\, 'PT': 'Manchester'\, 'IT': 'Manchester'\, 'RU': 'Манчес
- тер'\, 'ZH': '曼彻斯特'\, 'AR': 'مانشستر '}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Manc
+ hester\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Manchester\, England
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -375,16 +298,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261103T220000
 DTEND;TZID=Europe/Helsinki:20261104T000000
 SUMMARY:Feyenoord – Inter
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'NED'\, 'id': '2649'\, 'translations': {'name': {'EN': 'Rotte
- rdam'\, 'FR': 'Rotterdam'\, 'DE': 'Rotterdam'\, 'ES': 'Róterdam'\, 'PT':
-  'Roterdão'\, 'IT': 'Rotterdam'\, 'RU': 'Роттердам'\, 'ZH': '
- 鹿特丹'\, 'AR': 'روتردام'}}}\n🕘 Orario: 22:00 (Europe/Helsin
- ki)
-LOCATION:{'countryCode': 'NED'\, 'id': '2649'\, 'translations': {'name': {'
- EN': 'Rotterdam'\, 'FR': 'Rotterdam'\, 'DE': 'Rotterdam'\, 'ES': 'Róterd
- am'\, 'PT': 'Roterdão'\, 'IT': 'Rotterdam'\, 'RU': 'Роттердам'\
- , 'ZH': '鹿特丹'\, 'AR': 'روتردام'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rott
+ erdam\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Rotterdam\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -400,15 +316,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261104T220000
 DTEND;TZID=Europe/Helsinki:20261105T000000
 SUMMARY:Porto – Napoli
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'POR'\, 'id': '2547'\, 'translations': {'name': {'EN': 'Porto
- '\, 'FR': 'Porto'\, 'DE': 'Porto'\, 'ES': 'Oporto'\, 'PT': 'Porto'\, 'IT'
- : 'Oporto'\, 'RU': 'Порту'\, 'ZH': '波尔图'\, 'AR': 'بورتو'}
- }}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'POR'\, 'id': '2547'\, 'translations': {'name': {'
- EN': 'Porto'\, 'FR': 'Porto'\, 'DE': 'Porto'\, 'ES': 'Oporto'\, 'PT': 'Po
- rto'\, 'IT': 'Oporto'\, 'RU': 'Порту'\, 'ZH': '波尔图'\, 'AR': '
- بورتو'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Port
+ o\, Portugal\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Porto\, Portugal
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -424,15 +334,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261104T220000
 DTEND;TZID=Europe/Helsinki:20261105T000000
 SUMMARY:Lens – Como
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'FRA'\, 'id': '50000268'\, 'translations': {'name': {'EN': 'L
- ens Agglo'\, 'FR': 'Lens'\, 'DE': 'Lens'\, 'ES': 'Lens'\, 'PT': 'Lens'\, 
- 'IT': 'Lens'\, 'RU': 'Ланс'\, 'ZH': 'Lens'\, 'AR': 'لانس أجلو
- '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'FRA'\, 'id': '50000268'\, 'translations': {'name'
- : {'EN': 'Lens Agglo'\, 'FR': 'Lens'\, 'DE': 'Lens'\, 'ES': 'Lens'\, 'PT'
- : 'Lens'\, 'IT': 'Lens'\, 'RU': 'Ланс'\, 'ZH': 'Lens'\, 'AR': 'لان
- س أجلو'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Lens
+  Agglo\, France\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Lens Agglo\, France
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -448,16 +352,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261124T220000
 DTEND;TZID=Europe/Helsinki:20261125T000000
 SUMMARY:Man City – Napoli
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ENG'\, 'id': '2179'\, 'translations': {'name': {'EN': 'Manch
- ester'\, 'FR': 'Manchester'\, 'DE': 'Manchester'\, 'ES': 'Mánchester'\, 
- 'PT': 'Manchester'\, 'IT': 'Manchester'\, 'RU': 'Манчестер'\, 'Z
- H': '曼彻斯特'\, 'AR': 'مانشستر '}}}\n🕘 Orario: 22:00 (Euro
- pe/Helsinki)
-LOCATION:{'countryCode': 'ENG'\, 'id': '2179'\, 'translations': {'name': {'
- EN': 'Manchester'\, 'FR': 'Manchester'\, 'DE': 'Manchester'\, 'ES': 'Mán
- chester'\, 'PT': 'Manchester'\, 'IT': 'Manchester'\, 'RU': 'Манчес
- тер'\, 'ZH': '曼彻斯特'\, 'AR': 'مانشستر '}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Manc
+ hester\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Manchester\, England
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -473,14 +370,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261124T220000
 DTEND;TZID=Europe/Helsinki:20261125T000000
 SUMMARY:Como – AEK Athens
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '1444'\, 'translations': {'name': {'EN': 'Como'
- \, 'FR': 'Côme'\, 'DE': 'Como'\, 'ES': 'Como'\, 'PT': 'Como'\, 'IT': 'Co
- mo'\, 'RU': 'Комо'\, 'ZH': 'Como'\, 'AR': 'كومو'}}}\n🕘 Orario:
-  22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '1444'\, 'translations': {'name': {'
- EN': 'Como'\, 'FR': 'Côme'\, 'DE': 'Como'\, 'ES': 'Como'\, 'PT': 'Como'\
- , 'IT': 'Como'\, 'RU': 'Комо'\, 'ZH': 'Como'\, 'AR': 'كومو'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Como
+ \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -496,15 +388,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261125T220000
 DTEND;TZID=Europe/Helsinki:20261126T000000
 SUMMARY:Paris – Roma
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'FRA'\, 'id': '2470'\, 'translations': {'name': {'EN': 'Paris
- '\, 'FR': 'Paris'\, 'DE': 'Paris'\, 'ES': 'París'\, 'PT': 'Paris'\, 'IT'
- : 'Parigi'\, 'RU': 'Париж'\, 'ZH': '巴黎'\, 'AR': 'باريس'}}}\
- n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'FRA'\, 'id': '2470'\, 'translations': {'name': {'
- EN': 'Paris'\, 'FR': 'Paris'\, 'DE': 'Paris'\, 'ES': 'París'\, 'PT': 'Pa
- ris'\, 'IT': 'Parigi'\, 'RU': 'Париж'\, 'ZH': '巴黎'\, 'AR': 'با
- ريس'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Pari
+ s\, France\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Paris\, France
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -520,15 +406,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261125T220000
 DTEND;TZID=Europe/Helsinki:20261126T000000
 SUMMARY:Inter – Stuttgart
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan
- '\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, '
- IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو
- '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
- EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
- Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
- ميلانو'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Mila
+ n\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -544,14 +424,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261208T220000
 DTEND;TZID=Europe/Helsinki:20261209T000000
 SUMMARY:Roma – Sporting CP
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2637'\, 'translations': {'name': {'EN': 'Rome'
- \, 'FR': 'Rome'\, 'DE': 'Rom'\, 'ES': 'Roma'\, 'PT': 'Roma'\, 'IT': 'Roma
- '\, 'RU': 'Рим'\, 'ZH': '罗马'\, 'AR': 'روما'}}}\n🕘 Orario: 2
- 2:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2637'\, 'translations': {'name': {'
- EN': 'Rome'\, 'FR': 'Rome'\, 'DE': 'Rom'\, 'ES': 'Roma'\, 'PT': 'Roma'\, 
- 'IT': 'Roma'\, 'RU': 'Рим'\, 'ZH': '罗马'\, 'AR': 'روما'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rome
+ \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Rome\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -567,15 +442,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261208T220000
 DTEND;TZID=Europe/Helsinki:20261209T000000
 SUMMARY:Napoli – Club Brugge
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'EN': 'Naple
- s'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT': 'Nápoles
- '\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒斯'\, 'AR'
- : 'نابولي'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'
- EN': 'Naples'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT'
- : 'Nápoles'\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒
- 斯'\, 'AR': 'نابولي'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Napl
+ es\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Naples\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -591,15 +460,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261209T194500
 DTEND;TZID=Europe/Helsinki:20261209T214500
 SUMMARY:Real Betis – Como
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ESP'\, 'id': '2769'\, 'translations': {'name': {'EN': 'Sevil
- le'\, 'FR': 'Séville'\, 'DE': 'Sevilla'\, 'ES': 'Sevilla'\, 'PT': 'Sevil
- ha'\, 'IT': 'Siviglia'\, 'RU': 'Севилья'\, 'ZH': '塞维利亚'\, 
- 'AR': 'إشبيلية'}}}\n🕘 Orario: 19:45 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ESP'\, 'id': '2769'\, 'translations': {'name': {'
- EN': 'Seville'\, 'FR': 'Séville'\, 'DE': 'Sevilla'\, 'ES': 'Sevilla'\, '
- PT': 'Sevilha'\, 'IT': 'Siviglia'\, 'RU': 'Севилья'\, 'ZH': '塞
- 维利亚'\, 'AR': 'إشبيلية'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Sevi
+ lle\, Spain\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:Seville\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -615,15 +478,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20261209T220000
 DTEND;TZID=Europe/Helsinki:20261210T000000
 SUMMARY:B. Dortmund – Inter
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'GER'\, 'id': '1527'\, 'translations': {'name': {'EN': 'Dortm
- und'\, 'FR': 'Dortmund'\, 'DE': 'Dortmund'\, 'ES': 'Dortmund'\, 'PT': 'Do
- rtmund'\, 'IT': 'Dortmund'\, 'RU': 'Дортмунд'\, 'ZH': '多特蒙
- 德'\, 'AR': 'Dortmund'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'GER'\, 'id': '1527'\, 'translations': {'name': {'
- EN': 'Dortmund'\, 'FR': 'Dortmund'\, 'DE': 'Dortmund'\, 'ES': 'Dortmund'\
- , 'PT': 'Dortmund'\, 'IT': 'Dortmund'\, 'RU': 'Дортмунд'\, 'ZH': 
- '多特蒙德'\, 'AR': 'Dortmund'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Dort
+ mund\, Germany\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Dortmund\, Germany
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -639,15 +496,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270119T220000
 DTEND;TZID=Europe/Helsinki:20270120T000000
 SUMMARY:Inter – Liverpool
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan
- '\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, '
- IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو
- '}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
- EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
- Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
- ميلانو'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Mila
+ n\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -663,15 +514,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270119T220000
 DTEND;TZID=Europe/Helsinki:20270120T000000
 SUMMARY:AEK Athens – Roma
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'GRE'\, 'id': '1116'\, 'translations': {'name': {'EN': 'Athen
- s'\, 'FR': 'Athènes'\, 'DE': 'Athen'\, 'ES': 'Atenas'\, 'PT': 'Atenas'\,
-  'IT': 'Atene'\, 'RU': 'Афины'\, 'ZH': '雅典'\, 'AR': 'أثينا'
- }}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'GRE'\, 'id': '1116'\, 'translations': {'name': {'
- EN': 'Athens'\, 'FR': 'Athènes'\, 'DE': 'Athen'\, 'ES': 'Atenas'\, 'PT':
-  'Atenas'\, 'IT': 'Atene'\, 'RU': 'Афины'\, 'ZH': '雅典'\, 'AR': '
- أثينا'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Athe
+ ns\, Greece\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Athens\, Greece
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -705,14 +550,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270120T220000
 DTEND;TZID=Europe/Helsinki:20270121T000000
 SUMMARY:Como – Paris
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '1444'\, 'translations': {'name': {'EN': 'Como'
- \, 'FR': 'Côme'\, 'DE': 'Como'\, 'ES': 'Como'\, 'PT': 'Como'\, 'IT': 'Co
- mo'\, 'RU': 'Комо'\, 'ZH': 'Como'\, 'AR': 'كومو'}}}\n🕘 Orario:
-  22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '1444'\, 'translations': {'name': {'
- EN': 'Como'\, 'FR': 'Côme'\, 'DE': 'Como'\, 'ES': 'Como'\, 'PT': 'Como'\
- , 'IT': 'Como'\, 'RU': 'Комо'\, 'ZH': 'Como'\, 'AR': 'كومو'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Como
+ \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -728,16 +568,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270127T220000
 DTEND;TZID=Europe/Helsinki:20270128T000000
 SUMMARY:Barcelona – Como
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ESP'\, 'id': '1178'\, 'translations': {'name': {'EN': 'Barce
- lona'\, 'FR': 'Barcelone'\, 'DE': 'Barcelona'\, 'ES': 'Barcelona'\, 'PT':
-  'Barcelona'\, 'IT': 'Barcellona'\, 'RU': 'Барселона'\, 'ZH': '
- 巴塞罗那'\, 'AR': 'برشلونة'}}}\n🕘 Orario: 22:00 (Europe/Hel
- sinki)
-LOCATION:{'countryCode': 'ESP'\, 'id': '1178'\, 'translations': {'name': {'
- EN': 'Barcelona'\, 'FR': 'Barcelone'\, 'DE': 'Barcelona'\, 'ES': 'Barcelo
- na'\, 'PT': 'Barcelona'\, 'IT': 'Barcellona'\, 'RU': 'Барселона'
- \, 'ZH': '巴塞罗那'\, 'AR': 'برشلونة'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Barc
+ elona\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Barcelona\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -753,14 +586,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270127T220000
 DTEND;TZID=Europe/Helsinki:20270128T000000
 SUMMARY:Roma – Lille
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2637'\, 'translations': {'name': {'EN': 'Rome'
- \, 'FR': 'Rome'\, 'DE': 'Rom'\, 'ES': 'Roma'\, 'PT': 'Roma'\, 'IT': 'Roma
- '\, 'RU': 'Рим'\, 'ZH': '罗马'\, 'AR': 'روما'}}}\n🕘 Orario: 2
- 2:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2637'\, 'translations': {'name': {'
- EN': 'Rome'\, 'FR': 'Rome'\, 'DE': 'Rom'\, 'ES': 'Roma'\, 'PT': 'Roma'\, 
- 'IT': 'Roma'\, 'RU': 'Рим'\, 'ZH': '罗马'\, 'AR': 'روما'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rome
+ \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Rome\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -776,15 +604,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270127T220000
 DTEND;TZID=Europe/Helsinki:20270128T000000
 SUMMARY:Napoli – Viking
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'EN': 'Naple
- s'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT': 'Nápoles
- '\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒斯'\, 'AR'
- : 'نابولي'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'ITA'\, 'id': '2316'\, 'translations': {'name': {'
- EN': 'Naples'\, 'FR': 'Naples'\, 'DE': 'Neapel'\, 'ES': 'Nápoles'\, 'PT'
- : 'Nápoles'\, 'IT': 'Napoli'\, 'RU': 'Неаполь'\, 'ZH': '那不勒
- 斯'\, 'AR': 'نابولي'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Napl
+ es\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Naples\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -800,16 +622,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270127T220000
 DTEND;TZID=Europe/Helsinki:20270128T000000
 SUMMARY:S. Bratislava – Inter
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 {'co
- untryCode': 'SVK'\, 'id': '1295'\, 'translations': {'name': {'EN': 'Brati
- slava'\, 'FR': 'Bratislava'\, 'DE': 'Bratislava'\, 'ES': 'Bratislava'\, '
- PT': 'Bratislava'\, 'IT': 'Bratislava'\, 'RU': 'Братислава'\, '
- ZH': '布拉迪斯拉发'\, 'AR': 'براتيسلافا'}}}\n🕘 Orario:
-  22:00 (Europe/Helsinki)
-LOCATION:{'countryCode': 'SVK'\, 'id': '1295'\, 'translations': {'name': {'
- EN': 'Bratislava'\, 'FR': 'Bratislava'\, 'DE': 'Bratislava'\, 'ES': 'Brat
- islava'\, 'PT': 'Bratislava'\, 'IT': 'Bratislava'\, 'RU': 'Братисл
- ава'\, 'ZH': '布拉迪斯拉发'\, 'AR': 'براتيسلافا'}}}
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Brat
+ islava\, Slovakia\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Bratislava\, Slovakia
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
