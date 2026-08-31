@@ -10,6 +10,7 @@ from bolo_calendar.uefa import _competition_id_from_catalog
 from bolo_calendar.uefa import _is_italian
 from bolo_calendar.uefa import _parse_datetime
 from bolo_calendar.uefa import _season_end_year
+from bolo_calendar.uefa import _venue_location
 
 
 class ExtraCalendarTests(unittest.TestCase):
@@ -70,3 +71,10 @@ class ExtraCalendarTests(unittest.TestCase):
     def test_uefa_uses_season_ending_year(self) -> None:
         self.assertEqual(_season_end_year(datetime(2026, 8, 31)), 2027)
         self.assertEqual(_season_end_year(datetime(2027, 2, 1)), 2027)
+
+    def test_uefa_venue_uses_translated_city_and_country_name(self) -> None:
+        venue = {
+            "name": "Santiago Bernabéu",
+            "city": {"countryCode": "ESP", "translations": {"name": {"EN": "Madrid"}}},
+        }
+        self.assertEqual(_venue_location(venue), "Madrid, Spain — Santiago Bernabéu")

@@ -24,6 +24,21 @@ COMPETITION_SEARCH_TERMS = {
     "conference-league-italian-teams": ("conference", "league"),
 }
 
+COUNTRY_NAMES = {
+    "ALB": "Albania", "AND": "Andorra", "ARM": "Armenia", "AUT": "Austria", "AZE": "Azerbaijan",
+    "BEL": "Belgium", "BIH": "Bosnia and Herzegovina", "BLR": "Belarus", "BUL": "Bulgaria",
+    "CRO": "Croatia", "CYP": "Cyprus", "CZE": "Czechia", "DEN": "Denmark", "ENG": "England",
+    "ESP": "Spain", "EST": "Estonia", "FIN": "Finland", "FRA": "France", "GEO": "Georgia",
+    "GER": "Germany", "GIB": "Gibraltar", "GRE": "Greece", "HUN": "Hungary", "IRL": "Ireland",
+    "ISL": "Iceland", "ISR": "Israel", "ITA": "Italy", "KAZ": "Kazakhstan", "KOS": "Kosovo",
+    "LAT": "Latvia", "LIE": "Liechtenstein", "LTU": "Lithuania", "LUX": "Luxembourg", "MDA": "Moldova",
+    "MKD": "North Macedonia", "MLT": "Malta", "MNE": "Montenegro", "NED": "Netherlands",
+    "NIR": "Northern Ireland", "NOR": "Norway", "POL": "Poland", "POR": "Portugal", "ROU": "Romania",
+    "RUS": "Russia", "SAN": "San Marino", "SCO": "Scotland", "SRB": "Serbia", "SVK": "Slovakia",
+    "SVN": "Slovenia", "SUI": "Switzerland", "SWE": "Sweden", "TUR": "Türkiye", "UKR": "Ukraine",
+    "WAL": "Wales",
+}
+
 
 def _value(value: Any, *keys: str) -> Any:
     if not isinstance(value, dict):
@@ -38,6 +53,40 @@ def _team_name(team: Any) -> str:
     if isinstance(team, str):
         return team
     return str(_value(team, "internationalName", "displayName", "name", "officialName") or "")
+
+
+def _localized_text(value: Any) -> str | None:
+    """Return UEFA's English text from either a plain value or translation object."""
+    if isinstance(value, str):
+        return value
+    if not isinstance(value, dict):
+        return None
+    for key in ("EN", "en", "IT", "it"):
+        if isinstance(value.get(key), str):
+            return value[key]
+    for key in ("name", "displayName", "internationalName", "officialName"):
+        result = _localized_text(value.get(key))
+        if result:
+            return result
+    translations = value.get("translations")
+    if isinstance(translations, dict):
+        for key in ("name", "displayName", "internationalName"):
+            result = _localized_text(translations.get(key))
+            if result:
+                return result
+    return None
+
+
+def _venue_location(venue: Any) -> str | None:
+    if not isinstance(venue, dict):
+        return _localized_text(venue)
+    city_data = _value(venue, "city", "cityName")
+    city = _localized_text(city_data)
+    country_code = _value(city_data, "countryCode") if isinstance(city_data, dict) else None
+    country = COUNTRY_NAMES.get(str(country_code).upper(), str(country_code or ""))
+    city_location = ", ".join(part for part in (city, country) if part)
+    stadium = _localized_text(_value(venue, "name", "stadiumName"))
+    return " — ".join(part for part in (city_location, stadium) if part) or None
 
 
 def _competition_id_from_catalog(payload: Any, terms: tuple[str, ...]) -> str | None:
@@ -199,9 +248,7 @@ class UefaProvider:
             if not (kickoff and identifier and home and away):
                 continue
             venue = _value(match, "venue", "stadium")
-            city = _value(venue, "city", "cityName") if isinstance(venue, dict) else None
-            stadium = _value(venue, "name", "stadiumName") if isinstance(venue, dict) else venue
-            location = " — ".join(str(item) for item in (city, stadium) if item)
+            location = _venue_location(venue)
             round_info = _value(match, "round", "roundName", "matchday")
             if isinstance(round_info, dict):
                 round_info = _value(round_info, "name", "displayName", "label")
@@ -211,7 +258,7 @@ class UefaProvider:
                 # The match response does not consistently include a display
                 # season, while the request's ending year is authoritative.
                 season_name=f"{season_end - 1}/{str(season_end)[-2:]}",
-                home_team=home, away_team=away, kickoff_utc=_parse_datetime(kickoff), stadium=location or None,
+                home_team=home, away_team=away, kickoff_utc=_parse_datetime(kickoff), stadium=location,
                 round_name=str(round_info or "Da definire"), broadcaster=None,
                 status=str(_value(match, "status", "matchStatus") or "SCHEDULED"),
                 source_url="https://www.uefa.com/",
