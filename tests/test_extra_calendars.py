@@ -8,6 +8,7 @@ from bolo_calendar.formula1 import _race_details, _slugs
 from bolo_calendar.uefa import BASE_URL
 from bolo_calendar.uefa import _is_italian
 from bolo_calendar.uefa import _parse_datetime
+from bolo_calendar.uefa import _season_end_year
 
 
 class ExtraCalendarTests(unittest.TestCase):
@@ -57,3 +58,7 @@ class ExtraCalendarTests(unittest.TestCase):
     def test_uefa_accepts_object_kickoff_timestamp(self) -> None:
         value = {"date": "2025-09-16", "dateTime": "2025-09-16T19:00:00+00:00", "utcOffsetInHours": 2}
         self.assertEqual(_parse_datetime(value), datetime(2025, 9, 16, 19, 0, tzinfo=UTC))
+
+    def test_uefa_uses_season_ending_year(self) -> None:
+        self.assertEqual(_season_end_year(datetime(2026, 8, 31)), 2027)
+        self.assertEqual(_season_end_year(datetime(2027, 2, 1)), 2027)

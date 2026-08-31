@@ -91,6 +91,12 @@ def _season(value: Any) -> str:
     return f"{match.group(1)}/{match.group(2)[-2:]}" if match else text
 
 
+def _season_end_year(today: datetime | None = None) -> int:
+    """UEFA's seasonYear is the second (ending) year of a season."""
+    today = today or datetime.now()
+    return today.year + 1 if today.month >= 7 else today.year
+
+
 class UefaProvider:
     """Official UEFA fixtures, filtered using UEFA's Italian association metadata."""
 
@@ -98,9 +104,10 @@ class UefaProvider:
         competition_id = COMPETITION_IDS.get(competition.key)
         if not competition_id:
             raise UpstreamError(f"No UEFA competition id configured for {competition.key}")
+        season_end = _season_end_year()
         query = urlencode({
             "competitionId": competition_id,
-            "seasonYear": datetime.now().year,
+            "seasonYear": season_end,
             "limit": 500,
             "offset": 0,
             "order": "ASC",
@@ -132,7 +139,9 @@ class UefaProvider:
             fixtures.append(Fixture(
                 source_id=str(identifier), competition_key=competition.key,
                 competition_name=competition.competition_names[0].replace("UEFA ", "UEFA "),
-                season_name=_season(_value(match, "season", "seasonName") or f"{datetime.now().year}/{datetime.now().year + 1}"),
+                # The match response does not consistently include a display
+                # season, while the request's ending year is authoritative.
+                season_name=f"{season_end - 1}/{str(season_end)[-2:]}",
                 home_team=home, away_team=away, kickoff_utc=_parse_datetime(kickoff), stadium=location or None,
                 round_name=str(round_info or "Da definire"), broadcaster=None,
                 status=str(_value(match, "status", "matchStatus") or "SCHEDULED"),
