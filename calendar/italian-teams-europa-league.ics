@@ -44,5 +44,402 @@ TZOFFSETFROM:+0300
 TZOFFSETTO:+0200
 TZNAME:EET
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20280326T040000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20281029T030000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050058@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260916T220000
+DTEND;TZID=Europe/Helsinki:20260917T000000
+SUMMARY:Milan – Benfica
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan'\,
+  'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, 'IT'
+ : 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو'}}
+ }\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
+ EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
+ Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
+ ميلانو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Milan – Benfica
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050066@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20260917T220000
+DTEND;TZID=Europe/Helsinki:20260918T000000
+SUMMARY:Juventus – N.E.C.
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'EN': 'Turin'\,
+  'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Turim'\, 'IT': '
+ Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تورينو'}}}\n
+ 🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'
+ EN': 'Turin'\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Tu
+ rim'\, 'IT': 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تو
+ رينو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Juventus – N.E.C.
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050082@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261015T194500
+DTEND;TZID=Europe/Helsinki:20261015T214500
+SUMMARY:Salzburg – Milan
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'AUT'\, 'id': '2685'\, 'translations': {'name': {'EN': 'Salzburg
+ '\, 'FR': 'Salzbourg'\, 'DE': 'Salzburg'\, 'ES': 'Salzburgo'\, 'PT': 'Sal
+ zburgo'\, 'IT': 'Salisburgo'\, 'RU': 'Зальцбург'\, 'ZH': '萨尔
+ 茨堡'\, 'AR': 'سالزبورج'}}}\n🕘 Orario: 19:45 (Europe/Helsink
+ i)
+LOCATION:{'countryCode': 'AUT'\, 'id': '2685'\, 'translations': {'name': {'
+ EN': 'Salzburg'\, 'FR': 'Salzbourg'\, 'DE': 'Salzburg'\, 'ES': 'Salzburgo
+ '\, 'PT': 'Salzburgo'\, 'IT': 'Salisburgo'\, 'RU': 'Зальцбург'\,
+  'ZH': '萨尔茨堡'\, 'AR': 'سالزبورج'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Salzburg – Milan
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050089@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261015T220000
+DTEND;TZID=Europe/Helsinki:20261016T000000
+SUMMARY:Celta – Juventus
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ESP'\, 'id': '3090'\, 'translations': {'name': {'EN': 'Vigo'\, 
+ 'FR': 'Vigo'\, 'DE': 'Vigo'\, 'ES': 'Vigo'\, 'PT': 'Vigo'\, 'IT': 'Vigo'\
+ , 'RU': 'Виго'\, 'ZH': '比戈'\, 'AR': 'فيجو'}}}\n🕘 Orario: 2
+ 2:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ESP'\, 'id': '3090'\, 'translations': {'name': {'
+ EN': 'Vigo'\, 'FR': 'Vigo'\, 'DE': 'Vigo'\, 'ES': 'Vigo'\, 'PT': 'Vigo'\,
+  'IT': 'Vigo'\, 'RU': 'Виго'\, 'ZH': '比戈'\, 'AR': 'فيجو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Celta – Juventus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050093@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261022T194500
+DTEND;TZID=Europe/Helsinki:20261022T214500
+SUMMARY:Juventus – Rennes
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'EN': 'Turin'\,
+  'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Turim'\, 'IT': '
+ Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تورينو'}}}\n
+ 🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'
+ EN': 'Turin'\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Tu
+ rim'\, 'IT': 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تو
+ رينو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Juventus – Rennes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050102@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261022T220000
+DTEND;TZID=Europe/Helsinki:20261023T000000
+SUMMARY:Bournemouth – Milan
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ENG'\, 'id': '900280'\, 'translations': {'name': {'EN': 'Bourne
+ mouth'\, 'FR': 'Bournemouth'\, 'DE': 'Bournemouth'\, 'ES': 'Bournemouth'\
+ , 'PT': 'Bournemouth'\, 'IT': 'Bournemouth'\, 'RU': 'Борнмут'\, 'Z
+ H': 'Bournemouth'\, 'AR': 'بورنموث'}}}\n🕘 Orario: 22:00 (Europe
+ /Helsinki)
+LOCATION:{'countryCode': 'ENG'\, 'id': '900280'\, 'translations': {'name': 
+ {'EN': 'Bournemouth'\, 'FR': 'Bournemouth'\, 'DE': 'Bournemouth'\, 'ES': 
+ 'Bournemouth'\, 'PT': 'Bournemouth'\, 'IT': 'Bournemouth'\, 'RU': 'Бор
+ нмут'\, 'ZH': 'Bournemouth'\, 'AR': 'بورنموث'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Bournemouth – Milan
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050113@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261105T194500
+DTEND;TZID=Europe/Helsinki:20261105T214500
+SUMMARY:Milan – Ferencváros
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan'\,
+  'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, 'IT'
+ : 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو'}}
+ }\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
+ EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
+ Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
+ ميلانو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Milan – Ferencváros
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050114@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261105T220000
+DTEND;TZID=Europe/Helsinki:20261106T000000
+SUMMARY:AZ Alkmaar – Juventus
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'NED'\, 'id': '1058'\, 'translations': {'name': {'EN': 'Alkmaar'
+ \, 'FR': 'Alkmaar'\, 'DE': 'Alkmaar'\, 'ES': 'Alkmaar'\, 'PT': 'Alkmaar'\
+ , 'IT': 'Alkmaar'\, 'RU': 'Алкмаар'\, 'ZH': '阿尔克马尔'\, 'A
+ R': 'ألكمار'}}}\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'NED'\, 'id': '1058'\, 'translations': {'name': {'
+ EN': 'Alkmaar'\, 'FR': 'Alkmaar'\, 'DE': 'Alkmaar'\, 'ES': 'Alkmaar'\, 'P
+ T': 'Alkmaar'\, 'IT': 'Alkmaar'\, 'RU': 'Алкмаар'\, 'ZH': '阿尔
+ 克马尔'\, 'AR': 'ألكمار'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: AZ Alkmaar – Juventus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050131@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261126T194500
+DTEND;TZID=Europe/Helsinki:20261126T214500
+SUMMARY:Olympiacos – Milan
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'GRE'\, 'id': '900639'\, 'translations': {'name': {'EN': 'Piraeu
+ s'\, 'FR': 'Le Pirée'\, 'DE': 'Piräus'\, 'ES': 'Atenas'\, 'PT': 'Pireu'
+ \, 'IT': 'Il Pireo'\, 'RU': 'Пирей'\, 'ZH': '比雷埃夫斯'\, 'AR'
+ : 'Piraeus'}}}\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:{'countryCode': 'GRE'\, 'id': '900639'\, 'translations': {'name': 
+ {'EN': 'Piraeus'\, 'FR': 'Le Pirée'\, 'DE': 'Piräus'\, 'ES': 'Atenas'\,
+  'PT': 'Pireu'\, 'IT': 'Il Pireo'\, 'RU': 'Пирей'\, 'ZH': '比雷埃
+ 夫斯'\, 'AR': 'Piraeus'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Olympiacos – Milan
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050129@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261126T220000
+DTEND;TZID=Europe/Helsinki:20261127T000000
+SUMMARY:Juventus – Omonia
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'EN': 'Turin'\,
+  'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Turim'\, 'IT': '
+ Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تورينو'}}}\n
+ 🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'
+ EN': 'Turin'\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Tu
+ rim'\, 'IT': 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تو
+ رينو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Juventus – Omonia
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050162@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261210T194500
+DTEND;TZID=Europe/Helsinki:20261210T214500
+SUMMARY:H. Beer-Sheva – Juventus
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ROU'\, 'id': '1326'\, 'translations': {'name': {'EN': 'Buchares
+ t'\, 'FR': 'Bucarest'\, 'DE': 'Bukarest'\, 'ES': 'Bucarest'\, 'PT': 'Buca
+ reste'\, 'IT': 'Bucarest'\, 'RU': 'Бухарест'\, 'ZH': '布加勒
+ 斯特'\, 'AR': 'بوخارست'}}}\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ROU'\, 'id': '1326'\, 'translations': {'name': {'
+ EN': 'Bucharest'\, 'FR': 'Bucarest'\, 'DE': 'Bukarest'\, 'ES': 'Bucarest'
+ \, 'PT': 'Bucareste'\, 'IT': 'Bucarest'\, 'RU': 'Бухарест'\, 'ZH'
+ : '布加勒斯特'\, 'AR': 'بوخارست'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: H. Beer-Sheva – Juventus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050149@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20261210T220000
+DTEND;TZID=Europe/Helsinki:20261211T000000
+SUMMARY:Milan – Sunderland
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan'\,
+  'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, 'IT'
+ : 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو'}}
+ }\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
+ EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
+ Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
+ ميلانو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Milan – Sunderland
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050169@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270121T194500
+DTEND;TZID=Europe/Helsinki:20270121T214500
+SUMMARY:Ferencváros – Juventus
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'HUN'\, 'id': '1327'\, 'translations': {'name': {'EN': 'Budapest
+ '\, 'FR': 'Budapest'\, 'DE': 'Budapest'\, 'ES': 'Budapest'\, 'PT': 'Budap
+ este'\, 'IT': 'Budapest'\, 'RU': 'Будапешт'\, 'ZH': '布达佩斯
+ '\, 'AR': 'بودابست'}}}\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:{'countryCode': 'HUN'\, 'id': '1327'\, 'translations': {'name': {'
+ EN': 'Budapest'\, 'FR': 'Budapest'\, 'DE': 'Budapest'\, 'ES': 'Budapest'\
+ , 'PT': 'Budapeste'\, 'IT': 'Budapest'\, 'RU': 'Будапешт'\, 'ZH':
+  '布达佩斯'\, 'AR': 'بودابست'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Ferencváros – Juventus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050181@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270121T220000
+DTEND;TZID=Europe/Helsinki:20270122T000000
+SUMMARY:Levski Sofia – Milan
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'BUL'\, 'id': '2816'\, 'translations': {'name': {'EN': 'Sofia'\,
+  'FR': 'Sofia'\, 'DE': 'Sofia'\, 'ES': 'Sofía'\, 'PT': 'Sófia'\, 'IT': 
+ 'Sofia'\, 'RU': 'София'\, 'ZH': '索非亚'\, 'AR': 'صوفيا'}}}\
+ n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'BUL'\, 'id': '2816'\, 'translations': {'name': {'
+ EN': 'Sofia'\, 'FR': 'Sofia'\, 'DE': 'Sofia'\, 'ES': 'Sofía'\, 'PT': 'S
+ ófia'\, 'IT': 'Sofia'\, 'RU': 'София'\, 'ZH': '索非亚'\, 'AR': '
+ صوفيا'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Levski Sofia – Milan
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050184@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270128T220000
+DTEND;TZID=Europe/Helsinki:20270129T000000
+SUMMARY:Juventus – Real Sociedad
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'EN': 'Turin'\,
+  'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Turim'\, 'IT': '
+ Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تورينو'}}}\n
+ 🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '3006'\, 'translations': {'name': {'
+ EN': 'Turin'\, 'FR': 'Turin'\, 'DE': 'Turin'\, 'ES': 'Turín'\, 'PT': 'Tu
+ rim'\, 'IT': 'Torino'\, 'RU': 'Турин'\, 'ZH': '都灵'\, 'AR': 'تو
+ رينو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Juventus – Real Sociedad
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-europa-league-italian-teams-2050185@github.com
+SEQUENCE:1
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Helsinki:20270128T220000
+DTEND;TZID=Europe/Helsinki:20270129T000000
+SUMMARY:Milan – Ararat-Armenia
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 {'count
+ ryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'EN': 'Milan'\,
+  'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': 'Milão'\, 'IT'
+ : 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': 'ميلانو'}}
+ }\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:{'countryCode': 'ITA'\, 'id': '2236'\, 'translations': {'name': {'
+ EN': 'Milan'\, 'FR': 'Milan'\, 'DE': 'Mailand'\, 'ES': 'Milán'\, 'PT': '
+ Milão'\, 'IT': 'Milano'\, 'RU': 'Милан'\, 'ZH': '米兰'\, 'AR': '
+ ميلانو'}}}
+URL:https://www.uefa.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: Milan – Ararat-Armenia
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
 END:VCALENDAR
