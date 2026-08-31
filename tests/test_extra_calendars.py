@@ -6,6 +6,7 @@ from bolo_calendar.models import Fixture
 from bolo_calendar.virtus import _schedule_rows
 from bolo_calendar.formula1 import _race_details, _slugs
 from bolo_calendar.uefa import BASE_URL
+from bolo_calendar.uefa import _competition_id_from_catalog
 from bolo_calendar.uefa import _is_italian
 from bolo_calendar.uefa import _parse_datetime
 from bolo_calendar.uefa import _season_end_year
@@ -48,6 +49,13 @@ class ExtraCalendarTests(unittest.TestCase):
 
     def test_uefa_uses_the_current_official_match_service(self) -> None:
         self.assertEqual(BASE_URL, "https://match.uefa.com/v5/matches")
+
+    def test_uefa_resolves_conference_league_from_catalogue(self) -> None:
+        catalogue = {"competitions": [
+            {"id": 1, "displayName": "UEFA Champions League"},
+            {"id": 999, "internationalName": "UEFA Conference League"},
+        ]}
+        self.assertEqual(_competition_id_from_catalog(catalogue, ("conference", "league")), "999")
 
     def test_uefa_italian_filter_supports_current_country_fields(self) -> None:
         self.assertTrue(_is_italian({"internationalName": "Inter", "countryCode": "ITA"}))

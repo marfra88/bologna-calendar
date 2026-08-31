@@ -11,13 +11,18 @@ from .lega_sdp import UpstreamError
 from .models import Fixture
 
 
-# UEFA's public fixture endpoint; these are the permanent competition IDs.
+# UEFA's public fixture endpoint.  The Europa League is 14 (not 2); the
+# Conference League's internal ID has changed, so resolve it from UEFA's
+# public competition catalogue instead of pinning an unreliable number.
 COMPETITION_IDS = {
     "champions-league-italian-teams": "1",
-    "europa-league-italian-teams": "2",
-    "conference-league-italian-teams": "3",
+    "europa-league-italian-teams": "14",
 }
 BASE_URL = "https://match.uefa.com/v5/matches"
+COMPETITIONS_URL = "https://comp.uefa.com/v2/competitions"
+COMPETITION_SEARCH_TERMS = {
+    "conference-league-italian-teams": ("conference", "league"),
+}
 
 
 def _value(value: Any, *keys: str) -> Any:
@@ -33,6 +38,52 @@ def _team_name(team: Any) -> str:
     if isinstance(team, str):
         return team
     return str(_value(team, "internationalName", "displayName", "name", "officialName") or "")
+
+
+def _competition_id_from_catalog(payload: Any, terms: tuple[str, ...]) -> str | None:
+    """Find a UEFA competition ID by its public display name.
+
+    The catalogue response has changed between a list and an object containing
+    a list, so walk its dictionaries defensively and only accept records whose
+    displayed text matches every requested term.
+    """
+    if isinstance(payload, list):
+        for item in payload:
+            found = _competition_id_from_catalog(item, terms)
+            if found:
+                return found
+        return None
+    if not isinstance(payload, dict):
+        return None
+
+    name_values = [
+        str(value).casefold()
+        for key, value in payload.items()
+        if key.casefold() in {"name", "displayname", "internationalname", "officialname", "competitionname"}
+        and isinstance(value, str)
+    ]
+    identifier = _value(payload, "id", "competitionId")
+    if identifier is not None and any(all(term in name for term in terms) for name in name_values):
+        return str(identifier)
+
+    for value in payload.values():
+        found = _competition_id_from_catalog(value, terms)
+        if found:
+            return found
+    return None
+
+
+def _competition_id(key: str) -> str:
+    fixed = COMPETITION_IDS.get(key)
+    if fixed:
+        return fixed
+    terms = COMPETITION_SEARCH_TERMS.get(key)
+    if not terms:
+        raise UpstreamError(f"No UEFA competition configured for {key}")
+    identifier = _competition_id_from_catalog(get_json(COMPETITIONS_URL), terms)
+    if not identifier:
+        raise UpstreamError(f"UEFA competition catalogue has no entry for {key}")
+    return identifier
 
 
 def _is_italian(team: Any) -> bool:
@@ -114,9 +165,7 @@ class UefaProvider:
     """Official UEFA fixtures, filtered using UEFA's Italian association metadata."""
 
     def fetch(self, competition: CompetitionConfig, _club: str) -> list[Fixture]:
-        competition_id = COMPETITION_IDS.get(competition.key)
-        if not competition_id:
-            raise UpstreamError(f"No UEFA competition id configured for {competition.key}")
+        competition_id = _competition_id(competition.key)
         season_end = _season_end_year()
         query = urlencode({
             "competitionId": competition_id,
