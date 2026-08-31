@@ -3,7 +3,6 @@ from __future__ import annotations
 from datetime import UTC, datetime
 from html.parser import HTMLParser
 import re
-from zoneinfo import ZoneInfo
 
 from .config import CompetitionConfig
 from .http import get_text
@@ -14,21 +13,23 @@ from .models import Fixture
 CALENDAR_URL = "https://www.formula1.com/en/racing/{year}"
 RACE_URL = "https://www.formula1.com/en/racing/{year}/{slug}"
 
-# Track time is what Formula 1 publishes on each official event page. These
-# permanent circuit locations convert that local time correctly to UTC.
+# The official racing pages publish the start of each session in UTC.  The
+# displayed page text does not label it, so treating it as circuit-local time
+# applies the UTC offset a second time (and makes the calendar wrong).
+# The location remains explicit metadata for the calendar entry.
 TRACKS = {
-    "netherlands": ("Zandvoort, Netherlands", "Europe/Amsterdam"),
-    "italy": ("Monza, Italy", "Europe/Rome"),
-    "spain": ("Madrid, Spain", "Europe/Madrid"),
-    "azerbaijan": ("Baku, Azerbaijan", "Asia/Baku"),
-    "bahrain": ("Sakhir, Bahrain", "Asia/Bahrain"),
-    "singapore": ("Singapore", "Asia/Singapore"),
-    "united-states": ("Austin, United States", "America/Chicago"),
-    "mexico": ("Mexico City, Mexico", "America/Mexico_City"),
-    "brazil": ("São Paulo, Brazil", "America/Sao_Paulo"),
-    "las-vegas": ("Las Vegas, United States", "America/Los_Angeles"),
-    "qatar": ("Lusail, Qatar", "Asia/Qatar"),
-    "abu-dhabi": ("Abu Dhabi, United Arab Emirates", "Asia/Dubai"),
+    "netherlands": "Zandvoort, Netherlands",
+    "italy": "Monza, Italy",
+    "spain": "Madrid, Spain",
+    "azerbaijan": "Baku, Azerbaijan",
+    "bahrain": "Sakhir, Bahrain",
+    "singapore": "Singapore",
+    "united-states": "Austin, United States",
+    "mexico": "Mexico City, Mexico",
+    "brazil": "São Paulo, Brazil",
+    "las-vegas": "Las Vegas, United States",
+    "qatar": "Lusail, Qatar",
+    "abu-dhabi": "Abu Dhabi, United Arab Emirates",
 }
 
 
@@ -93,13 +94,13 @@ class Formula1Provider:
             if details is None:
                 continue
             name, local = details
-            kickoff = local.replace(tzinfo=ZoneInfo(track[1])).astimezone(UTC)
+            kickoff = local.replace(tzinfo=UTC)
             if kickoff < now:
                 continue
             fixtures.append(Fixture(
                 source_id=f"{year}-{slug}", competition_key=competition.key, competition_name="Formula 1",
                 season_name=str(year), home_team="", away_team="", summary=name,
-                kickoff_utc=kickoff, stadium=track[0], round_name=None, broadcaster=None,
+                kickoff_utc=kickoff, stadium=track, round_name=None, broadcaster=None,
                 status="SCHEDULED", source_url=RACE_URL.format(year=year, slug=slug), event_kind="formula1",
             ))
         if not fixtures:
