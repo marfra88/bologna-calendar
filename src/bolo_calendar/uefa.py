@@ -41,16 +41,28 @@ def _is_italian(team: Any) -> bool:
         return False
     country_values: list[str] = []
 
-    def collect(value: Any, key: str = "") -> None:
+    def collect(value: Any, key: str = "", is_country_data: bool = False) -> None:
         # UEFA has used countryCode, country.name, association.countryName and
         # associationCode in different competition endpoints and seasons.
         if isinstance(value, dict):
             for child_key, child in value.items():
-                collect(child, child_key)
+                # In the current response the value is commonly nested, e.g.
+                # {"country": {"code": "ITA"}} or
+                # {"association": {"countryCode": "ITA"}}.  Preserve the
+                # context while descending, rather than only inspecting the
+                # immediate property name.
+                collect(
+                    child,
+                    child_key,
+                    is_country_data or any(
+                        token in child_key.casefold()
+                        for token in ("country", "association", "nation", "federation")
+                    ),
+                )
         elif isinstance(value, list):
             for child in value:
-                collect(child, key)
-        elif any(token in key.casefold() for token in ("country", "association", "nation", "federation")):
+                collect(child, key, is_country_data)
+        elif is_country_data or any(token in key.casefold() for token in ("country", "association", "nation", "federation")):
             country_values.append(str(value))
 
     collect(team)
@@ -62,9 +74,10 @@ def _is_italian(team: Any) -> bool:
     # limited to Italian clubs that can be entered in UEFA competitions.
     name = re.sub(r"[^a-z0-9]+", "", _team_name(team).casefold())
     italian_names = {
-        "atalanta", "bologna", "fiorentina", "inter", "internazionale",
+        "acffiorentina", "asroma", "atalanta", "bologna", "bolognafc1909",
+        "fiorentina", "inter", "internazionale",
         "internazionalemilano", "juventus", "lazio", "milan", "napoli",
-        "roma", "asroma", "torino",
+        "roma", "romafootballclub", "torino",
     }
     return name in italian_names
 
