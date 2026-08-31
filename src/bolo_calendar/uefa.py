@@ -56,14 +56,21 @@ def _competition_id_from_catalog(payload: Any, terms: tuple[str, ...]) -> str | 
     if not isinstance(payload, dict):
         return None
 
-    name_values = [
-        str(value).casefold()
-        for key, value in payload.items()
-        if key.casefold() in {"name", "displayname", "internationalname", "officialname", "competitionname"}
-        and isinstance(value, str)
-    ]
-    identifier = _value(payload, "id", "competitionId")
-    if identifier is not None and any(all(term in name for term in terms) for name in name_values):
+    # UEFA has used displayName, fullName, name, and localised label objects
+    # in this endpoint.  Search all text below each catalogue record instead
+    # of assuming a particular presentation field.
+    def text_values(value: Any) -> list[str]:
+        if isinstance(value, str):
+            return [value]
+        if isinstance(value, list):
+            return [text for item in value for text in text_values(item)]
+        if isinstance(value, dict):
+            return [text for item in value.values() for text in text_values(item)]
+        return []
+
+    all_text = " ".join(text_values(payload)).casefold()
+    identifier = _value(payload, "id", "competitionId", "competition_id")
+    if identifier is not None and all(term in all_text for term in terms):
         return str(identifier)
 
     for value in payload.values():

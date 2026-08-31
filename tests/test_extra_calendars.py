@@ -53,7 +53,7 @@ class ExtraCalendarTests(unittest.TestCase):
     def test_uefa_resolves_conference_league_from_catalogue(self) -> None:
         catalogue = {"competitions": [
             {"id": 1, "displayName": "UEFA Champions League"},
-            {"id": 999, "internationalName": "UEFA Conference League"},
+            {"id": 999, "labels": {"en": "UEFA Conference League"}},
         ]}
         self.assertEqual(_competition_id_from_catalog(catalogue, ("conference", "league")), "999")
 
