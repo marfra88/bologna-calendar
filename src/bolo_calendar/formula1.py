@@ -67,7 +67,10 @@ def _slugs(calendar_html: str, year: int) -> list[str]:
 
 def _race_details(page_html: str, year: int) -> tuple[str, datetime] | None:
     page = _text(page_html)
-    title = re.search(r"(FORMULA 1 .*? 20\d{2})\s+Schedule", page, re.I)
+    # F1 used to place "Schedule" immediately after the race title.  Some
+    # pages (including Monza) now insert country and editorial text between
+    # the heading and schedule, so parse the official heading on its own.
+    title = re.search(r"(?:FIA\s+)?(FORMULA 1\s+.+?\s+20\d{2})", page, re.I)
     race = re.search(r"(\d{1,2})\s+([A-Za-z]{3})\s+Race\s+(\d{1,2}:\d{2})", page, re.I)
     if not (title and race):
         return None
