@@ -166,7 +166,7 @@ DTSTART;TZID=Europe/Helsinki:20261010T010000
 DTEND;TZID=Europe/Helsinki:20261010T030000
 SUMMARY:Lecce – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 6ª giornata\n🏟️ 
- Stadio: Ettore Giardiniero - Via Del Mare\n📺 Diretta TV: Da definire\n
+ Stadio: Ettore Giardiniero - Via Del Mare\n📺 Diretta TV: ⬛ DAZN\n
  🕘 Orario: 01:00 (Europe/Helsinki)
 LOCATION:Ettore Giardiniero - Via Del Mare
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
@@ -186,8 +186,8 @@ DTSTART;TZID=Europe/Helsinki:20261017T010000
 DTEND;TZID=Europe/Helsinki:20261017T030000
 SUMMARY:Bologna – Internazionale
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 7ª giornata\n🏟️ 
- Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00
-  (Europe/Helsinki)
+ Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 01:00 (E
+ urope/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -206,8 +206,8 @@ DTSTART;TZID=Europe/Helsinki:20261024T010000
 DTEND;TZID=Europe/Helsinki:20261024T030000
 SUMMARY:Cagliari – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 8ª giornata\n🏟️ 
- Stadio: Unipol Domus\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00 (E
- urope/Helsinki)
+ Stadio: Unipol Domus\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n🕘 Orario: 
+ 01:00 (Europe/Helsinki)
 LOCATION:Unipol Domus
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -226,8 +226,8 @@ DTSTART;TZID=Europe/Helsinki:20261027T010000
 DTEND;TZID=Europe/Helsinki:20261027T030000
 SUMMARY:Milan – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 9ª giornata\n🏟️ 
- Stadio: Giuseppe Meazza\n📺 Diretta TV: BAZR\n🕘 Orario: 01:00 (Europ
- e/Helsinki)
+ Stadio: Giuseppe Meazza\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 01:00 (E
+ urope/Helsinki)
 LOCATION:Giuseppe Meazza
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -246,8 +246,8 @@ DTSTART;TZID=Europe/Helsinki:20261031T010000
 DTEND;TZID=Europe/Helsinki:20261031T030000
 SUMMARY:Bologna – Monza
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 10ª giornata\n🏟️
-  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
- 0 (Europe/Helsinki)
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 01:00 (
+ Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -266,8 +266,8 @@ DTSTART;TZID=Europe/Helsinki:20261107T010000
 DTEND;TZID=Europe/Helsinki:20261107T030000
 SUMMARY:Parma – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 11ª giornata\n🏟️
-  Stadio: Ennio Tardini\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00 
- (Europe/Helsinki)
+  Stadio: Ennio Tardini\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 01:00 (Eu
+ rope/Helsinki)
 LOCATION:Ennio Tardini
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -286,8 +286,8 @@ DTSTART;TZID=Europe/Helsinki:20261121T010000
 DTEND;TZID=Europe/Helsinki:20261121T030000
 SUMMARY:Bologna – Udinese
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 12ª giornata\n🏟️
-  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
- 0 (Europe/Helsinki)
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n🕘 Orar
+ io: 01:00 (Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
