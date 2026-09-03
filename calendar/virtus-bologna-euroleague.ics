@@ -119,10 +119,10 @@ UID:sports-calendar-virtus-euroleague-08/10/26-FC Bayern Munich-Virtus Bolo
  gna@github.com
 SEQUENCE:1
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Helsinki:20261008T213000
-DTEND;TZID=Europe/Helsinki:20261008T233000
+DTSTART;TZID=Europe/Helsinki:20261008T210000
+DTEND;TZID=Europe/Helsinki:20261008T230000
 SUMMARY:FC Bayern Munich – Virtus Bologna
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 4\n🕘 Orario: 21:30 (E
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 4\n🕘 Orario: 21:00 (E
  urope/Helsinki)
 LOCATION:Da definire
 URL:https://www.virtus.it/stagione/eurolegue/
