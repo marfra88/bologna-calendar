@@ -532,9 +532,9 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Helsinki:20270120T194500
 DTEND;TZID=Europe/Helsinki:20270120T214500
 SUMMARY:Sabah – Napoli
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Venu
- e to be confirmed\n🕘 Orario: 19:45 (Europe/Helsinki)
-LOCATION:Da definire
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Baku
+ \, Azerbaijan\n🕘 Orario: 19:45 (Europe/Helsinki)
+LOCATION:Baku\, Azerbaijan
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
 BEGIN:VALARM
