@@ -12,6 +12,7 @@ from .models import Fixture
 
 CALENDAR_URL = "https://www.formula1.com/en/racing/{year}"
 RACE_URL = "https://www.formula1.com/en/racing/{year}/{slug}"
+RESULTS_URL = "https://www.formula1.com/en/results/{year}/races"
 
 # The official racing pages publish the start of each session in UTC.  The
 # displayed page text does not label it, so treating it as circuit-local time
@@ -63,6 +64,12 @@ def _text(html: str) -> str:
 def _slugs(calendar_html: str, year: int) -> list[str]:
     pattern = rf'href=["\'](?:https://www\.formula1\.com)?/en/racing/{year}/([^"\'/?#]+)'
     return list(dict.fromkeys(re.findall(pattern, calendar_html, re.I)))
+
+
+def _completed_slugs(results_html: str, year: int) -> list[str]:
+    """Read completed race slugs from Formula 1's official results index."""
+    pattern = rf'href=["\'](?:https://www\.formula1\.com)?/en/results/{year}/races/\d+/([^"\'/?#]+)/race-result'
+    return list(dict.fromkeys(re.findall(pattern, results_html, re.I)))
 
 
 def _race_details(page_html: str, year: int) -> tuple[str, datetime] | None:
@@ -148,6 +155,15 @@ class Formula1Provider:
     def fetch(self, competition: CompetitionConfig, _club: str) -> list[Fixture]:
         year = datetime.now().year
         slugs = _slugs(get_text(CALENDAR_URL.format(year=year)), year)
+        # Once a race finishes, F1 removes it from the racing calendar page.
+        # The official results index retains it, which lets the same iCalendar
+        # event receive its classified podium instead of disappearing.
+        try:
+            slugs = list(dict.fromkeys([*slugs, *_completed_slugs(get_text(RESULTS_URL.format(year=year)), year)]))
+        except UpstreamError:
+            # The published fixture feed remains useful if only the optional
+            # historical-results index is temporarily unavailable.
+            pass
         fixtures: list[Fixture] = []
         for slug in slugs:
             track = TRACKS.get(slug)
