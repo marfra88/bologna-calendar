@@ -78,7 +78,9 @@ def _race_details(page_html: str, year: int) -> tuple[str, datetime] | None:
     # pages (including Monza) now insert country and editorial text between
     # the heading and schedule, so parse the official heading on its own.
     title = re.search(r"(?:FIA\s+)?(FORMULA 1\s+.+?\s+20\d{2})", page, re.I)
-    race = re.search(r"(\d{1,2})\s+([A-Za-z]{3})\s+Race\s+(\d{1,2}:\d{2})", page, re.I)
+    # Completed races add a state label (for example "Chequered Flag")
+    # between the date and "Race". Scheduled races omit that label.
+    race = re.search(r"(\d{1,2})\s+([A-Za-z]{3})(?:\s+[A-Za-z]+){0,3}\s+Race\s+(\d{1,2}:\d{2})", page, re.I)
     if not (title and race):
         return None
     try:
