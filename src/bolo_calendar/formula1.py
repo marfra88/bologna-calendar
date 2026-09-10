@@ -155,6 +155,10 @@ class Formula1Provider:
     def fetch(self, competition: CompetitionConfig, _club: str) -> list[Fixture]:
         year = datetime.now().year
         slugs = _slugs(get_text(CALENDAR_URL.format(year=year)), year)
+        # The supported-track list is also a small, explicit fallback for a
+        # completed race such as Monza. Formula 1 removes completed races from
+        # its racing index, but their individual race/result pages remain live.
+        slugs = list(dict.fromkeys([*slugs, *TRACKS]))
         # Once a race finishes, F1 removes it from the racing calendar page.
         # The official results index retains it, which lets the same iCalendar
         # event receive its classified podium instead of disappearing.
@@ -169,7 +173,14 @@ class Formula1Provider:
             track = TRACKS.get(slug)
             if track is None:
                 continue  # A new circuit needs an explicit IANA track-time zone.
-            page = get_text(RACE_URL.format(year=year, slug=slug))
+            race_url = RACE_URL.format(year=year, slug=slug)
+            try:
+                page = get_text(race_url)
+            except UpstreamError:
+                # F1 can briefly expose a race link on an index before the
+                # corresponding public page exists. Do not block every other
+                # calendar feed; the next scheduled run retries this race.
+                continue
             details = _race_details(page, year)
             if details is None:
                 continue
@@ -190,7 +201,7 @@ class Formula1Provider:
                 season_name=str(year), home_team="", away_team="", summary=name,
                 kickoff_utc=kickoff, stadium=track, round_name=None, broadcaster=None,
                 status="FINISHED" if podium else "SCHEDULED",
-                source_url=result_url or RACE_URL.format(year=year, slug=slug), event_kind="formula1",
+                source_url=result_url or race_url, event_kind="formula1",
                 result_lines=podium,
             ))
         if not fixtures:

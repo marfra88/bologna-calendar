@@ -1,10 +1,13 @@
 from datetime import UTC, datetime
 import unittest
+from unittest.mock import patch
 
 from bolo_calendar.calendar import build_calendar
 from bolo_calendar.models import Fixture
 from bolo_calendar.virtus import _schedule_rows
-from bolo_calendar.formula1 import _completed_slugs, _podium, _race_details, _result_url, _slugs
+from bolo_calendar.formula1 import Formula1Provider, _completed_slugs, _podium, _race_details, _result_url, _slugs
+from bolo_calendar.config import CompetitionConfig
+from bolo_calendar.lega_sdp import UpstreamError
 from bolo_calendar.uefa import BASE_URL
 from bolo_calendar.uefa import _competition_id_from_catalog
 from bolo_calendar.uefa import _is_italian
@@ -49,6 +52,44 @@ class ExtraCalendarTests(unittest.TestCase):
     def test_formula_one_results_index_keeps_completed_monza_race(self) -> None:
         page = '<a href="/en/results/2026/races/1293/italy/race-result">Italian GP result</a>'
         self.assertEqual(_completed_slugs(page, 2026), ["italy"])
+
+    def test_formula_one_skips_one_temporarily_missing_race_page(self) -> None:
+        config = CompetitionConfig("formula-1", ("Formula 1",), None, source="formula1")  # type: ignore[arg-type]
+        calendar = '<a href="/en/racing/2026/italy">Italy</a><a href="/en/racing/2026/spain">Spain</a>'
+        italy = "<h1>FORMULA 1 ITALIAN GRAND PRIX 2026</h1><h2>Schedule</h2><p>06 Sep Race 13:00</p>"
+        spain = "<h1>FORMULA 1 SPANISH GRAND PRIX 2026</h1><h2>Schedule</h2><p>13 Sep Race 13:00</p>"
+
+        def fake_get_text(url: str) -> str:
+            if url.endswith("/racing/2026"):
+                return calendar
+            if url.endswith("/results/2026/races"):
+                raise UpstreamError("HTTP Error 404")
+            if url.endswith("/italy"):
+                raise UpstreamError("HTTP Error 404")
+            if url.endswith("/spain"):
+                return spain
+            raise UpstreamError("HTTP Error 404")
+
+        with patch("bolo_calendar.formula1.get_text", side_effect=fake_get_text):
+            fixtures = Formula1Provider().fetch(config, "")
+        self.assertEqual([item.source_id for item in fixtures], ["2026-spain"])
+
+    def test_formula_one_retries_known_monza_when_missing_from_racing_index(self) -> None:
+        config = CompetitionConfig("formula-1", ("Formula 1",), None, source="formula1")  # type: ignore[arg-type]
+        monza = "<h1>FORMULA 1 ITALIAN GRAND PRIX 2026</h1><h2>Schedule</h2><p>06 Sep Race 13:00</p>"
+
+        def fake_get_text(url: str) -> str:
+            if url.endswith("/racing/2026"):
+                return ""
+            if url.endswith("/results/2026/races"):
+                raise UpstreamError("HTTP Error 404")
+            if url.endswith("/italy"):
+                return monza
+            raise UpstreamError("Not needed for this test")
+
+        with patch("bolo_calendar.formula1.get_text", side_effect=fake_get_text):
+            fixtures = Formula1Provider().fetch(config, "")
+        self.assertIn("2026-italy", [item.source_id for item in fixtures])
 
     def test_formula_one_parser_handles_text_between_title_and_schedule(self) -> None:
         page = "<h1>FIA FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026</h1><p>ITALY Editorial content</p><h2>Schedule</h2><p>06 Sep Race 13:00</p>"
