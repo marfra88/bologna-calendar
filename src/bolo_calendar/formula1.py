@@ -81,6 +81,67 @@ def _race_details(page_html: str, year: int) -> tuple[str, datetime] | None:
     return title.group(1).upper(), local
 
 
+def _result_url(page_html: str, year: int) -> str | None:
+    """Find the official classified-results page linked by a completed race page."""
+    pattern = rf'href=["\']([^"\']*/en/results/{year}/races/[^"\']+/race-result[^"\']*)["\']'
+    match = re.search(pattern, page_html, re.I)
+    if not match:
+        return None
+    value = match.group(1)
+    return value if value.startswith("http") else f"https://www.formula1.com{value}"
+
+
+class _ResultRows(HTMLParser):
+    """Read the visible cells in the official Formula 1 result table."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.rows: list[list[str]] = []
+        self._row: list[str] | None = None
+        self._cell: list[str] | None = None
+
+    def handle_starttag(self, tag: str, _attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "tr":
+            self._row = []
+        elif tag in {"td", "th"} and self._row is not None:
+            self._cell = []
+
+    def handle_data(self, data: str) -> None:
+        if self._cell is not None:
+            self._cell.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in {"td", "th"} and self._cell is not None and self._row is not None:
+            self._row.append(" ".join("".join(self._cell).split()))
+            self._cell = None
+        elif tag == "tr" and self._row is not None:
+            self.rows.append(self._row)
+            self._row = None
+
+
+def _podium(page_html: str) -> tuple[str, ...]:
+    """Return the first three classified drivers and constructors, if published."""
+    parser = _ResultRows()
+    parser.feed(page_html)
+    places: dict[int, str] = {}
+    for row in parser.rows:
+        cells = [cell for cell in row if cell]
+        if len(cells) < 3 or not re.fullmatch(r"[123]", cells[0]):
+            continue
+        position = int(cells[0])
+        # Current official rows are position, car number, driver+code, team,
+        # laps, time, points. Older markup omits the car-number cell.
+        driver_index = 2 if len(cells) >= 4 and cells[1].isdigit() else 1
+        team_index = driver_index + 1
+        if len(cells) <= team_index:
+            continue
+        driver = re.sub(r"\s?[A-Z]{3}$", "", cells[driver_index]).strip()
+        team = cells[team_index].strip()
+        if driver and team:
+            places[position] = f"{position}. {driver} — {team}"
+    return tuple(places[position] for position in (1, 2, 3) if position in places) if len(places) == 3 else ()
+
+
 class Formula1Provider:
     """Reads official F1 calendar links then official race schedule pages."""
 
@@ -88,24 +149,34 @@ class Formula1Provider:
         year = datetime.now().year
         slugs = _slugs(get_text(CALENDAR_URL.format(year=year)), year)
         fixtures: list[Fixture] = []
-        now = datetime.now(UTC)
         for slug in slugs:
             track = TRACKS.get(slug)
             if track is None:
                 continue  # A new circuit needs an explicit IANA track-time zone.
-            details = _race_details(get_text(RACE_URL.format(year=year, slug=slug)), year)
+            page = get_text(RACE_URL.format(year=year, slug=slug))
+            details = _race_details(page, year)
             if details is None:
                 continue
             name, local = details
             kickoff = local.replace(tzinfo=UTC)
-            if kickoff < now:
-                continue
+            result_url = _result_url(page, year)
+            podium: tuple[str, ...] = ()
+            if result_url:
+                try:
+                    podium = _podium(get_text(result_url))
+                except UpstreamError:
+                    # A race page may expose its result link before the
+                    # classified table is publicly available. Keep the race
+                    # event and try again during the next scheduled run.
+                    pass
             fixtures.append(Fixture(
                 source_id=f"{year}-{slug}", competition_key=competition.key, competition_name="Formula 1",
                 season_name=str(year), home_team="", away_team="", summary=name,
                 kickoff_utc=kickoff, stadium=track, round_name=None, broadcaster=None,
-                status="SCHEDULED", source_url=RACE_URL.format(year=year, slug=slug), event_kind="formula1",
+                status="FINISHED" if podium else "SCHEDULED",
+                source_url=result_url or RACE_URL.format(year=year, slug=slug), event_kind="formula1",
+                result_lines=podium,
             ))
         if not fixtures:
-            raise UpstreamError("No usable upcoming Formula 1 race data found")
+            raise UpstreamError("No usable Formula 1 race data found")
         return fixtures

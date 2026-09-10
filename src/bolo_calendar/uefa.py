@@ -217,6 +217,25 @@ def _season_end_year(today: datetime | None = None) -> int:
     return today.year + 1 if today.month >= 7 else today.year
 
 
+def _score_pair(match: dict[str, Any]) -> tuple[str | None, str | None]:
+    """Read UEFA's final score across the response shapes used by its API."""
+    score = _value(match, "score", "scores", "result")
+    if not isinstance(score, dict):
+        return None, None
+    # `total` is UEFA's final aggregate for a normal match. Fall back through
+    # the variants used by older fixtures without treating penalty shoot-outs
+    # as the match score.
+    candidates = (_value(score, "total", "regularTime", "final"), score)
+    for candidate in candidates:
+        if not isinstance(candidate, dict):
+            continue
+        home = _value(candidate, "home", "homeScore", "homeTeam", "homeTeamScore")
+        away = _value(candidate, "away", "awayScore", "awayTeam", "awayTeamScore")
+        if home is not None and away is not None:
+            return str(home), str(away)
+    return None, None
+
+
 class UefaProvider:
     """Official UEFA fixtures, filtered using UEFA's Italian association metadata."""
 
@@ -252,6 +271,8 @@ class UefaProvider:
             round_info = _value(match, "round", "roundName", "matchday")
             if isinstance(round_info, dict):
                 round_info = _value(round_info, "name", "displayName", "label")
+            status = str(_value(match, "status", "matchStatus", "state") or "SCHEDULED")
+            home_score, away_score = _score_pair(match)
             fixtures.append(Fixture(
                 source_id=str(identifier), competition_key=competition.key,
                 competition_name=competition.competition_names[0].replace("UEFA ", "UEFA "),
@@ -260,8 +281,8 @@ class UefaProvider:
                 season_name=f"{season_end - 1}/{str(season_end)[-2:]}",
                 home_team=home, away_team=away, kickoff_utc=_parse_datetime(kickoff), stadium=location,
                 round_name=str(round_info or "Da definire"), broadcaster=None,
-                status=str(_value(match, "status", "matchStatus") or "SCHEDULED"),
+                status=status,
                 source_url="https://www.uefa.com/",
-                event_kind="uefa",
+                event_kind="uefa", home_score=home_score, away_score=away_score,
             ))
         return fixtures

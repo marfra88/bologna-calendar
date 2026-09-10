@@ -50,6 +50,12 @@ def _schedule_rows(html: str) -> list[tuple[str, str, str, str]]:
     return [tuple(row[:4]) for row in parser.rows if len(row) >= 4 and re.fullmatch(r"\d{2}/\d{2}/\d{2}", row[0])]  # type: ignore[return-value]
 
 
+def _score_pair(value: str) -> tuple[str | None, str | None]:
+    """Return the home/away score when Virtus replaces the tip-off with it."""
+    match = re.fullmatch(r"\s*(\d{1,3})\s*[-–:]\s*(\d{1,3})\s*", value)
+    return (match.group(1), match.group(2)) if match else (None, None)
+
+
 class VirtusEuroLeagueProvider:
     """Reads the official Virtus schedule page (times are published in Italy)."""
 
@@ -62,16 +68,20 @@ class VirtusEuroLeagueProvider:
             date_text, home, time_text, away = (item.strip(" -") for item in row)
             if "Virtus" not in f"{home} {away}":
                 continue
+            home_score, away_score = _score_pair(time_text)
             try:
-                kickoff = datetime.strptime(f"{date_text} {time_text}", "%d/%m/%y %H:%M").replace(tzinfo=ROME).astimezone(UTC)
+                kickoff_time = time_text if home_score is None else "20:00"
+                kickoff = datetime.strptime(f"{date_text} {kickoff_time}", "%d/%m/%y %H:%M").replace(tzinfo=ROME).astimezone(UTC)
             except ValueError:
                 continue
             fixtures.append(Fixture(
                 source_id=f"{date_text}-{home}-{away}", competition_key=competition.key,
                 competition_name="EuroLeague", season_name=_season_from_date(kickoff),
                 home_team=home, away_team=away, kickoff_utc=kickoff, stadium=None,
-                round_name=f"Matchday {number}", broadcaster=None, status="SCHEDULED",
+                round_name=f"Matchday {number}", broadcaster=None,
+                status="FINISHED" if home_score is not None else "SCHEDULED",
                 source_url=SOURCE_URL, event_kind="euroleague",
+                home_score=home_score, away_score=away_score,
             ))
         if not fixtures:
             raise UpstreamError("No usable Virtus EuroLeague fixtures found")

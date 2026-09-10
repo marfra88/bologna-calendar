@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from .calendar import build_calendar, write_if_changed
+from .calendar import build_calendar, update_event_revisions, write_if_changed
 from .config import load_config
 from .lega_sdp import LegaSdpProvider, UpstreamError
 from .formula1 import Formula1Provider
@@ -23,6 +23,7 @@ def main() -> int:
         "uefa": UefaProvider(),
     }
     changed = []
+    revision_path = Path("calendar/.event-revisions.json")
     for competition in config.competitions:
         try:
             provider = providers.get(competition.source)
@@ -35,7 +36,10 @@ def main() -> int:
         # An empty Cup schedule is legitimate before Bologna enters. Existing data is
         # protected because a transport/schema failure exits above before any write.
         prefix = "Bologna FC" if competition.source == "lega_sdp" else "Sports"
-        content = build_calendar(fixtures, f"{prefix} — {competition.competition_names[0]}", config.timezone)
+        revisions = update_event_revisions(fixtures, config.timezone, revision_path)
+        content = build_calendar(
+            fixtures, f"{prefix} — {competition.competition_names[0]}", config.timezone, revisions,
+        )
         if write_if_changed(competition.output, content):
             changed.append(str(competition.output))
     print("Updated: " + ", ".join(changed) if changed else "No calendar changes.")

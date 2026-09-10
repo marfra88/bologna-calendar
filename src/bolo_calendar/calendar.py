@@ -1,7 +1,10 @@
 from __future__ import annotations
 
 from datetime import UTC, datetime, timedelta
+import hashlib
+import json
 from pathlib import Path
+from typing import Any, Mapping
 from zoneinfo import ZoneInfo
 
 from .models import Fixture
@@ -13,6 +16,19 @@ PRODID = "-//Sports Calendar Generator//EN"
 # decide whether an existing event should be refreshed.
 EVENT_REVISION = 1
 SOURCE_STAMP = datetime(2000, 1, 1, tzinfo=UTC)
+
+
+def _is_final(status: str | None) -> bool:
+    value = str(status or "").casefold()
+    return any(token in value for token in ("finished", "final", "completed", "played", "full time"))
+
+
+def _result_description(fixture: Fixture) -> list[str]:
+    if fixture.result_lines:
+        return ["🏁 Classifica finale", *fixture.result_lines]
+    if fixture.home_score is not None and fixture.away_score is not None and _is_final(fixture.status):
+        return [f"Risultato finale: {fixture.home_score}–{fixture.away_score}"]
+    return []
 
 
 def _escape(value: str) -> str:
@@ -94,17 +110,20 @@ def _description(fixture: Fixture, timezone: ZoneInfo) -> str:
             f"📅 {fixture.round_name or 'Da definire'}",
             f"📍 {fixture.stadium or 'Venue to be confirmed'}",
             f"🕘 Orario: {kickoff:%H:%M} ({timezone.key})",
+            *_result_description(fixture),
         ])
     if fixture.event_kind == "euroleague":
         return "\n".join([
             f"🏆 {fixture.competition_name} {fixture.season_name}",
             f"📅 {fixture.round_name or 'Matchday da definire'}",
             f"🕘 Orario: {kickoff:%H:%M} ({timezone.key})",
+            *_result_description(fixture),
         ])
     if fixture.event_kind == "formula1":
         return "\n".join([
             f"📍 {fixture.stadium or 'Location to be confirmed'}",
             f"🕘 Race start: {kickoff:%H:%M} ({timezone.key})",
+            *_result_description(fixture),
         ])
     lines = [
         f"🏆 Competizione: {fixture.competition_name} {fixture.season_name}",
@@ -113,8 +132,7 @@ def _description(fixture: Fixture, timezone: ZoneInfo) -> str:
         f"📺 Diretta TV: {_broadcast_display(fixture.broadcaster)}",
         f"🕘 Orario: {kickoff:%H:%M} ({timezone.key})",
     ]
-    if fixture.home_score is not None and fixture.away_score is not None:
-        lines.append(f"Risultato: {fixture.home_score}–{fixture.away_score}")
+    lines.extend(_result_description(fixture))
     return "\n".join(lines)
 
 
@@ -130,7 +148,54 @@ def _broadcast_display(broadcaster: str | None) -> str:
     return broadcaster or "Da definire"
 
 
-def build_calendar(fixtures: list[Fixture], calendar_name: str, timezone_name: str) -> bytes:
+def _event_fingerprint(fixture: Fixture, timezone_name: str) -> str:
+    """Fingerprint the published event fields, excluding volatile feed metadata."""
+    payload = {
+        "title": fixture.title,
+        "kickoff": fixture.kickoff_utc.astimezone(UTC).isoformat(),
+        "timezone": timezone_name,
+        "stadium": fixture.stadium,
+        "round": fixture.round_name,
+        "broadcaster": fixture.broadcaster,
+        "status": fixture.status,
+        "home_score": fixture.home_score,
+        "away_score": fixture.away_score,
+        "result_lines": fixture.result_lines,
+        "source_url": fixture.source_url,
+    }
+    return hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True, default=str).encode("utf-8")).hexdigest()
+
+
+def update_event_revisions(fixtures: list[Fixture], timezone_name: str, path: Path) -> dict[str, dict[str, Any]]:
+    """Persist monotonic iCalendar revisions only when an event actually changes."""
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+        previous = raw.get("events", {}) if isinstance(raw, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        previous = {}
+    if not isinstance(previous, dict):
+        previous = {}
+
+    now = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
+    updated = dict(previous)
+    for fixture in fixtures:
+        fingerprint = _event_fingerprint(fixture, timezone_name)
+        old = previous.get(fixture.uid)
+        if isinstance(old, dict) and old.get("fingerprint") == fingerprint:
+            updated[fixture.uid] = old
+            continue
+        sequence = int(old.get("sequence", EVENT_REVISION - 1)) + 1 if isinstance(old, dict) else EVENT_REVISION
+        updated[fixture.uid] = {"fingerprint": fingerprint, "sequence": sequence, "last_modified": now}
+
+    content = json.dumps({"version": 1, "events": updated}, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+    write_if_changed(path, content.encode("utf-8"))
+    return updated
+
+
+def build_calendar(
+    fixtures: list[Fixture], calendar_name: str, timezone_name: str,
+    event_revisions: Mapping[str, Mapping[str, Any]] | None = None,
+) -> bytes:
     timezone = ZoneInfo(timezone_name)
     ids = [fixture.uid for fixture in fixtures]
     if len(ids) != len(set(ids)):
@@ -143,9 +208,12 @@ def build_calendar(fixtures: list[Fixture], calendar_name: str, timezone_name: s
     for fixture in sorted(fixtures, key=lambda item: (item.kickoff_utc, item.uid)):
         start = fixture.kickoff_utc.astimezone(timezone)
         end = start + timedelta(hours=2)
+        revision = (event_revisions or {}).get(fixture.uid, {})
+        sequence = int(revision.get("sequence", EVENT_REVISION))
+        stamp = str(revision.get("last_modified", SOURCE_STAMP.strftime("%Y%m%dT%H%M%SZ")))
         lines.extend([
-            "BEGIN:VEVENT", f"UID:{_escape(fixture.uid)}", f"SEQUENCE:{EVENT_REVISION}",
-            f"DTSTAMP:{SOURCE_STAMP:%Y%m%dT%H%M%SZ}",
+            "BEGIN:VEVENT", f"UID:{_escape(fixture.uid)}", f"SEQUENCE:{sequence}",
+            f"DTSTAMP:{stamp}", f"LAST-MODIFIED:{stamp}",
             f"DTSTART;TZID={timezone.key}:{start:%Y%m%dT%H%M%S}",
             f"DTEND;TZID={timezone.key}:{end:%Y%m%dT%H%M%S}",
             f"SUMMARY:{_escape(fixture.title)}",

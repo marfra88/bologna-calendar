@@ -1,7 +1,9 @@
 from datetime import UTC, datetime
 import unittest
 
-from bolo_calendar.calendar import build_calendar
+from pathlib import Path
+
+from bolo_calendar.calendar import build_calendar, update_event_revisions
 from bolo_calendar.models import Fixture
 
 
@@ -36,3 +38,24 @@ class CalendarTests(unittest.TestCase):
     def test_duplicate_uid_is_rejected(self) -> None:
         with self.assertRaisesRegex(ValueError, "Duplicate"):
             build_calendar([fixture(), fixture()], "Bologna FC — Serie A", "Europe/Helsinki")
+
+    def test_final_score_is_published_only_after_completion(self) -> None:
+        completed = Fixture(**{**fixture().__dict__, "status": "FINISHED", "home_score": "2", "away_score": "1"})
+        text = build_calendar([completed], "Bologna FC — Serie A", "Europe/Helsinki").decode()
+        self.assertIn("Risultato finale: 2–1", text)
+        live = Fixture(**{**completed.__dict__, "status": "LIVE"})
+        self.assertNotIn("Risultato finale", build_calendar([live], "Bologna FC — Serie A", "Europe/Helsinki").decode())
+
+    def test_changed_result_increments_event_sequence_once(self) -> None:
+        completed = Fixture(**{**fixture().__dict__, "status": "FINISHED", "home_score": "2", "away_score": "1"})
+        path = Path("work") / "test-event-revisions.json"
+        path.unlink(missing_ok=True)
+        try:
+            first = update_event_revisions([fixture()], "Europe/Helsinki", path)
+            second = update_event_revisions([fixture()], "Europe/Helsinki", path)
+            third = update_event_revisions([completed], "Europe/Helsinki", path)
+        finally:
+            path.unlink(missing_ok=True)
+        self.assertEqual(first[fixture().uid]["sequence"], 1)
+        self.assertEqual(second[fixture().uid]["sequence"], 1)
+        self.assertEqual(third[fixture().uid]["sequence"], 2)

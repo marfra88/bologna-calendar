@@ -22,6 +22,7 @@ class Fixture:
     source_url: str
     home_score: str | None = None
     away_score: str | None = None
+    result_lines: tuple[str, ...] = ()
     summary: str | None = None
     event_kind: str = "football"
 

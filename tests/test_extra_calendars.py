@@ -4,13 +4,15 @@ import unittest
 from bolo_calendar.calendar import build_calendar
 from bolo_calendar.models import Fixture
 from bolo_calendar.virtus import _schedule_rows
-from bolo_calendar.formula1 import _race_details, _slugs
+from bolo_calendar.formula1 import _podium, _race_details, _result_url, _slugs
 from bolo_calendar.uefa import BASE_URL
 from bolo_calendar.uefa import _competition_id_from_catalog
 from bolo_calendar.uefa import _is_italian
 from bolo_calendar.uefa import _parse_datetime
 from bolo_calendar.uefa import _season_end_year
 from bolo_calendar.uefa import _venue_location
+from bolo_calendar.uefa import _score_pair
+from bolo_calendar.virtus import _score_pair as virtus_score_pair
 
 
 class ExtraCalendarTests(unittest.TestCase):
@@ -52,6 +54,25 @@ class ExtraCalendarTests(unittest.TestCase):
     def test_formula_one_ignores_embedded_page_data(self) -> None:
         page = "<script>FORMULA 1 " + "unwanted " * 30 + "2026 Schedule</script><h1>FORMULA 1 ITALIAN GRAND PRIX 2026</h1><h2>Schedule</h2><p>06 Sep Race 13:00</p>"
         self.assertEqual(_race_details(page, 2026), ("FORMULA 1 ITALIAN GRAND PRIX 2026", datetime(2026, 9, 6, 13, 0)))
+
+    def test_formula_one_reads_official_result_link_and_podium(self) -> None:
+        page = '<a href="/en/results/2026/races/1294/italy/race-result">Results</a>'
+        self.assertEqual(_result_url(page, 2026), "https://www.formula1.com/en/results/2026/races/1294/italy/race-result")
+        table = """
+        <table><tr><th>Pos.</th><th>Driver</th><th>Team</th></tr>
+        <tr><td>1</td><td>16</td><td>Charles LeclercMON</td><td>Ferrari</td></tr>
+        <tr><td>2</td><td>4</td><td>Lando NorrisGBR</td><td>McLaren</td></tr>
+        <tr><td>3</td><td>1</td><td>Max VerstappenNED</td><td>Red Bull Racing</td></tr></table>
+        """
+        self.assertEqual(_podium(table), (
+            "1. Charles Leclerc — Ferrari", "2. Lando Norris — McLaren", "3. Max Verstappen — Red Bull Racing",
+        ))
+
+    def test_uefa_reads_final_score(self) -> None:
+        self.assertEqual(_score_pair({"score": {"total": {"home": 2, "away": 1}}}), ("2", "1"))
+
+    def test_virtus_reads_completed_score(self) -> None:
+        self.assertEqual(virtus_score_pair("78 – 81"), ("78", "81"))
 
     def test_uefa_uses_the_current_official_match_service(self) -> None:
         self.assertEqual(BASE_URL, "https://match.uefa.com/v5/matches")

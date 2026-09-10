@@ -30,11 +30,15 @@ Ogni evento ha come titolo la partita, per esempio `Bologna – Milan`, e contie
 
 Ogni partita include anche un promemoria 30 minuti prima del calcio d'inizio. Il calendario gestisce automaticamente il passaggio tra EET ed EEST.
 
+Dopo la conferma ufficiale del risultato, lo stesso evento viene aggiornato con `Risultato finale: Casa–Trasferta`. Per Formula 1, l'evento del Gran Premio viene aggiornato con il podio ufficiale: primi tre piloti e rispettive scuderie. I risultati provvisori o in diretta non vengono pubblicati.
+
 ### Come funziona
 
 Il progetto interroga il servizio dati strutturato di Lega Serie A, individua automaticamente la stagione attiva e filtra le partite del Bologna. Per la Serie A, il numero della giornata viene letto dai metadati ufficiali della partita; per la Coppa Italia viene mantenuto il nome del turno.
 
 La configurazione in `configs/calendars.json` definisce le competizioni e i file generati. Gli identificativi ufficiali delle partite diventano UID iCalendar stabili: una partita rinviata viene aggiornata, non duplicata.
+
+Un piccolo archivio di revisioni in `calendar/.event-revisions.json` incrementa il `SEQUENCE` iCalendar e aggiorna `LAST-MODIFIED` solo quando i dati pubblicati cambiano. Apple Calendar può quindi sostituire in modo affidabile l'evento sottoscritto quando arrivano un risultato finale o il podio F1, senza generare duplicati.
 
 Quando l'emittente non è ancora stata comunicata ufficialmente, il feed mostra `Da definire` senza fare supposizioni.
 
@@ -91,11 +95,15 @@ Every event is titled with the fixture, for example `Bologna – Milan`, and inc
 
 Each fixture also has a 30-minute reminder. The calendar automatically handles EET/EEST daylight-saving changes.
 
+Once an official result is confirmed, the same event is updated with `Risultato finale: Home–Away`. For Formula 1, the Grand Prix event is updated with the official podium: the first three drivers and their constructors. Live or provisional results are not published.
+
 ### How it works
 
 The project reads Lega Serie A's structured fixture service, automatically finds the active season, and filters Bologna fixtures. For Serie A, it reads the matchday number from official match metadata; for Coppa Italia, it retains the published round name.
 
 `configs/calendars.json` defines competitions and generated files. Official match IDs become stable iCalendar UIDs, so a postponed match updates instead of being duplicated.
+
+A small revision ledger in `calendar/.event-revisions.json` increments the iCalendar `SEQUENCE` and updates `LAST-MODIFIED` only when published data changes. This lets Apple Calendar reliably replace a subscribed event when a final score or F1 podium arrives, without duplicates.
 
 If a broadcaster has not yet been officially announced, the feed shows `Da definire` and does not guess.
 
