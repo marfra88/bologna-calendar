@@ -46,6 +46,47 @@ TZNAME:EET
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:sports-calendar-formula-1-2026-netherlands@github.com
+SEQUENCE:1
+DTSTAMP:20260910T085936Z
+LAST-MODIFIED:20260910T085936Z
+DTSTART;TZID=Europe/Helsinki:20260823T160000
+DTEND;TZID=Europe/Helsinki:20260823T180000
+SUMMARY:FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026
+DESCRIPTION:📍 Zandvoort\, Netherlands\n🕘 Race start: 16:00 (Europe/He
+ lsinki)\n🏁 Classifica finale\n1. Lando Norris — McLaren\n2. Kimi Ant
+ onelli — Mercedes\n3. George Russell — Mercedes
+LOCATION:Zandvoort\, Netherlands
+URL:https://www.formula1.com/en/results/2026/races/1292/netherlands/race-re
+ sult
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sports-calendar-formula-1-2026-italy@github.com
+SEQUENCE:1
+DTSTAMP:20260910T085936Z
+LAST-MODIFIED:20260910T085936Z
+DTSTART;TZID=Europe/Helsinki:20260906T160000
+DTEND;TZID=Europe/Helsinki:20260906T180000
+SUMMARY:FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026
+DESCRIPTION:📍 Monza\, Italy\n🕘 Race start: 16:00 (Europe/Helsinki)\n
+ 🏁 Classifica finale\n1. Kimi Antonelli — Mercedes\n2. George Russell
+  — Mercedes\n3. Max Verstappen — Red Bull Racing
+LOCATION:Monza\, Italy
+URL:https://www.formula1.com/en/results/2026/races/1293/italy/race-result
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tra 30 minuti: FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sports-calendar-formula-1-2026-spain@github.com
 SEQUENCE:2
 DTSTAMP:20260910T082626Z
