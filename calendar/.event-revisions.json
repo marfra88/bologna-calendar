@@ -1,0 +1,715 @@
+{
+  "events": {
+    "sports-calendar-champions-league-italian-teams-2049553@github.com": {
+      "fingerprint": "a64f4a44a97b62f3e4114e8b87891b8141278a16a6ace6870e112df5da019fc9",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049563@github.com": {
+      "fingerprint": "b38ffd4fc37e0c017beb3cc484b01a045e3dc283064720ad4c220b421f53a7d1",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049568@github.com": {
+      "fingerprint": "c80dabb8cc0e39556fcda786b516b9ecd544f4e5b059259a69da55fdcc225abd",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049570@github.com": {
+      "fingerprint": "8d76b9f07cbadd624d6d6af6ec9672d54561377a2ef91c271d5a29a6d79f054b",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049571@github.com": {
+      "fingerprint": "df8ba2f3d48b11a18b50ad90aa88667921d6802116dcb74ae6066b554ffa75b3",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049575@github.com": {
+      "fingerprint": "61ede8958188eecc43151215a952fe55e3728c638dcc1027a63eba69a1287cd9",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049581@github.com": {
+      "fingerprint": "3e3103e0960e3605e9e7d87434df83a15aad01f55ff0e276ad641bac3212b2eb",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049584@github.com": {
+      "fingerprint": "1761c64eeec5939a745d363284337cfcdbdb3817b8d3dd7b8a8b1c1a845fb8bb",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049592@github.com": {
+      "fingerprint": "0bfb0b96051f22379302386788e66342c352aee256e71222733f6ff07c29c825",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049594@github.com": {
+      "fingerprint": "36a3498043c2fb5dff2ff1250e091e004766213d9550cb9f4a5511cce899241e",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049600@github.com": {
+      "fingerprint": "f937e32838ce8f35f55ffd38b645e52d27a0f49966cc6c1d1883fdc724f7f1be",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049606@github.com": {
+      "fingerprint": "397479688bdf090515716b1d5b77cd292a33c24b8e64a8c0fef867faeb0848fd",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049609@github.com": {
+      "fingerprint": "6fc248551df21bf8cb3f277bc7e6cfdacf6ae7d362a122c2717efd8a8c12cb85",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049610@github.com": {
+      "fingerprint": "d16eb2b60f690c6328e5ee8230244d6a47efcb0072863f0999026d2800233522",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049617@github.com": {
+      "fingerprint": "e7fe959c417e1e76fabfbad4193601b0ef55f41aab5eeebf38bbd50d173490e5",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049623@github.com": {
+      "fingerprint": "00a160f67a27cf09820f615668efcb12ace4c639fc71f496f275abf0a1e94c97",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049626@github.com": {
+      "fingerprint": "ba4b85fd7fd65554ac2f77d3c153a07dc441cc668e9ef6f2d0c8495ecb6ed5dc",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049633@github.com": {
+      "fingerprint": "a7d0e3f54ecdb9bbf250c98fb82cb89a106dd9cc7c6269bd46124040e89de358",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049634@github.com": {
+      "fingerprint": "6754655a165bdd5f14ed9c20821dab7a30664abd03583fa7f24d0a5420edc4f1",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049635@github.com": {
+      "fingerprint": "7610bedf6cdb402dc368b41ff8456f069fdb5a7d7303c44fa70004b5b98529f1",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049645@github.com": {
+      "fingerprint": "8057e96f4f307a24550cf4f920bab8b9aada021a4815cdca123ac735a71486d4",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049648@github.com": {
+      "fingerprint": "f8b1431fed3ba635e2048a6de3f0dbb8ed6aca73c5f76777a5092195804277b0",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049654@github.com": {
+      "fingerprint": "02a3815924d123d089930695dbfb34cac76d9608bc37054856014cedf466ad22",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049655@github.com": {
+      "fingerprint": "a25885390d43a89f714160fa80ea02ced9fe20a69483a99fe7f92facf5f11f9a",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049662@github.com": {
+      "fingerprint": "9ebfe53a284ae77780cd1bc7f6ff0ac34b3a689dbb200e014cfb0331bca8527a",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049669@github.com": {
+      "fingerprint": "8fcc86ec41c6ed0c7e38979ca0dd906946f5fb1e0bb4cf86730311026fb9e121",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049675@github.com": {
+      "fingerprint": "f566a766242a6e27b260bc78c31ae74e0c5c4ed9eae41ab711258e2331310bbe",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049678@github.com": {
+      "fingerprint": "5c7e6b29f5fcc89819900174b0666353a74d2acf5d476d34996876979681ee8f",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049684@github.com": {
+      "fingerprint": "bbc217475d965c762c22a7238fecb0ec04401ba27d3c75d8469d0e7772087499",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049687@github.com": {
+      "fingerprint": "191939e280f5ae0ad66e720a6280678111dbe41168d1621b238a7ac34cd9e56c",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049691@github.com": {
+      "fingerprint": "e4c8f90c4953af992e448169f01fd64876a3bc410822e304b8eccfc73bc4caea",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-champions-league-italian-teams-2049695@github.com": {
+      "fingerprint": "447e94cc781636c310ae68561bdb6eadb00e867a9b14849eb682bd5be56dee58",
+      "last_modified": "20260910T081918Z",
+      "sequence": 1
+    },
+    "sports-calendar-conference-league-italian-teams-2049260@github.com": {
+      "fingerprint": "d8703bdbf580693e727c38d13abee62a857405eccbd880b3a282439462eba64b",
+      "last_modified": "20260910T081922Z",
+      "sequence": 1
+    },
+    "sports-calendar-conference-league-italian-teams-2049284@github.com": {
+      "fingerprint": "66e53369b105e7eec0ea8bb6a8646b29a42d8525f542580f3e2654e02137aef8",
+      "last_modified": "20260910T081922Z",
+      "sequence": 1
+    },
+    "sports-calendar-conference-league-italian-teams-2050309@github.com": {
+      "fingerprint": "d050322b4b0988ef96795c6e870f09f744434c1d0c5e606fb5d511deb6256d9a",
+      "last_modified": "20260910T081922Z",
+      "sequence": 1
+    },
+    "sports-calendar-conference-league-italian-teams-2050328@github.com": {
+      "fingerprint": "0205a7cae811e8020f67e0e9955e1a291d66a4265a0493e3bad548973eec5f67",
+      "last_modified": "20260910T081922Z",
+      "sequence": 1
+    },
+    "sports-calendar-conference-league-italian-teams-2050345@github.com": {
+      "fingerprint": "936048c97f3d7806ff523c5c303ba2704321d919646082e6e56635a949098af6",
+      "last_modified": "20260910T081922Z",
+      "sequence": 1
+    },
+    "sports-calendar-conference-league-italian-teams-2050369@github.com": {
+      "fingerprint": "6648290593757d414bd2ee3d657b0d3432a23061f7e26f508b159d57d3b03cf8",
+      "last_modified": "20260910T081922Z",
+      "sequence": 1
+    },
+    "sports-calendar-conference-league-italian-teams-2050392@github.com": {
+      "fingerprint": "6851e709b2a810fa1b3bc8d27a8d462ee4d82d43f4d9d1e23581b51d66cf9303",
+      "last_modified": "20260910T081922Z",
+      "sequence": 1
+    },
+    "sports-calendar-conference-league-italian-teams-2050399@github.com": {
+      "fingerprint": "d38778b03232a42f1d01aa3220042405de882ac0cb82c98408f6623938c70969",
+      "last_modified": "20260910T081922Z",
+      "sequence": 1
+    },
+    "sports-calendar-coppa-italia-serie-a::Football_Match::092d872486fc462f9569fd5027fd13e1@github.com": {
+      "fingerprint": "db129d131f7d8c072f27d08e5a3cb438f08cb7cdd7c751f7bbd5a26e725b21e7",
+      "last_modified": "20260910T081909Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050058@github.com": {
+      "fingerprint": "e201df4709c19834f00b7f5be26c4f3840d24f75aa563cddebf79944b5d7afc3",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050066@github.com": {
+      "fingerprint": "024f71baafbc77930e4a6c337fd1719ca46d78b9ff9675ccbfac835d52c8a84f",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050082@github.com": {
+      "fingerprint": "63a22c3dbb1a217d68ec189c15600ee04e11210a3ccbb4c569cb4b0222e6abd7",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050089@github.com": {
+      "fingerprint": "5f29c7bfbbb84f7ea9fb576c8388b74fc433335144f443ceb13f1cf51d4492e7",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050093@github.com": {
+      "fingerprint": "1f6dd64f70304c60008edc9225cbc6246b9fdd36530490e3b02aa94910305593",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050102@github.com": {
+      "fingerprint": "0512e7381001be924f911839c47857ee2558c1b64b6cd69c47cd87a44bbca6d2",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050113@github.com": {
+      "fingerprint": "11dcbe4effd92e5d30dc2ae8bfc209c28d206ee32cc4218daf4f037720fcdb54",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050114@github.com": {
+      "fingerprint": "5b222b209a6eb2af759d6237fa72ea84099555cda6c9bd47a32f8b8077511bfc",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050129@github.com": {
+      "fingerprint": "301c31a426a2e3a6f09da638315cb89df6cb6e1b6fd082d6e9a4440d0b5d4ff5",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050131@github.com": {
+      "fingerprint": "984c26783bc93181af86406852793cdaae4b5947e4f402cfd0d2a538690fcb90",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050149@github.com": {
+      "fingerprint": "13dc294006ff092992f8e32ae44e670429932b6eb67855ffb04d9270b0d1a44a",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050162@github.com": {
+      "fingerprint": "9877e1ec21d1dd15bad7f414ed3f1b0ee7efef19c9dfce53aca4c2fb52c8c4eb",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050169@github.com": {
+      "fingerprint": "f88ed604574f9420355d9d3bfe70938c32ff6f5eceef9d34c151f1ce009117ce",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050181@github.com": {
+      "fingerprint": "169652c615267b98b1d0a23f03d8a41fa28693b0158cd0152f04acf18484145d",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050184@github.com": {
+      "fingerprint": "5859de639517503d4813e1508b0c6dcd58346dbdfbebcbee68f8d4a0651cd5cc",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-europa-league-italian-teams-2050185@github.com": {
+      "fingerprint": "e742cd782aee342e4058a32a79b86591a9440265e36f81e94dcd2f3e59a47219",
+      "last_modified": "20260910T081920Z",
+      "sequence": 1
+    },
+    "sports-calendar-formula-1-2026-azerbaijan@github.com": {
+      "fingerprint": "36d6e60b08ab5362d641550bfaff6a25176345731013aef2e99bc19d3397ef08",
+      "last_modified": "20260910T081917Z",
+      "sequence": 1
+    },
+    "sports-calendar-formula-1-2026-bahrain@github.com": {
+      "fingerprint": "725644b61577886aa7f9577d985a9bfa8fa24b2a18f58c24f318c645030f47b3",
+      "last_modified": "20260910T081917Z",
+      "sequence": 1
+    },
+    "sports-calendar-formula-1-2026-brazil@github.com": {
+      "fingerprint": "3269dbba2c0e74e04a97cce76f0eedcefbf3ef1bf3edcb78cd8e2f5812c590bf",
+      "last_modified": "20260910T081917Z",
+      "sequence": 1
+    },
+    "sports-calendar-formula-1-2026-las-vegas@github.com": {
+      "fingerprint": "470bf6250669bb6980e93084fad3c17b85370c890dd69c62afebed012fb92760",
+      "last_modified": "20260910T081917Z",
+      "sequence": 1
+    },
+    "sports-calendar-formula-1-2026-mexico@github.com": {
+      "fingerprint": "268d7e90c734f563038d5546b669526e77c3551940c552555656d815340ae200",
+      "last_modified": "20260910T081917Z",
+      "sequence": 1
+    },
+    "sports-calendar-formula-1-2026-qatar@github.com": {
+      "fingerprint": "e80b4c44298c57b1c0d43191d230a871269e3eb64edd2ccec54ed784588c0a59",
+      "last_modified": "20260910T081917Z",
+      "sequence": 1
+    },
+    "sports-calendar-formula-1-2026-singapore@github.com": {
+      "fingerprint": "b3a465a9d824e1f2f5e0f8de2268cfdf5c37b8e5c9c0d864a1b030ae5a6a1167",
+      "last_modified": "20260910T081917Z",
+      "sequence": 1
+    },
+    "sports-calendar-formula-1-2026-spain@github.com": {
+      "fingerprint": "a836c24e4d226cea93bf8d72527fe93a5186c86f3d1416bfcf035735d082987f",
+      "last_modified": "20260910T081917Z",
+      "sequence": 1
+    },
+    "sports-calendar-formula-1-2026-united-states@github.com": {
+      "fingerprint": "9888bbb83908f692e0f03ebbc612f17d8fdf85612e28534aa32c545ce14f3f1f",
+      "last_modified": "20260910T081917Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::09774000702049ef8e856b42a092fa19@github.com": {
+      "fingerprint": "657ba3adbb5ec2f3d7df3e300e71b29dd2ce9e8d00f4670e350d6758c3ad1c1b",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::0bfce1e871a34d1abdabbadcf3bf5ff8@github.com": {
+      "fingerprint": "340ea6ea711da34d091b20e272120a85e93261f481d9a61bc097b76f85a930e5",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::1270fabb66d5497fb357d7b5f89d9e48@github.com": {
+      "fingerprint": "d56a8ebfa36b6dc445f5cc3e5e2aac39eb6412ce9834b6458abf0bcf5c61a4a9",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::319953aed1404a84a0d9b28149b674de@github.com": {
+      "fingerprint": "7ee3ee10a2032f6818fd7834a2b2333cf010fd13b1ae2d8c75711446efdcff18",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::35dc3bf2680a41d2a83a242a8a4e61a7@github.com": {
+      "fingerprint": "9b893cd8da987dc013862113af9dfab95b0faea3ac78933ba856dbab74154d28",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::3c09ac0fdf6d4840bfc1154aba80a8e1@github.com": {
+      "fingerprint": "e96437ab57114bbeff308de9526dc7fa54ab76f098febe48cbfe3645c0bc4299",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::50ebdcd2afb547eead35206e79c2a57b@github.com": {
+      "fingerprint": "9cffb9a3c97ba611bc413143c6df8c45bddc45d06a58c0d282b2650e85169502",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::561c74842f9f41568b1d1bf518b85315@github.com": {
+      "fingerprint": "a197e35d81f66a8fb1a0a4b04b462d0cb4eaeb2bc361bde53c3211a8cb515d8a",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::57863eae8e0847799fe6160a7d946d95@github.com": {
+      "fingerprint": "6493e4b349ef16fd334c91ab664ccf7e592383f039dfc5211a84e867df9127a4",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::6159cd08ca144f4eab5069f1be14bd37@github.com": {
+      "fingerprint": "5b418f2b794e05be10b2f25623b00bbef87569661a9d7111ce5405d1347f8911",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::627c12c0cb9a4014b7c4727c8dad3437@github.com": {
+      "fingerprint": "507af5c1d264936731bd09be99940fc998f35326ec740c97356f032da3248c4f",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::648d4253f4c442c69c1d08f558cbf4de@github.com": {
+      "fingerprint": "49fc497204d5c67b6c12249995eaeefc380da848d71bc77b7e6a6d5ba80d63cf",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::6fcd40f83097497f8ce46dc32e62c006@github.com": {
+      "fingerprint": "76a2372cf90136653cd2a4f199ec6e27282681d61338d5f3388e038a1efe01f8",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::75cddc42ba3c409caa5fdc329117dd16@github.com": {
+      "fingerprint": "bc37ab4a650fff80d6e364f6560d74f55ebd7321060df661aa20f91783c0ea98",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::7913202919ae4679a783e325fc57f8be@github.com": {
+      "fingerprint": "e654af1e225585dbc277749999ef1a2ae3ab0b9868b70be6bc3df89567910bd7",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::7dd8326129944e218711570188bd1134@github.com": {
+      "fingerprint": "627f47c2063f4282797ebf2827a98144a82afd4c12bf9ab594e6ee9bbd03960a",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::7f33baedc4d6435488bf7fdd140fc8aa@github.com": {
+      "fingerprint": "dd614ea5125e74ad4c5d68cc9a043afd6609cc0fcac9323e1216f22ac7059b77",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::839fd8be82ae470d8d25b46a98ccdd22@github.com": {
+      "fingerprint": "244c94ae494ca37d13b4c35e591c46247a0960b6c0b5c22decf1b1f00fd9c73f",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::844e96f7ebf640dba0ac9e9fecfbb88d@github.com": {
+      "fingerprint": "bafbc0d7e686f5bef25e7078c8604d9af68e2049105649d74336a053142d6938",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::8955e66c6ca5484d8500e78890332c59@github.com": {
+      "fingerprint": "d6c2e0cd7647e8a1ac6c07ed10c3c6678680a16ed0c6b2638c4f3b8896cae7f4",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::92e5cb913a5f4c638e51243ad1ccc94a@github.com": {
+      "fingerprint": "4beff7d0881c2fb15c3a948136fea5c39019fccd828a91b9093ce33ce6948b9c",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::96f25bcc9f15484da0a9a5260f15ac6d@github.com": {
+      "fingerprint": "9284cb657de9c9d1b5e4dbc29c21b4b99f319381256fe97358eefe4382830bdd",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::9b0b75ba08e747eb9c8754b39e8ef144@github.com": {
+      "fingerprint": "1f0a9cb184a5f1d072af64f8b15cb5ff693ad45c655c1644eebac17a3568f8ae",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::9dc5081d9da34e7ebc9f5f399f4fde3e@github.com": {
+      "fingerprint": "30899f87ddb3e4dc2ec95e580498ee74cee5b01865596dfa1c990737d1a3d138",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::9ed516bb6d154cc783d9f8e49494beae@github.com": {
+      "fingerprint": "070db80043c050bd2eabda9a04f96d7f22c44cade85df23517ae98251947af6b",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::a617d2749e644417bb056b5e798268d5@github.com": {
+      "fingerprint": "cc056457a5582fe5b2baa00bdebed55945f926c1f59577611dd70291033375e8",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::ace6fea9f9634f9f954782f03fd063d8@github.com": {
+      "fingerprint": "24b27c82a99063538ee2fb0b1a78590ae3dcf2bacfe57116884fe663c958ccf9",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::b163589825fa4344940bd2c74e7eee29@github.com": {
+      "fingerprint": "2f74d0a291b091ef171fcc29d4469a6446330cbee749bf2c4a66e4a348bbb403",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::bfeee5e5facf42b496bcd9ce386d869d@github.com": {
+      "fingerprint": "f5906c8e9152f89b6bfd4cc3a963613579fc0cb342af0972898a96e2c7c3a3d0",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::c88adc513dba4ff9885769e64794db3c@github.com": {
+      "fingerprint": "ed838515636eda9c4f2c9fe0ed649ae370379dbe79976e844abad6700b87f419",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::cc0031f17e30431f8d97e2a220243d76@github.com": {
+      "fingerprint": "10eb5bb77224d0ead6506bfe05c5ed9e7895b2a263bcd2018b184ee20cf96bf5",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::d3d202a88962412088112f2540ed7e82@github.com": {
+      "fingerprint": "e0ffac0ddd008ec8ed62514ac8c9a9eb9498143dd7f20101569a797aa39819fd",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::e5e1363d12bf4adfb494f64c3654c16c@github.com": {
+      "fingerprint": "50f1b080cd7c09a256ace4d263c72abf32139cd8634b66af0a451b6aac9ffd61",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::e9c3a062798b4974badf0c9f4c6b8680@github.com": {
+      "fingerprint": "7a0eae47b37ab20ab73fea12f3de783cc74d2afc8652a741030b17ba1616ca46",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::eefcca4b6f0f47c38acd745f612d30af@github.com": {
+      "fingerprint": "9cc84d7b29bfabc02623585aa87fe41ed4d8aa480af1fefb87634620cd515bf4",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::f599e35418ad44b1b88065ddf8d4c7a2@github.com": {
+      "fingerprint": "229fe41ac93bbd53096ac80a632f1e5908a0a8e26f77de7c7f40ac35d9399814",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::f6c20a4073104aae9b0636bc2d7b4605@github.com": {
+      "fingerprint": "1071b4769ec124ee2d3fca68a26af2685e25049aae52f9ffd19fbfb43c37b706",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-serie-a-serie-a::Football_Match::fd5f58b138f64a108cb92c7d6fcc4f45@github.com": {
+      "fingerprint": "e0026cba4c9dd50ee3c84f7e23282dcfcd69345d623d3bac896eeec7fa441f91",
+      "last_modified": "20260910T081908Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-01/10/26-Virtus Bologna-Olympiacos Piraeus@github.com": {
+      "fingerprint": "e64d1e4054c4a6df04c7a5027ab43147f0807d2b92428a66e2e72b9520737caa",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-02/02/27-Maccabi Rapyd Tel Aviv-Virtus Bologna@github.com": {
+      "fingerprint": "3c2b0139daa0ebd618ffcb0f34975e3bb6d11af0ed43ee4ea1066cd23a643730",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-04/02/27-Dubai Basketball-Virtus Bologna@github.com": {
+      "fingerprint": "c0bc0f2333f1378249ace36fe931018fba1311095649015d71c77ca69b164180",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-04/03/27-Virtus Bologna-Hapoel Ibi Tel Aviv@github.com": {
+      "fingerprint": "49a92234ced5f463bf82d6d123346eea29dd09bd060f71fac74eab12d61d225f",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-04/12/26-Virtus Bologna-Partizan Mozzart Bet Belgrade@github.com": {
+      "fingerprint": "6e88f8697814252e6bb6f9c478f97e358ed750d592e8e090db16302b3462372f",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-06/04/27-Virtus Bologna-Valencia Basket@github.com": {
+      "fingerprint": "110cb351eef8af71bbc6ed04b92c80624b5afeb75727bb727d09a5ef3c7e1782",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-06/11/26-Virtus Bologna-Dubai Basketball@github.com": {
+      "fingerprint": "ec1ee475c72d55bd1aa1c313f3b2f5e1dacaae07f0867ee718e1540fcb5bc1f4",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-08/01/27-Kosner Baskonia Vitoria-gasteiz-Virtus Bologna@github.com": {
+      "fingerprint": "e29e24c11587ba3f65b4ca2745cdaf3cc76df1719cdc97642d3d8b387673f44a",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-08/04/27-Panathinaikos Aktor Athens-Virtus Bologna@github.com": {
+      "fingerprint": "2bcb6634981e164b62ce793598615f439cd4a3d10f06d7a8509c863b512eda05",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-08/10/26-FC Bayern Munich-Virtus Bologna@github.com": {
+      "fingerprint": "cb6ecbfd649703bdc6f068284bad58bfa2d7e702491a7f55d1fec68c15eb4598",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-09/03/27-Virtus Bologna-Fenerbahce Tarfin Istanbul@github.com": {
+      "fingerprint": "db29e1d22013ae8797570f4349948239456f00537a1c5a416d5048d240eb1aca",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-11/02/27-Virtus Bologna-FC Bayern Munich@github.com": {
+      "fingerprint": "e8dac501e386a7d56fa1c57ded86e506d9a6b05ed0149b907c93224e39016452",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-11/03/27-Real Madrid-Virtus Bologna@github.com": {
+      "fingerprint": "29ca20bd08c1bbefe01bade1e94d170743b0172e57eae1a7a2370abfd3f07b6b",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-11/12/26-Virtus Bologna-Maccabi Rapyd Tel Aviv@github.com": {
+      "fingerprint": "1b424b02d3fd24c5a47b481d5169f80fd00dc2f9bb8f8bad538c163e8ae4ab6a",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-12/01/27-Virtus Bologna-Anadolu Efes Istanbul@github.com": {
+      "fingerprint": "27557b674e22a2847fcd1923329761de9e377d02cb23522cd1dde2d0daa7ed2a",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-13/11/26-Anadolu Efes Istanbul-Virtus Bologna@github.com": {
+      "fingerprint": "792543d1e76781ce885160d3144204b4acf5c6fc45e1ecaad8da11e0cbe17e99",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-14/10/26-Paris Basketball-Virtus Bologna@github.com": {
+      "fingerprint": "041b0639779ed07f2ddbd1cedb1f9402eed555572d6945afe3826eeff1954178",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-15/01/27-Virtus Bologna-FC Barcelona@github.com": {
+      "fingerprint": "7f815a9a676c6df6cd814b91b4ff33f7d0a8d9b41ee48b45f8e0364254b54493",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-15/12/26-Virtus Bologna-LDLC ASvel Villeurbanne@github.com": {
+      "fingerprint": "50b433713247f36b2bc50f7ba9669b0904b740555c893de9e624fb245761ea59",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-16/04/27-Besiktas Istanbul-Virtus Bologna@github.com": {
+      "fingerprint": "a5c386601eda595630a6e1d453f1399b9677f37cebee6d2d71e6b1594e7fd7b3",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-16/10/26-Virtus Bologna-Kosner Baskonia Vitoria-gasteiz@github.com": {
+      "fingerprint": "37a97a0d3c4e010032959fb93a445f1edfb34c2e2c0bc2a807a2ad76e9e78b11",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-17/11/26-Virtus Bologna-Panathinaikos Aktor Athens@github.com": {
+      "fingerprint": "289c595b80a5f0aafa59e84eab46c9bd2088120657089023e95551fbeb1a9c02",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-18/12/26-FC Barcelona-Virtus Bologna@github.com": {
+      "fingerprint": "5229ad9ec3314decdc5bf5a4a941a5a55c9de580186b2352342c7d0c6779317c",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-19/03/27-LDLC ASvel Villeurbanne-Virtus Bologna@github.com": {
+      "fingerprint": "743f9c24d1b19549a880117f72afe67f8f9dc9f318fb9c806ac3f7a40a128f7f",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-19/11/26-Valencia Basket-Virtus Bologna@github.com": {
+      "fingerprint": "0db6b5ae4b4f381b9daa05b0e0815057765539a5c66fdba498873fdba2942006",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-21/10/26-Hapoel Ibi Tel Aviv-Virtus Bologna@github.com": {
+      "fingerprint": "be251b934f50e8b8e58ba87f2cdd1512a0a76e47b90fd893e22477273cce3736",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-22/01/27-Zalgiris Kaunas-Virtus Bologna@github.com": {
+      "fingerprint": "1cbaa6b3ffbf7b5806d6c5a120e15feff9c905fa9e26c1a7286b29e44305fc20",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-22/12/26-Virtus Bologna-Real Madrid@github.com": {
+      "fingerprint": "a13c3f9ae87f025c3c90c08ba9dc99e2b06c90cad3be34d995fcc0aebebadde4",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-23/03/27-Partizan Mozzart Bet Belgrade-Virtus Bologna@github.com": {
+      "fingerprint": "720d6da8cb3361402c8ccb80046419c3069551eb1b0ba5192c47806e5f93a118",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-24/11/26-Crvena Zvezda Meridianbet Belgrade-Virtus Bologna@github.com": {
+      "fingerprint": "085b0b7bb74fe9921f28b04fdf122c141766691e898574380b097886b008f903",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-25/09/26-Fenerbahce Tarfin Istanbul-Virtus Bologna@github.com": {
+      "fingerprint": "a21926af4d9448c35f8fe237a034bc7d3439067217c5d7a0468a526c36e53769",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-26/03/27-Olympiacos Piraeus-Virtus Bologna@github.com": {
+      "fingerprint": "158075225d330e8a03fe72297ece9e086ff42b0d2007188ae8e3b0329faed44c",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-28/01/27-Virtus Bologna-Paris Basketball@github.com": {
+      "fingerprint": "0cb96dd550499977a684c3fc1f520e2c08dda830738c3174a5e9b831e7b72d15",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-28/10/26-Virtus Bologna-Zalgiris Kaunas@github.com": {
+      "fingerprint": "7bf419a5c0b8614ab876148f5f120904b02081a1dbb819074a330f1a20a705ba",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-29/09/26-Armani Olimpia Milan-Virtus Bologna@github.com": {
+      "fingerprint": "e6ea2a05fffdd9d39388d26cc0eae424d977b4e17272512fc639b16c89faf424",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-30/10/26-Virtus Bologna-Besiktas Istanbul@github.com": {
+      "fingerprint": "b2e215375757d25739e3183e9553aab45dcbbe72e0efa28ffdd96186207cc1a9",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-30/12/26-Virtus Bologna-Armani Olimpia Milan@github.com": {
+      "fingerprint": "5390737d7f3d2cba7371b33e3c81422364731aad17c8639ea5b436d1ce2075af",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    },
+    "sports-calendar-virtus-euroleague-31/03/27-Virtus Bologna-Crvena Zvezda Meridianbet Belgrade@github.com": {
+      "fingerprint": "9ebf6cbb7be936146a70b247f91cdb09f11f14de0e19beef6762dcd08c0cfb9b",
+      "last_modified": "20260910T081911Z",
+      "sequence": 1
+    }
+  },
+  "version": 1
+}
