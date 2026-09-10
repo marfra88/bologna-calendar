@@ -43,8 +43,11 @@ class CalendarTests(unittest.TestCase):
         completed = Fixture(**{**fixture().__dict__, "status": "FINISHED", "home_score": "2", "away_score": "1"})
         text = build_calendar([completed], "Bologna FC — Serie A", "Europe/Helsinki").decode()
         self.assertIn("Risultato finale: 2–1", text)
+        self.assertIn("SUMMARY:20:45 Bologna – Milan 2–1", text)
         live = Fixture(**{**completed.__dict__, "status": "LIVE"})
-        self.assertNotIn("Risultato finale", build_calendar([live], "Bologna FC — Serie A", "Europe/Helsinki").decode())
+        live_text = build_calendar([live], "Bologna FC — Serie A", "Europe/Helsinki").decode()
+        self.assertNotIn("Risultato finale", live_text)
+        self.assertIn("SUMMARY:20:45 Bologna – Milan", live_text)
 
     def test_changed_result_increments_event_sequence_once(self) -> None:
         completed = Fixture(**{**fixture().__dict__, "status": "FINISHED", "home_score": "2", "away_score": "1"})

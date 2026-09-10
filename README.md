@@ -20,7 +20,7 @@ In Apple Calendar scegli **File → Nuova sottoscrizione calendario**, incolla u
 
 ### Contenuto degli eventi
 
-Ogni evento ha come titolo la partita, per esempio `Bologna – Milan`, e contiene:
+Ogni partita ha come titolo l'orario di Helsinki e le squadre, per esempio `20:45 Bologna – Milan`; dopo il fischio finale il titolo diventa `20:45 Bologna – Milan 2–1`. Il dettaglio dell'evento contiene:
 
 - 🏆 competizione e stagione;
 - 📅 giornata di Serie A, ad esempio `12ª giornata`, oppure turno di Coppa Italia, ad esempio `Quarti di finale`;
@@ -85,7 +85,7 @@ In Apple Calendar, choose **File → New Calendar Subscription**, paste a URL, a
 
 ### Event details
 
-Every event is titled with the fixture, for example `Bologna – Milan`, and includes:
+Every fixture title contains the Helsinki kick-off time and teams, for example `20:45 Bologna – Milan`; after the final whistle it becomes `20:45 Bologna – Milan 2–1`. The event details include:
 
 - 🏆 competition and season;
 - 📅 the Serie A matchday, such as `12ª giornata`, or a Coppa Italia round, such as `Quarti di finale`;
