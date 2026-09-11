@@ -181,14 +181,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-21/10/26-Hapoel Ibi Tel Aviv-Virtus B
  ologna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
+SEQUENCE:3
+DTSTAMP:20260911T162938Z
+LAST-MODIFIED:20260911T162938Z
 DTSTART;TZID=Europe/Helsinki:20261021T210000
 DTEND;TZID=Europe/Helsinki:20261021T230000
-SUMMARY:21:00 Hapoel Ibi Tel Aviv – Virtus Bologna 19–00
+SUMMARY:21:00 Hapoel Ibi Tel Aviv – Virtus Bologna 18–00
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 7\n🕘 Orario: 21:00 (E
- urope/Helsinki)\nRisultato finale: 19–00
+ urope/Helsinki)\nRisultato finale: 18–00
 LOCATION:Da definire
 URL:https://www.virtus.it/stagione/eurolegue/
 STATUS:CONFIRMED
