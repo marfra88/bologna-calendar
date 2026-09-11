@@ -97,14 +97,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049568@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260911T044217Z
+LAST-MODIFIED:20260911T044217Z
 DTSTART;TZID=Europe/Helsinki:20260910T194500
 DTEND;TZID=Europe/Helsinki:20260910T214500
-SUMMARY:19:45 Fenerbahçe – Roma
+SUMMARY:19:45 Fenerbahçe – Roma 1–1
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Ista
- nbul\, Türkiye\n🕘 Orario: 19:45 (Europe/Helsinki)
+ nbul\, Türkiye\n🕘 Orario: 19:45 (Europe/Helsinki)\nRisultato finale: 
+ 1–1
 LOCATION:Istanbul\, Türkiye
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -116,14 +117,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049570@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260911T044217Z
+LAST-MODIFIED:20260911T044217Z
 DTSTART;TZID=Europe/Helsinki:20260910T220000
 DTEND;TZID=Europe/Helsinki:20260911T000000
-SUMMARY:22:00 Como – Leipzig
+SUMMARY:22:00 Como – Leipzig 4–1
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Como
- \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+ \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 4–1
 LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
