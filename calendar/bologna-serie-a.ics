@@ -123,15 +123,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::eefcca4b6f0f47c38acd74
  5f612d30af@github.com
-SEQUENCE:3
-DTSTAMP:20260913T161834Z
-LAST-MODIFIED:20260913T161834Z
+SEQUENCE:4
+DTSTAMP:20260913T205114Z
+LAST-MODIFIED:20260913T205114Z
 DTSTART;TZID=Europe/Helsinki:20260913T190000
 DTEND;TZID=Europe/Helsinki:20260913T210000
-SUMMARY:19:00 Napoli – Bologna
+SUMMARY:19:00 Napoli – Bologna 1–0
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 4ª giornata\n🏟️ 
  Stadio: Diego Armando Maradona\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n
- 🕘 Orario: 19:00 (Europe/Helsinki)
+ 🕘 Orario: 19:00 (Europe/Helsinki)\nRisultato finale: 1–0
 LOCATION:Diego Armando Maradona
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED

@@ -88,13 +88,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-formula-1-2026-spain@github.com
-SEQUENCE:3
-DTSTAMP:20260913T161847Z
-LAST-MODIFIED:20260913T161847Z
+SEQUENCE:4
+DTSTAMP:20260913T205128Z
+LAST-MODIFIED:20260913T205128Z
 DTSTART;TZID=Europe/Helsinki:20260913T160000
 DTEND;TZID=Europe/Helsinki:20260913T180000
 SUMMARY:FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026
-DESCRIPTION:📍 Madrid\, Spain\n🕘 Race start: 16:00 (Europe/Helsinki)
+DESCRIPTION:📍 Madrid\, Spain\n🕘 Race start: 16:00 (Europe/Helsinki)\n
+ 🏁 Classifica finale\n1. Kimi Antonelli — Mercedes\n2. Max Verstappen
+  — Red Bull Racing\n3. Lando Norris — McLaren
 LOCATION:Madrid\, Spain
 URL:https://www.formula1.com/en/results/2026/races/1294/spain/race-result
 STATUS:CONFIRMED
