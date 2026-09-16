@@ -59,14 +59,14 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050058@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260916T211942Z
+LAST-MODIFIED:20260916T211942Z
 DTSTART;TZID=Europe/Helsinki:20260916T220000
 DTEND;TZID=Europe/Helsinki:20260917T000000
-SUMMARY:22:00 Milan – Benfica
+SUMMARY:22:00 Milan – Benfica 0–2
 DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Milan\,
-  Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+  Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 0–2
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
