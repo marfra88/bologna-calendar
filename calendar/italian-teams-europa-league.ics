@@ -59,14 +59,14 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050058@github.com
-SEQUENCE:3
-DTSTAMP:20260916T211942Z
-LAST-MODIFIED:20260916T211942Z
+SEQUENCE:4
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20260916T220000
 DTEND;TZID=Europe/Helsinki:20260917T000000
 SUMMARY:22:00 Milan – Benfica 0–2
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Milan\,
-  Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 0–2
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Mil
+ an\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 0–2
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -78,14 +78,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050066@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20260917T220000
 DTEND;TZID=Europe/Helsinki:20260918T000000
 SUMMARY:22:00 Juventus – N.E.C.
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Turin\,
-  Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Tur
+ in\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Turin\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -97,14 +97,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050082@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20261015T194500
 DTEND;TZID=Europe/Helsinki:20261015T214500
 SUMMARY:19:45 Salzburg – Milan
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Salzbur
- g\, Austria\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Sal
+ zburg\, Austria\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Salzburg\, Austria
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -116,14 +116,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050089@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20261015T220000
 DTEND;TZID=Europe/Helsinki:20261016T000000
 SUMMARY:22:00 Celta – Juventus
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Vigo\, 
- Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Vig
+ o\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Vigo\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -135,14 +135,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050093@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20261022T194500
 DTEND;TZID=Europe/Helsinki:20261022T214500
 SUMMARY:19:45 Juventus – Rennes
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Turin\,
-  Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Tur
+ in\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Turin\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -154,14 +154,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050102@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20261022T220000
 DTEND;TZID=Europe/Helsinki:20261023T000000
 SUMMARY:22:00 Bournemouth – Milan
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Bournem
- outh\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Bou
+ rnemouth\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Bournemouth\, England
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -173,14 +173,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050113@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20261105T194500
 DTEND;TZID=Europe/Helsinki:20261105T214500
 SUMMARY:19:45 Milan – Ferencváros
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Milan\,
-  Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Mil
+ an\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -192,14 +192,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050114@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20261105T220000
 DTEND;TZID=Europe/Helsinki:20261106T000000
 SUMMARY:22:00 AZ Alkmaar – Juventus
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Alkmaar
- \, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Alk
+ maar\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Alkmaar\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -211,14 +211,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050131@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20261126T194500
 DTEND;TZID=Europe/Helsinki:20261126T214500
 SUMMARY:19:45 Olympiacos – Milan
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Piraeus
- \, Greece\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Pir
+ aeus\, Greece\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Piraeus\, Greece
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -230,14 +230,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050129@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20261126T220000
 DTEND;TZID=Europe/Helsinki:20261127T000000
 SUMMARY:22:00 Juventus – Omonia
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Turin\,
-  Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Tur
+ in\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Turin\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -249,14 +249,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050162@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20261210T194500
 DTEND;TZID=Europe/Helsinki:20261210T214500
 SUMMARY:19:45 H. Beer-Sheva – Juventus
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Buchare
- st\, Romania\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Buc
+ harest\, Romania\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Bucharest\, Romania
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -268,14 +268,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050149@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20261210T220000
 DTEND;TZID=Europe/Helsinki:20261211T000000
 SUMMARY:22:00 Milan – Sunderland
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Milan\,
-  Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Mil
+ an\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -287,14 +287,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050169@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20270121T194500
 DTEND;TZID=Europe/Helsinki:20270121T214500
 SUMMARY:19:45 Ferencváros – Juventus
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Budapes
- t\, Hungary\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Bud
+ apest\, Hungary\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Budapest\, Hungary
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -306,14 +306,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050181@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20270121T220000
 DTEND;TZID=Europe/Helsinki:20270122T000000
 SUMMARY:22:00 Levski Sofia – Milan
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Sofia\,
-  Bulgaria\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Sof
+ ia\, Bulgaria\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Sofia\, Bulgaria
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -325,14 +325,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050184@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20270128T220000
 DTEND;TZID=Europe/Helsinki:20270129T000000
 SUMMARY:22:00 Juventus – Real Sociedad
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Turin\,
-  Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Tur
+ in\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Turin\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -344,14 +344,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050185@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082628Z
-LAST-MODIFIED:20260910T082628Z
+SEQUENCE:3
+DTSTAMP:20260917T141621Z
+LAST-MODIFIED:20260917T141621Z
 DTSTART;TZID=Europe/Helsinki:20270128T220000
 DTEND;TZID=Europe/Helsinki:20270129T000000
 SUMMARY:22:00 Milan – Ararat-Armenia
-DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Da definire\n📍 Milan\,
-  Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Mil
+ an\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED

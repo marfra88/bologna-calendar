@@ -47,15 +47,14 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2049260@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082629Z
-LAST-MODIFIED:20260910T082629Z
+SEQUENCE:3
+DTSTAMP:20260917T141622Z
+LAST-MODIFIED:20260917T141622Z
 DTSTART;TZID=Europe/Helsinki:20260820T213000
 DTEND;TZID=Europe/Helsinki:20260820T233000
 SUMMARY:21:30 Atalanta – H. Tel-Aviv 0–0
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ber
- gamo\, Italy\n🕘 Orario: 21:30 (Europe/Helsinki)\nRisultato finale: 0
- –0
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Spareggi\n📍 Bergam
+ o\, Italy\n🕘 Orario: 21:30 (Europe/Helsinki)\nRisultato finale: 0–0
 LOCATION:Bergamo\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -67,15 +66,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2049284@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082629Z
-LAST-MODIFIED:20260910T082629Z
+SEQUENCE:3
+DTSTAMP:20260917T141622Z
+LAST-MODIFIED:20260917T141622Z
 DTSTART;TZID=Europe/Helsinki:20260827T210000
 DTEND;TZID=Europe/Helsinki:20260827T230000
 SUMMARY:21:00 H. Tel-Aviv – Atalanta 0–1
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Mis
- kolc\, Hungary\n🕘 Orario: 21:00 (Europe/Helsinki)\nRisultato finale: 0
- –1
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Spareggi\n📍 Miskol
+ c\, Hungary\n🕘 Orario: 21:00 (Europe/Helsinki)\nRisultato finale: 0–
+ 1
 LOCATION:Miskolc\, Hungary
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -87,14 +86,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2050309@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082629Z
-LAST-MODIFIED:20260910T082629Z
+SEQUENCE:3
+DTSTAMP:20260917T141622Z
+LAST-MODIFIED:20260917T141622Z
 DTSTART;TZID=Europe/Helsinki:20261015T220000
 DTEND;TZID=Europe/Helsinki:20261016T000000
 SUMMARY:22:00 Atalanta – Pafos
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ber
- gamo\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Fase campionato\n📍
+  Bergamo\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Bergamo\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -106,14 +105,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2050328@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082629Z
-LAST-MODIFIED:20260910T082629Z
+SEQUENCE:3
+DTSTAMP:20260917T141622Z
+LAST-MODIFIED:20260917T141622Z
 DTSTART;TZID=Europe/Helsinki:20261022T220000
 DTEND;TZID=Europe/Helsinki:20261023T000000
 SUMMARY:22:00 Ajax – Atalanta
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ams
- terdam\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Fase campionato\n📍
+  Amsterdam\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Amsterdam\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -125,14 +124,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2050345@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082629Z
-LAST-MODIFIED:20260910T082629Z
+SEQUENCE:3
+DTSTAMP:20260917T141622Z
+LAST-MODIFIED:20260917T141622Z
 DTSTART;TZID=Europe/Helsinki:20261105T194500
 DTEND;TZID=Europe/Helsinki:20261105T214500
 SUMMARY:19:45 Atalanta – Kairat Almaty
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ber
- gamo\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Fase campionato\n📍
+  Bergamo\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Bergamo\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -144,14 +143,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2050369@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082629Z
-LAST-MODIFIED:20260910T082629Z
+SEQUENCE:3
+DTSTAMP:20260917T141622Z
+LAST-MODIFIED:20260917T141622Z
 DTSTART;TZID=Europe/Helsinki:20261126T220000
 DTEND;TZID=Europe/Helsinki:20261127T000000
 SUMMARY:22:00 Borac – Atalanta
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ban
- jaluka\, Bosnia and Herzegovina\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Fase campionato\n📍
+  Banjaluka\, Bosnia and Herzegovina\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Banjaluka\, Bosnia and Herzegovina
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -163,14 +162,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2050392@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082629Z
-LAST-MODIFIED:20260910T082629Z
+SEQUENCE:3
+DTSTAMP:20260917T141622Z
+LAST-MODIFIED:20260917T141622Z
 DTSTART;TZID=Europe/Helsinki:20261210T194500
 DTEND;TZID=Europe/Helsinki:20261210T214500
 SUMMARY:19:45 Riga – Atalanta
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Rig
- a\, LVA\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Fase campionato\n📍
+  Riga\, LVA\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Riga\, LVA
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -182,14 +181,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2050399@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082629Z
-LAST-MODIFIED:20260910T082629Z
+SEQUENCE:3
+DTSTAMP:20260917T141622Z
+LAST-MODIFIED:20260917T141622Z
 DTSTART;TZID=Europe/Helsinki:20261217T220000
 DTEND;TZID=Europe/Helsinki:20261218T000000
 SUMMARY:22:00 Atalanta – Mjällby
-DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Da definire\n📍 Ber
- gamo\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Fase campionato\n📍
+  Bergamo\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Bergamo\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED

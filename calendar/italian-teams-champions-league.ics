@@ -59,14 +59,15 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049553@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20260908T220000
 DTEND;TZID=Europe/Helsinki:20260909T000000
 SUMMARY:22:00 Real Madrid – Inter 2–1
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Madr
- id\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 2–1
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Madrid\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 2
+ –1
 LOCATION:Madrid\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -78,14 +79,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049563@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20260909T220000
 DTEND;TZID=Europe/Helsinki:20260910T000000
 SUMMARY:22:00 Napoli – Arsenal 0–1
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Napl
- es\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 0–1
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Naples\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 0
+ –1
 LOCATION:Naples\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -97,15 +99,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049568@github.com
-SEQUENCE:3
-DTSTAMP:20260911T044217Z
-LAST-MODIFIED:20260911T044217Z
+SEQUENCE:4
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20260910T194500
 DTEND;TZID=Europe/Helsinki:20260910T214500
 SUMMARY:19:45 Fenerbahçe – Roma 1–1
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Ista
- nbul\, Türkiye\n🕘 Orario: 19:45 (Europe/Helsinki)\nRisultato finale: 
- 1–1
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Istanbul\, Türkiye\n🕘 Orario: 19:45 (Europe/Helsinki)\nRisultato fina
+ le: 1–1
 LOCATION:Istanbul\, Türkiye
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -117,14 +119,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049570@github.com
-SEQUENCE:3
-DTSTAMP:20260911T044217Z
-LAST-MODIFIED:20260911T044217Z
+SEQUENCE:4
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20260910T220000
 DTEND;TZID=Europe/Helsinki:20260911T000000
 SUMMARY:22:00 Como – Leipzig 4–1
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Como
- \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 4–1
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Como\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 4
+ –1
 LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -136,14 +139,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049571@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261013T220000
 DTEND;TZID=Europe/Helsinki:20261014T000000
 SUMMARY:22:00 Inter – Club Brugge
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Mila
- n\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Milan\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -155,14 +158,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049575@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261013T220000
 DTEND;TZID=Europe/Helsinki:20261014T000000
 SUMMARY:22:00 Villarreal – Napoli
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Vill
- arreal\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Villarreal\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Villarreal\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -174,14 +177,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049584@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261014T194500
 DTEND;TZID=Europe/Helsinki:20261014T214500
 SUMMARY:19:45 Feyenoord – Como
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rott
- erdam\, Netherlands\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Rotterdam\, Netherlands\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Rotterdam\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -193,14 +196,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049581@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261014T220000
 DTEND;TZID=Europe/Helsinki:20261015T000000
 SUMMARY:22:00 Roma – Real Madrid
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rome
- \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Rome\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Rome\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -212,14 +215,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049592@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261020T220000
 DTEND;TZID=Europe/Helsinki:20261021T000000
 SUMMARY:22:00 Roma – S. Bratislava
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rome
- \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Rome\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Rome\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -231,14 +234,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049594@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261020T220000
 DTEND;TZID=Europe/Helsinki:20261021T000000
 SUMMARY:22:00 Napoli – Bodø/Glimt
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Napl
- es\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Naples\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Naples\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -250,14 +253,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049606@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261021T194500
 DTEND;TZID=Europe/Helsinki:20261021T214500
 SUMMARY:19:45 Como – Man Utd
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Como
- \, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Como\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -269,14 +272,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049600@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261021T220000
 DTEND;TZID=Europe/Helsinki:20261022T000000
 SUMMARY:22:00 Inter – Shakhtar
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Mila
- n\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Milan\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -288,14 +291,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049609@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261103T220000
 DTEND;TZID=Europe/Helsinki:20261104T000000
 SUMMARY:22:00 Man Utd – Roma
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Manc
- hester\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Manchester\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Manchester\, England
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -307,14 +310,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049610@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261103T220000
 DTEND;TZID=Europe/Helsinki:20261104T000000
 SUMMARY:22:00 Feyenoord – Inter
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rott
- erdam\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Rotterdam\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Rotterdam\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -326,14 +329,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049617@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261104T220000
 DTEND;TZID=Europe/Helsinki:20261105T000000
 SUMMARY:22:00 Porto – Napoli
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Port
- o\, Portugal\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Porto\, Portugal\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Porto\, Portugal
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -345,14 +348,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049623@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261104T220000
 DTEND;TZID=Europe/Helsinki:20261105T000000
 SUMMARY:22:00 Lens – Como
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Lens
-  Agglo\, France\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Lens Agglo\, France\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Lens Agglo\, France
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -364,14 +367,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049626@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261124T220000
 DTEND;TZID=Europe/Helsinki:20261125T000000
 SUMMARY:22:00 Man City – Napoli
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Manc
- hester\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Manchester\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Manchester\, England
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -383,14 +386,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049633@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261124T220000
 DTEND;TZID=Europe/Helsinki:20261125T000000
 SUMMARY:22:00 Como – AEK Athens
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Como
- \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Como\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -402,14 +405,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049634@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261125T220000
 DTEND;TZID=Europe/Helsinki:20261126T000000
 SUMMARY:22:00 Paris – Roma
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Pari
- s\, France\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Paris\, France\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Paris\, France
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -421,14 +424,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049635@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261125T220000
 DTEND;TZID=Europe/Helsinki:20261126T000000
 SUMMARY:22:00 Inter – Stuttgart
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Mila
- n\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Milan\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -440,14 +443,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049645@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261208T220000
 DTEND;TZID=Europe/Helsinki:20261209T000000
 SUMMARY:22:00 Roma – Sporting CP
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rome
- \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Rome\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Rome\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -459,14 +462,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049648@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261208T220000
 DTEND;TZID=Europe/Helsinki:20261209T000000
 SUMMARY:22:00 Napoli – Club Brugge
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Napl
- es\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Naples\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Naples\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -478,14 +481,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049655@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261209T194500
 DTEND;TZID=Europe/Helsinki:20261209T214500
 SUMMARY:19:45 Real Betis – Como
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Sevi
- lle\, Spain\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Seville\, Spain\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Seville\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -497,14 +500,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049654@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20261209T220000
 DTEND;TZID=Europe/Helsinki:20261210T000000
 SUMMARY:22:00 B. Dortmund – Inter
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Dort
- mund\, Germany\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Dortmund\, Germany\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Dortmund\, Germany
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -516,14 +519,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049662@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20270119T220000
 DTEND;TZID=Europe/Helsinki:20270120T000000
 SUMMARY:22:00 Inter – Liverpool
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Mila
- n\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Milan\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -535,14 +538,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049669@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20270119T220000
 DTEND;TZID=Europe/Helsinki:20270120T000000
 SUMMARY:22:00 AEK Athens – Roma
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Athe
- ns\, Greece\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Athens\, Greece\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Athens\, Greece
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -554,14 +557,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049678@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20270120T194500
 DTEND;TZID=Europe/Helsinki:20270120T214500
 SUMMARY:19:45 Sabah – Napoli
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Baku
- \, Azerbaijan\n🕘 Orario: 19:45 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Baku\, Azerbaijan\n🕘 Orario: 19:45 (Europe/Helsinki)
 LOCATION:Baku\, Azerbaijan
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -573,14 +576,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049675@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20270120T220000
 DTEND;TZID=Europe/Helsinki:20270121T000000
 SUMMARY:22:00 Como – Paris
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Como
- \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Como\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -592,14 +595,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049684@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20270127T220000
 DTEND;TZID=Europe/Helsinki:20270128T000000
 SUMMARY:22:00 Barcelona – Como
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Barc
- elona\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Barcelona\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Barcelona\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -611,14 +614,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049687@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20270127T220000
 DTEND;TZID=Europe/Helsinki:20270128T000000
 SUMMARY:22:00 Roma – Lille
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Rome
- \, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Rome\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Rome\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -630,14 +633,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049691@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20270127T220000
 DTEND;TZID=Europe/Helsinki:20270128T000000
 SUMMARY:22:00 Napoli – Viking
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Napl
- es\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Naples\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Naples\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -649,14 +652,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049695@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082627Z
-LAST-MODIFIED:20260910T082627Z
+SEQUENCE:3
+DTSTAMP:20260917T141620Z
+LAST-MODIFIED:20260917T141620Z
 DTSTART;TZID=Europe/Helsinki:20270127T220000
 DTEND;TZID=Europe/Helsinki:20270128T000000
 SUMMARY:22:00 S. Bratislava – Inter
-DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Da definire\n📍 Brat
- islava\, Slovakia\n🕘 Orario: 22:00 (Europe/Helsinki)
+DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
+ Bratislava\, Slovakia\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Bratislava\, Slovakia
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
