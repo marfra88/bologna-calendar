@@ -46,3 +46,7 @@ class LegaSdpTests(unittest.TestCase):
     def test_preserves_named_coppa_italia_round(self) -> None:
         match = {"roundName": "Quarti di finale", "matchSet": {"providerId": "opta:Round:4"}}
         self.assertEqual(_round_name(match, "coppa-italia"), "Quarti di finale")
+
+    def test_coppa_italia_uses_the_round_name_not_its_internal_matchday(self) -> None:
+        match = {"matchSet": {"name": "8th Finals", "providerId": "kama:MatchDay:4944"}}
+        self.assertEqual(_round_name(match, "coppa-italia"), "Ottavi di finale")

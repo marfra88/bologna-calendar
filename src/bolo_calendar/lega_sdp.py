@@ -65,7 +65,7 @@ def _round_name(match: dict[str, Any], competition_key: str) -> str | None:
     # League fixtures use the generic phase name "Campionato". The authoritative
     # match-set provider id carries the actual matchday, e.g. opta:MatchDay:12.
     matchday = re.search(r"match\s*day\D*(\d+)", " ".join(filter(None, (str(direct or ""), str(match_set_name or ""), provider_id))), re.I)
-    if matchday:
+    if competition_key == "serie-a" and matchday:
         return f"Matchday {matchday.group(1)}"
 
     # Coppa Italia's human-readable round is preferred (Ottavi, Quarti, etc.).
@@ -73,8 +73,20 @@ def _round_name(match: dict[str, Any], competition_key: str) -> str | None:
         if value and _normalise(str(value)) not in {
             "campionato", "seriea", "serieaenilive", "coppaitalia", "coppaitaliafrecciarossa",
         }:
-            return str(value)
+            return _coppa_round_name(str(value)) if competition_key == "coppa-italia" else str(value)
     return None if competition_key == "serie-a" else str(direct) if direct else None
+
+
+def _coppa_round_name(value: str) -> str:
+    """Translate Lega's English knockout labels for the Italian calendar."""
+    labels = {
+        "8thfinals": "Ottavi di finale",
+        "roundof16": "Ottavi di finale",
+        "quarterfinals": "Quarti di finale",
+        "semifinals": "Semifinali",
+        "final": "Finale",
+    }
+    return labels.get(_normalise(value), value)
 
 
 def _text_values(value: Any) -> list[str]:

@@ -15,6 +15,7 @@ from bolo_calendar.uefa import _parse_datetime
 from bolo_calendar.uefa import _season_end_year
 from bolo_calendar.uefa import _venue_location
 from bolo_calendar.uefa import _score_pair
+from bolo_calendar.uefa import _round_name as uefa_round_name
 from bolo_calendar.virtus import _score_pair as virtus_score_pair
 
 
@@ -119,6 +120,17 @@ class ExtraCalendarTests(unittest.TestCase):
 
     def test_uefa_reads_final_score(self) -> None:
         self.assertEqual(_score_pair({"score": {"total": {"home": 2, "away": 1}}}), ("2", "1"))
+
+    def test_uefa_uses_translated_competition_phase_not_matchday_id(self) -> None:
+        match = {
+            "round": {
+                "id": "2002239",
+                "metaData": {"name": "League Phase"},
+                "translations": {"name": {"EN": "League phase", "IT": "Fase campionato"}},
+            },
+            "matchday": {"id": "36598", "longName": "Matchday 1"},
+        }
+        self.assertEqual(uefa_round_name(match), "Fase campionato")
 
     def test_virtus_reads_completed_score(self) -> None:
         self.assertEqual(virtus_score_pair("78 – 81"), ("78", "81"))

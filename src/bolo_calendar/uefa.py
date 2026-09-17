@@ -77,6 +77,30 @@ def _localized_text(value: Any) -> str | None:
     return None
 
 
+def _round_name(match: dict[str, Any]) -> str | None:
+    """Use UEFA's published phase name, preferring the Italian translation."""
+    value = _value(match, "round", "roundName", "stage", "phase")
+    if isinstance(value, str):
+        return value
+    if not isinstance(value, dict):
+        return None
+
+    # A current UEFA round includes translations.name, for example
+    # "Fase campionato" or "Spareggi". It is distinct from the numerical
+    # matchday object and is the useful label for a calendar event.
+    translations = value.get("translations")
+    if isinstance(translations, dict):
+        names = translations.get("name")
+        if isinstance(names, dict):
+            for language in ("IT", "it", "EN", "en"):
+                label = names.get(language)
+                if isinstance(label, str) and label.strip():
+                    return label.strip()
+    metadata = value.get("metaData")
+    label = _localized_text(metadata)
+    return label or _localized_text(value)
+
+
 def _venue_location(venue: Any) -> str | None:
     if not isinstance(venue, dict):
         return _localized_text(venue)
@@ -268,9 +292,7 @@ class UefaProvider:
                 continue
             venue = _value(match, "venue", "stadium")
             location = _venue_location(venue)
-            round_info = _value(match, "round", "roundName", "matchday")
-            if isinstance(round_info, dict):
-                round_info = _value(round_info, "name", "displayName", "label")
+            round_info = _round_name(match)
             status = str(_value(match, "status", "matchStatus", "state") or "SCHEDULED")
             home_score, away_score = _score_pair(match)
             fixtures.append(Fixture(
@@ -280,7 +302,7 @@ class UefaProvider:
                 # season, while the request's ending year is authoritative.
                 season_name=f"{season_end - 1}/{str(season_end)[-2:]}",
                 home_team=home, away_team=away, kickoff_utc=_parse_datetime(kickoff), stadium=location,
-                round_name=str(round_info or "Da definire"), broadcaster=None,
+                round_name=round_info or "Da definire", broadcaster=None,
                 status=status,
                 source_url="https://www.uefa.com/",
                 event_kind="uefa", home_score=home_score, away_score=away_score,
