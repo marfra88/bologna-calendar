@@ -78,14 +78,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050066@github.com
-SEQUENCE:3
-DTSTAMP:20260917T141621Z
-LAST-MODIFIED:20260917T141621Z
+SEQUENCE:4
+DTSTAMP:20260917T212345Z
+LAST-MODIFIED:20260917T212345Z
 DTSTART;TZID=Europe/Helsinki:20260917T220000
 DTEND;TZID=Europe/Helsinki:20260918T000000
-SUMMARY:22:00 Juventus – N.E.C.
+SUMMARY:22:00 Juventus – N.E.C. 5–0
 DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Tur
- in\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+ in\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 5–0
 LOCATION:Turin\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
