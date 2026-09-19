@@ -144,15 +144,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::9dc5081d9da34e7ebc9f5f
  399f4fde3e@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082617Z
-LAST-MODIFIED:20260910T082617Z
+SEQUENCE:3
+DTSTAMP:20260919T155357Z
+LAST-MODIFIED:20260919T155357Z
 DTSTART;TZID=Europe/Helsinki:20260919T160000
 DTEND;TZID=Europe/Helsinki:20260919T180000
-SUMMARY:16:00 Bologna – Torino
+SUMMARY:16:00 Bologna – Torino 1–1
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 5ª giornata\n🏟️ 
  Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 16:00 (E
- urope/Helsinki)
+ urope/Helsinki)\nRisultato finale: 1–1
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
