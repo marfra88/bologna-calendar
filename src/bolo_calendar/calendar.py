@@ -15,7 +15,7 @@ PRODID = "-//Sports Calendar Generator//EN"
 # subscribed clients must actively replace. Apple Calendar uses UID/SEQUENCE to
 # decide whether an existing event should be refreshed.
 EVENT_REVISION = 1
-EVENT_FORMAT_VERSION = 2
+EVENT_FORMAT_VERSION = 3
 SOURCE_STAMP = datetime(2000, 1, 1, tzinfo=UTC)
 
 
@@ -32,12 +32,11 @@ def _result_description(fixture: Fixture) -> list[str]:
     return []
 
 
-def _event_title(fixture: Fixture, timezone: ZoneInfo) -> str:
-    """Keep match titles compact while adding the confirmed final score."""
+def _event_title(fixture: Fixture) -> str:
+    """Keep event titles compact while adding the confirmed final score."""
     if fixture.event_kind == "formula1":
         return fixture.title
-    kickoff = fixture.kickoff_utc.astimezone(timezone)
-    title = f"{kickoff:%H:%M} {fixture.home_team} – {fixture.away_team}"
+    title = f"{fixture.home_team} – {fixture.away_team}"
     if fixture.home_score is not None and fixture.away_score is not None and _is_final(fixture.status):
         title += f" {fixture.home_score}–{fixture.away_score}"
     return title
@@ -230,7 +229,7 @@ def build_calendar(
             f"DTSTAMP:{stamp}", f"LAST-MODIFIED:{stamp}",
             f"DTSTART;TZID={timezone.key}:{start:%Y%m%dT%H%M%S}",
             f"DTEND;TZID={timezone.key}:{end:%Y%m%dT%H%M%S}",
-            f"SUMMARY:{_escape(_event_title(fixture, timezone))}",
+            f"SUMMARY:{_escape(_event_title(fixture))}",
             f"DESCRIPTION:{_escape(_description(fixture, timezone))}",
             f"LOCATION:{_escape(fixture.stadium or 'Da definire')}", f"URL:{_escape(fixture.source_url)}",
             f"STATUS:{'CANCELLED' if fixture.status == 'CANCELLED' else 'CONFIRMED'}",
