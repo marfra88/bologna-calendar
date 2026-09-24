@@ -4,7 +4,6 @@ from unittest.mock import patch
 
 from bolo_calendar.calendar import build_calendar
 from bolo_calendar.models import Fixture
-from bolo_calendar.virtus import _schedule_rows
 from bolo_calendar.formula1 import Formula1Provider, _completed_slugs, _podium, _race_details, _result_url, _slugs
 from bolo_calendar.config import CompetitionConfig
 from bolo_calendar.lega_sdp import UpstreamError
@@ -17,6 +16,7 @@ from bolo_calendar.uefa import _venue_location
 from bolo_calendar.uefa import _score_pair
 from bolo_calendar.uefa import _round_name as uefa_round_name
 from bolo_calendar.virtus import _score_pair as virtus_score_pair
+from bolo_calendar.virtus import VirtusEuroLeagueProvider
 
 
 class ExtraCalendarTests(unittest.TestCase):
@@ -26,12 +26,16 @@ class ExtraCalendarTests(unittest.TestCase):
         self.assertIn("LOCATION:Milan — Stadio Giuseppe Meazza", result)
         self.assertIn("TRIGGER:-PT30M", result)
 
-    def test_virtus_has_no_tv_or_venue(self) -> None:
-        fixture = Fixture("1", "virtus-euroleague", "EuroLeague", "2026/27", "Virtus Bologna", "Olympiacos", datetime(2026, 9, 1, 18, 0, tzinfo=UTC), None, "Matchday 1", None, "SCHEDULED", "https://virtus.example", event_kind="euroleague")
+    def test_virtus_includes_venue_but_no_tv_or_unconfirmed_result(self) -> None:
+        fixture = Fixture("1", "virtus-euroleague", "EuroLeague", "2026/27", "Virtus Bologna", "Olympiacos", datetime(2026, 9, 1, 18, 0, tzinfo=UTC), "Bologna, Italy — Virtus Arena", "Matchday 1", None, "SCHEDULED", "https://virtus.example", home_score="19", away_score="45", event_kind="euroleague")
         result = build_calendar([fixture], "Sports — EuroLeague", "Europe/Helsinki").decode()
         self.assertIn("📅 Matchday 1", result)
+        self.assertIn("📍 Bologna\\, Italy", result)
+        self.assertIn("Virtus Arena", result)
+        self.assertIn("LOCATION:Bologna\\, Italy — Virtus Arena", result)
         self.assertNotIn("Diretta TV", result)
-        self.assertNotIn("🏟️", result)
+        self.assertNotIn("Risultato finale", result)
+        self.assertNotIn("19–45", result)
 
     def test_formula_one_uses_official_title_and_location(self) -> None:
         fixture = Fixture("monza", "formula-1", "Formula 1", "2026", "", "", datetime(2026, 9, 6, 13, 0, tzinfo=UTC), "Monza, Italy", None, None, "SCHEDULED", "https://f1.example", summary="FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026", event_kind="formula1")
@@ -39,10 +43,6 @@ class ExtraCalendarTests(unittest.TestCase):
         self.assertIn("SUMMARY:FORMULA 1 PIRELLI GRAN PREMIO", result)
         self.assertIn("📍 Monza\\, Italy", result)
         self.assertIn("SEQUENCE:1", result)
-
-    def test_virtus_parser_reads_schedule_table(self) -> None:
-        html = "<table><tr><td>25/09/26</td><td>Fenerbahce Istanbul<img alt='ignored'></td><td>19:45</td><td>Virtus Bologna</td></tr></table>"
-        self.assertEqual(_schedule_rows(html), [("25/09/26", "Fenerbahce Istanbul", "19:45", "Virtus Bologna")])
 
     def test_formula_one_parser_reads_official_page_markup(self) -> None:
         calendar = '<a href="/en/racing/2026/italy">Italy</a>'
@@ -134,6 +134,31 @@ class ExtraCalendarTests(unittest.TestCase):
 
     def test_virtus_reads_completed_score(self) -> None:
         self.assertEqual(virtus_score_pair("78 – 81"), ("78", "81"))
+        self.assertEqual(virtus_score_pair("19:45"), (None, None))
+
+    def test_virtus_uses_official_venue_and_played_flag(self) -> None:
+        config = CompetitionConfig("virtus-euroleague", ("EuroLeague",), None, source="virtus_euroleague")  # type: ignore[arg-type]
+        games = {"data": [{
+            "utcDate": "2026-09-25T17:45:00Z", "round": 1, "played": False,
+            "season": {"alias": "2026-27"},
+            "local": {"club": {"code": "ULK", "name": "Fenerbahce Tarfin Istanbul"}, "score": 0},
+            "road": {"club": {"code": "VIR", "name": "Virtus Bologna"}, "score": 0},
+            "venue": {"name": "ULKER SPORTS AND EVENT HALL", "address": "Barbaros Mah., 34764 Istanbul, Turkiye"},
+        }, {
+            "utcDate": "2026-10-01T18:30:00Z", "round": 3, "played": True,
+            "season": {"alias": "2026-27"},
+            "local": {"club": {"code": "VIR", "name": "Virtus Bologna"}, "score": 78},
+            "road": {"club": {"code": "OLY", "name": "Olympiacos Piraeus"}, "score": 81},
+            "venue": {"name": "PALADOZZA", "address": "Via Nannetti 1, 40122 Bologna - Italy"},
+        }]}
+        clubs = {"data": [{"code": "ULK", "city": "ISTANBUL", "country": {"name": "Turkiye"}}]}
+        with patch("bolo_calendar.virtus.get_json", side_effect=[games, clubs]):
+            fixtures = VirtusEuroLeagueProvider().fetch(config, "")
+
+        scheduled, completed = fixtures
+        self.assertEqual(scheduled.stadium, "Istanbul, Turkiye — ULKER SPORTS AND EVENT HALL")
+        self.assertEqual((scheduled.status, scheduled.home_score, scheduled.away_score), ("SCHEDULED", None, None))
+        self.assertEqual((completed.status, completed.home_score, completed.away_score), ("FINISHED", "78", "81"))
 
     def test_uefa_uses_the_current_official_match_service(self) -> None:
         self.assertEqual(BASE_URL, "https://match.uefa.com/v5/matches")

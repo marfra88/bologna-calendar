@@ -128,6 +128,7 @@ def _description(fixture: Fixture, timezone: ZoneInfo) -> str:
         return "\n".join([
             f"🏆 {fixture.competition_name} {fixture.season_name}",
             f"📅 {fixture.round_name or 'Matchday da definire'}",
+            f"📍 {fixture.stadium or 'Venue to be confirmed'}",
             f"🕘 Orario: {kickoff:%H:%M} ({timezone.key})",
             *_result_description(fixture),
         ])

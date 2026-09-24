@@ -42,7 +42,7 @@ Un piccolo archivio di revisioni in `calendar/.event-revisions.json` incrementa 
 
 Quando l'emittente non è ancora stata comunicata ufficialmente, il feed mostra `Da definire` senza fare supposizioni.
 
-I feed Virtus mostrano competizione, `Matchday` e orario (senza TV o impianto). Formula 1 mostra il nome ufficiale del Gran Premio, città e Paese. I tre feed UEFA filtrano automaticamente le squadre con federazione italiana e mostrano turno, città e stadio; se UEFA non ha ancora assegnato l'impianto, il feed indica `Venue to be confirmed`.
+Il feed Virtus usa il calendario ufficiale EuroLeague: mostra competizione, `Matchday`, orario e sede effettiva (città/Paese e arena), senza TV. Il risultato finale viene aggiunto soltanto dopo che EuroLeague ha marcato la partita come disputata. Formula 1 mostra il nome ufficiale del Gran Premio, città e Paese. I tre feed UEFA filtrano automaticamente le squadre con federazione italiana e mostrano turno, città e stadio; se UEFA non ha ancora assegnato l'impianto, il feed indica `Venue to be confirmed`.
 
 ### Esecuzione locale
 
@@ -107,7 +107,7 @@ A small revision ledger in `calendar/.event-revisions.json` increments the iCale
 
 If a broadcaster has not yet been officially announced, the feed shows `Da definire` and does not guess.
 
-Virtus feeds show the competition, `Matchday`, and kickoff only (no TV or venue). Formula 1 shows the official Grand Prix name, city, and country. The three UEFA feeds automatically filter teams with an Italian association and show the round, city, and stadium; if UEFA has not assigned a venue yet, the feed says `Venue to be confirmed`.
+The Virtus feed uses EuroLeague's official schedule: it shows the competition, `Matchday`, kickoff, and the actual venue (city/country and arena), without TV coverage. A final score is added only after EuroLeague marks the game as played. Formula 1 shows the official Grand Prix name, city, and country. The three UEFA feeds automatically filter teams with an Italian association and show the round, city, and stadium; if UEFA has not assigned a venue yet, the feed says `Venue to be confirmed`.
 
 ### Run locally
 
