@@ -60,16 +60,16 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-25/09/26-Fenerbahce Tarfin Istanbul-V
  irtus Bologna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20260925T210000
-DTEND;TZID=Europe/Helsinki:20260925T230000
-SUMMARY:21:00 Fenerbahce Tarfin Istanbul – Virtus Bologna 19–45
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 1\n🕘 Orario: 21:00 (E
- urope/Helsinki)\nRisultato finale: 19–45
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20260925T204500
+DTEND;TZID=Europe/Helsinki:20260925T224500
+SUMMARY:20:45 Fenerbahce Tarfin Istanbul – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 1\n📍 Istanbul\, Turki
+ ye — ULKER SPORTS AND EVENT HALL\n🕘 Orario: 20:45 (Europe/Helsinki)
+LOCATION:Istanbul\, Turkiye — ULKER SPORTS AND EVENT HALL
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -80,16 +80,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-29/09/26-Armani Olimpia Milan-Virtus 
  Bologna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20260929T210000
-DTEND;TZID=Europe/Helsinki:20260929T230000
-SUMMARY:21:00 Armani Olimpia Milan – Virtus Bologna 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 2\n🕘 Orario: 21:00 (E
- urope/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20260929T213000
+DTEND;TZID=Europe/Helsinki:20260929T233000
+SUMMARY:21:30 Armani Olimpia Milan – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 2\n📍 Assago\, Italy 
+ — UNIPOL FORUM\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Assago\, Italy — UNIPOL FORUM
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -100,16 +100,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-01/10/26-Virtus Bologna-Olympiacos Pi
  raeus@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261001T210000
-DTEND;TZID=Europe/Helsinki:20261001T230000
-SUMMARY:21:00 Virtus Bologna – Olympiacos Piraeus 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 3\n🕘 Orario: 21:00 (E
- urope/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261001T213000
+DTEND;TZID=Europe/Helsinki:20261001T233000
+SUMMARY:21:30 Virtus Bologna – Olympiacos Piraeus
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 3\n📍 Bologna\, Italy 
+ — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — PALADOZZA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -120,16 +120,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-08/10/26-FC Bayern Munich-Virtus Bolo
  gna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
 DTSTART;TZID=Europe/Helsinki:20261008T210000
 DTEND;TZID=Europe/Helsinki:20261008T230000
-SUMMARY:21:00 FC Bayern Munich – Virtus Bologna 20–00
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 4\n🕘 Orario: 21:00 (E
- urope/Helsinki)\nRisultato finale: 20–00
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SUMMARY:21:00 FC Bayern Munich – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 4\n📍 Munich\, Germany
+  — SAP GARDEN\n🕘 Orario: 21:00 (Europe/Helsinki)
+LOCATION:Munich\, Germany — SAP GARDEN
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -140,16 +140,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-14/10/26-Paris Basketball-Virtus Bolo
  gna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261014T210000
-DTEND;TZID=Europe/Helsinki:20261014T230000
-SUMMARY:21:00 Paris Basketball – Virtus Bologna 20–45
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 5\n🕘 Orario: 21:00 (E
- urope/Helsinki)\nRisultato finale: 20–45
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261014T214500
+DTEND;TZID=Europe/Helsinki:20261014T234500
+SUMMARY:21:45 Paris Basketball – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 5\n📍 Paris\, France 
+ — ADIDAS ARENA\n🕘 Orario: 21:45 (Europe/Helsinki)
+LOCATION:Paris\, France — ADIDAS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -160,20 +160,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-16/10/26-Virtus Bologna-Kosner Baskon
  ia Vitoria-gasteiz@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261016T210000
-DTEND;TZID=Europe/Helsinki:20261016T230000
-SUMMARY:21:00 Virtus Bologna – Kosner Baskonia Vitoria-gasteiz 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 6\n🕘 Orario: 21:00 (E
- urope/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261016T213000
+DTEND;TZID=Europe/Helsinki:20261016T233000
+SUMMARY:21:30 Virtus Bologna – Kosner Baskonia Vitoria-Gasteiz
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 6\n📍 Bologna\, Italy 
+ — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — PALADOZZA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Virtus Bologna – Kosner Baskonia Vitoria-gaste
+DESCRIPTION:Tra 30 minuti: Virtus Bologna – Kosner Baskonia Vitoria-Gaste
  iz
 TRIGGER:-PT30M
 END:VALARM
@@ -181,36 +181,36 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-21/10/26-Hapoel Ibi Tel Aviv-Virtus B
  ologna@github.com
-SEQUENCE:3
-DTSTAMP:20260911T162938Z
-LAST-MODIFIED:20260911T162938Z
-DTSTART;TZID=Europe/Helsinki:20261021T210000
-DTEND;TZID=Europe/Helsinki:20261021T230000
-SUMMARY:21:00 Hapoel Ibi Tel Aviv – Virtus Bologna 18–00
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 7\n🕘 Orario: 21:00 (E
- urope/Helsinki)\nRisultato finale: 18–00
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:4
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261021T190000
+DTEND;TZID=Europe/Helsinki:20261021T210000
+SUMMARY:19:00 Hapoel IBI Tel Aviv – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 7\n📍 Botevgrad\, Bulg
+ aria — ARENA BOTEVGRAD\n🕘 Orario: 19:00 (Europe/Helsinki)
+LOCATION:Botevgrad\, Bulgaria — ARENA BOTEVGRAD
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Hapoel Ibi Tel Aviv – Virtus Bologna
+DESCRIPTION:Tra 30 minuti: Hapoel IBI Tel Aviv – Virtus Bologna
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-28/10/26-Virtus Bologna-Zalgiris Kaun
  as@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261028T210000
-DTEND;TZID=Europe/Helsinki:20261028T230000
-SUMMARY:21:00 Virtus Bologna – Zalgiris Kaunas 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 8\n🕘 Orario: 21:00 (E
- urope/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261028T213000
+DTEND;TZID=Europe/Helsinki:20261028T233000
+SUMMARY:21:30 Virtus Bologna – Zalgiris Kaunas
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 8\n📍 Bologna\, Italy 
+ — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — PALADOZZA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -221,16 +221,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-30/10/26-Virtus Bologna-Besiktas Ista
  nbul@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261030T210000
-DTEND;TZID=Europe/Helsinki:20261030T230000
-SUMMARY:21:00 Virtus Bologna – Besiktas Istanbul 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 9\n🕘 Orario: 21:00 (E
- urope/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261030T213000
+DTEND;TZID=Europe/Helsinki:20261030T233000
+SUMMARY:21:30 Virtus Bologna – Besiktas Istanbul
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 9\n📍 Bologna\, Italy 
+ — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — PALADOZZA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -241,16 +241,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-06/11/26-Virtus Bologna-Dubai Basketb
  all@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261106T210000
-DTEND;TZID=Europe/Helsinki:20261106T230000
-SUMMARY:21:00 Virtus Bologna – Dubai Basketball 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 10\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261106T213000
+DTEND;TZID=Europe/Helsinki:20261106T233000
+SUMMARY:21:30 Virtus Bologna – Dubai Basketball
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 10\n📍 Bologna\, Italy
+  — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — PALADOZZA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -261,16 +261,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-13/11/26-Anadolu Efes Istanbul-Virtus
   Bologna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261113T210000
-DTEND;TZID=Europe/Helsinki:20261113T230000
-SUMMARY:21:00 Anadolu Efes Istanbul – Virtus Bologna 18–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 11\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 18–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261113T193000
+DTEND;TZID=Europe/Helsinki:20261113T213000
+SUMMARY:19:30 Anadolu Efes Istanbul – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 11\n📍 Istanbul\, Turk
+ iye — TURKCELL BASKETBALL DEVELOPMENT CENTER\n🕘 Orario: 19:30 (Europ
+ e/Helsinki)
+LOCATION:Istanbul\, Turkiye — TURKCELL BASKETBALL DEVELOPMENT CENTER
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -281,36 +282,36 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-17/11/26-Virtus Bologna-Panathinaikos
   Aktor Athens@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261117T210000
-DTEND;TZID=Europe/Helsinki:20261117T230000
-SUMMARY:21:00 Virtus Bologna – Panathinaikos Aktor Athens 21–00
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 12\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 21–00
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261117T220000
+DTEND;TZID=Europe/Helsinki:20261118T000000
+SUMMARY:22:00 Virtus Bologna – Panathinaikos AKTOR Athens
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 12\n📍 Bologna\, Italy
+  — PALADOZZA\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — PALADOZZA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Virtus Bologna – Panathinaikos Aktor Athens
+DESCRIPTION:Tra 30 minuti: Virtus Bologna – Panathinaikos AKTOR Athens
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-19/11/26-Valencia Basket-Virtus Bolog
  na@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261119T210000
-DTEND;TZID=Europe/Helsinki:20261119T230000
-SUMMARY:21:00 Valencia Basket – Virtus Bologna 21–00
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 13\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 21–00
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261119T220000
+DTEND;TZID=Europe/Helsinki:20261120T000000
+SUMMARY:22:00 Valencia Basket – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 13\n📍 Valencia\, Spai
+ n — ROIG ARENA\n🕘 Orario: 22:00 (Europe/Helsinki)
+LOCATION:Valencia\, Spain — ROIG ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -321,16 +322,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-24/11/26-Crvena Zvezda Meridianbet Be
  lgrade-Virtus Bologna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261124T210000
-DTEND;TZID=Europe/Helsinki:20261124T230000
-SUMMARY:21:00 Crvena Zvezda Meridianbet Belgrade – Virtus Bologna 19–00
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 14\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 19–00
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261124T200000
+DTEND;TZID=Europe/Helsinki:20261124T220000
+SUMMARY:20:00 Crvena Zvezda Meridianbet Belgrade – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 14\n📍 Belgrade\, Serb
+ ia — BELGRADE ARENA\n🕘 Orario: 20:00 (Europe/Helsinki)
+LOCATION:Belgrade\, Serbia — BELGRADE ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -342,16 +343,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-04/12/26-Virtus Bologna-Partizan Mozz
  art Bet Belgrade@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261204T210000
-DTEND;TZID=Europe/Helsinki:20261204T230000
-SUMMARY:21:00 Virtus Bologna – Partizan Mozzart Bet Belgrade 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 15\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261204T213000
+DTEND;TZID=Europe/Helsinki:20261204T233000
+SUMMARY:21:30 Virtus Bologna – Partizan Mozzart Bet Belgrade
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 15\n📍 Bologna\, Italy
+  — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — PALADOZZA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -362,16 +363,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-11/12/26-Virtus Bologna-Maccabi Rapyd
   Tel Aviv@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261211T210000
-DTEND;TZID=Europe/Helsinki:20261211T230000
-SUMMARY:21:00 Virtus Bologna – Maccabi Rapyd Tel Aviv 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 16\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261211T213000
+DTEND;TZID=Europe/Helsinki:20261211T233000
+SUMMARY:21:30 Virtus Bologna – Maccabi Rapyd Tel Aviv
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 16\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -382,36 +383,36 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-15/12/26-Virtus Bologna-LDLC ASvel Vi
  lleurbanne@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261215T210000
-DTEND;TZID=Europe/Helsinki:20261215T230000
-SUMMARY:21:00 Virtus Bologna – LDLC ASvel Villeurbanne 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 17\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261215T213000
+DTEND;TZID=Europe/Helsinki:20261215T233000
+SUMMARY:21:30 Virtus Bologna – LDLC ASVEL Villeurbanne
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 17\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Virtus Bologna – LDLC ASvel Villeurbanne
+DESCRIPTION:Tra 30 minuti: Virtus Bologna – LDLC ASVEL Villeurbanne
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-18/12/26-FC Barcelona-Virtus Bologna@
  github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261218T210000
-DTEND;TZID=Europe/Helsinki:20261218T230000
-SUMMARY:21:00 FC Barcelona – Virtus Bologna 20–45
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 18\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–45
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261218T214500
+DTEND;TZID=Europe/Helsinki:20261218T234500
+SUMMARY:21:45 FC Barcelona – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 18\n📍 Barcelona\, Spa
+ in — PALAU BLAUGRANA\n🕘 Orario: 21:45 (Europe/Helsinki)
+LOCATION:Barcelona\, Spain — PALAU BLAUGRANA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -422,16 +423,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-22/12/26-Virtus Bologna-Real Madrid@g
  ithub.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261222T210000
-DTEND;TZID=Europe/Helsinki:20261222T230000
-SUMMARY:21:00 Virtus Bologna – Real Madrid 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 19\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261222T213000
+DTEND;TZID=Europe/Helsinki:20261222T233000
+SUMMARY:21:30 Virtus Bologna – Real Madrid
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 19\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -442,16 +443,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-30/12/26-Virtus Bologna-Armani Olimpi
  a Milan@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20261230T210000
-DTEND;TZID=Europe/Helsinki:20261230T230000
-SUMMARY:21:00 Virtus Bologna – Armani Olimpia Milan 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 20\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20261230T213000
+DTEND;TZID=Europe/Helsinki:20261230T233000
+SUMMARY:21:30 Virtus Bologna – Armani Olimpia Milan
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 20\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -462,20 +463,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-08/01/27-Kosner Baskonia Vitoria-gast
  eiz-Virtus Bologna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270108T210000
-DTEND;TZID=Europe/Helsinki:20270108T230000
-SUMMARY:21:00 Kosner Baskonia Vitoria-gasteiz – Virtus Bologna 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 21\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270108T213000
+DTEND;TZID=Europe/Helsinki:20270108T233000
+SUMMARY:21:30 Kosner Baskonia Vitoria-Gasteiz – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 21\n📍 Vitoria\, Spain
+  — BUESA ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Vitoria\, Spain — BUESA ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Kosner Baskonia Vitoria-gasteiz – Virtus Bolog
+DESCRIPTION:Tra 30 minuti: Kosner Baskonia Vitoria-Gasteiz – Virtus Bolog
  na
 TRIGGER:-PT30M
 END:VALARM
@@ -483,16 +484,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-12/01/27-Virtus Bologna-Anadolu Efes 
  Istanbul@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270112T210000
-DTEND;TZID=Europe/Helsinki:20270112T230000
-SUMMARY:21:00 Virtus Bologna – Anadolu Efes Istanbul 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 22\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270112T213000
+DTEND;TZID=Europe/Helsinki:20270112T233000
+SUMMARY:21:30 Virtus Bologna – Anadolu Efes Istanbul
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 22\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -503,16 +504,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-15/01/27-Virtus Bologna-FC Barcelona@
  github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270115T210000
-DTEND;TZID=Europe/Helsinki:20270115T230000
-SUMMARY:21:00 Virtus Bologna – FC Barcelona 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 23\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270115T213000
+DTEND;TZID=Europe/Helsinki:20270115T233000
+SUMMARY:21:30 Virtus Bologna – FC Barcelona
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 23\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -523,16 +524,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-22/01/27-Zalgiris Kaunas-Virtus Bolog
  na@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270122T210000
-DTEND;TZID=Europe/Helsinki:20270122T230000
-SUMMARY:21:00 Zalgiris Kaunas – Virtus Bologna 19–00
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 24\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 19–00
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270122T200000
+DTEND;TZID=Europe/Helsinki:20270122T220000
+SUMMARY:20:00 Zalgiris Kaunas – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 24\n📍 Kaunas\, Lithua
+ nia — ZALGIRIO ARENA\n🕘 Orario: 20:00 (Europe/Helsinki)
+LOCATION:Kaunas\, Lithuania — ZALGIRIO ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -543,16 +544,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-28/01/27-Virtus Bologna-Paris Basketb
  all@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270128T210000
-DTEND;TZID=Europe/Helsinki:20270128T230000
-SUMMARY:21:00 Virtus Bologna – Paris Basketball 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 25\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270128T213000
+DTEND;TZID=Europe/Helsinki:20270128T233000
+SUMMARY:21:30 Virtus Bologna – Paris Basketball
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 25\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -563,16 +564,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-02/02/27-Maccabi Rapyd Tel Aviv-Virtu
  s Bologna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270202T210000
-DTEND;TZID=Europe/Helsinki:20270202T230000
-SUMMARY:21:00 Maccabi Rapyd Tel Aviv – Virtus Bologna 20–05
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 26\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–05
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270202T210500
+DTEND;TZID=Europe/Helsinki:20270202T230500
+SUMMARY:21:05 Maccabi Rapyd Tel Aviv – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 26\n📍 Belgrade\, Serb
+ ia — ALEKSANDAR NIKOLIC HALL\n🕘 Orario: 21:05 (Europe/Helsinki)
+LOCATION:Belgrade\, Serbia — ALEKSANDAR NIKOLIC HALL
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -583,16 +584,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-04/02/27-Dubai Basketball-Virtus Bolo
  gna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270204T210000
-DTEND;TZID=Europe/Helsinki:20270204T230000
-SUMMARY:21:00 Dubai Basketball – Virtus Bologna 17–00
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 27\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 17–00
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270204T180000
+DTEND;TZID=Europe/Helsinki:20270204T200000
+SUMMARY:18:00 Dubai Basketball – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 27\n📍 Dubai\, United 
+ Arab Emirates — COCA-COLA ARENA\n🕘 Orario: 18:00 (Europe/Helsinki)
+LOCATION:Dubai\, United Arab Emirates — COCA-COLA ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -603,16 +604,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-11/02/27-Virtus Bologna-FC Bayern Mun
  ich@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270211T210000
-DTEND;TZID=Europe/Helsinki:20270211T230000
-SUMMARY:21:00 Virtus Bologna – FC Bayern Munich 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 28\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270211T213000
+DTEND;TZID=Europe/Helsinki:20270211T233000
+SUMMARY:21:30 Virtus Bologna – FC Bayern Munich
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 28\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -623,36 +624,36 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-04/03/27-Virtus Bologna-Hapoel Ibi Te
  l Aviv@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270304T210000
-DTEND;TZID=Europe/Helsinki:20270304T230000
-SUMMARY:21:00 Virtus Bologna – Hapoel Ibi Tel Aviv 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 29\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270304T213000
+DTEND;TZID=Europe/Helsinki:20270304T233000
+SUMMARY:21:30 Virtus Bologna – Hapoel IBI Tel Aviv
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 29\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Virtus Bologna – Hapoel Ibi Tel Aviv
+DESCRIPTION:Tra 30 minuti: Virtus Bologna – Hapoel IBI Tel Aviv
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-09/03/27-Virtus Bologna-Fenerbahce Ta
  rfin Istanbul@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270309T210000
-DTEND;TZID=Europe/Helsinki:20270309T230000
-SUMMARY:21:00 Virtus Bologna – Fenerbahce Tarfin Istanbul 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 30\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270309T213000
+DTEND;TZID=Europe/Helsinki:20270309T233000
+SUMMARY:21:30 Virtus Bologna – Fenerbahce Tarfin Istanbul
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 30\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -663,16 +664,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-11/03/27-Real Madrid-Virtus Bologna@g
  ithub.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270311T210000
-DTEND;TZID=Europe/Helsinki:20270311T230000
-SUMMARY:21:00 Real Madrid – Virtus Bologna 20–45
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 31\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–45
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270311T214500
+DTEND;TZID=Europe/Helsinki:20270311T234500
+SUMMARY:21:45 Real Madrid – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 31\n📍 Madrid\, Spain 
+ — MOVISTAR ARENA\n🕘 Orario: 21:45 (Europe/Helsinki)
+LOCATION:Madrid\, Spain — MOVISTAR ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -683,36 +684,36 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-19/03/27-LDLC ASvel Villeurbanne-Virt
  us Bologna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
 DTSTART;TZID=Europe/Helsinki:20270319T210000
 DTEND;TZID=Europe/Helsinki:20270319T230000
-SUMMARY:21:00 LDLC ASvel Villeurbanne – Virtus Bologna 20–00
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 32\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–00
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SUMMARY:21:00 LDLC ASVEL Villeurbanne – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 32\n📍 Villeurbanne\, 
+ France — ASTROBALLE\n🕘 Orario: 21:00 (Europe/Helsinki)
+LOCATION:Villeurbanne\, France — ASTROBALLE
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: LDLC ASvel Villeurbanne – Virtus Bologna
+DESCRIPTION:Tra 30 minuti: LDLC ASVEL Villeurbanne – Virtus Bologna
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-23/03/27-Partizan Mozzart Bet Belgrad
  e-Virtus Bologna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270323T210000
-DTEND;TZID=Europe/Helsinki:20270323T230000
-SUMMARY:21:00 Partizan Mozzart Bet Belgrade – Virtus Bologna 20–45
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 33\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–45
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270323T214500
+DTEND;TZID=Europe/Helsinki:20270323T234500
+SUMMARY:21:45 Partizan Mozzart Bet Belgrade – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 33\n📍 Belgrade\, Serb
+ ia — BELGRADE ARENA\n🕘 Orario: 21:45 (Europe/Helsinki)
+LOCATION:Belgrade\, Serbia — BELGRADE ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -723,16 +724,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-26/03/27-Olympiacos Piraeus-Virtus Bo
  logna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270326T210000
-DTEND;TZID=Europe/Helsinki:20270326T230000
-SUMMARY:21:00 Olympiacos Piraeus – Virtus Bologna 20–15
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 34\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–15
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270326T211500
+DTEND;TZID=Europe/Helsinki:20270326T231500
+SUMMARY:21:15 Olympiacos Piraeus – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 34\n📍 Piraeus\, Greec
+ e — PEACE AND FRIENDSHIP STADIUM\n🕘 Orario: 21:15 (Europe/Helsinki)
+LOCATION:Piraeus\, Greece — PEACE AND FRIENDSHIP STADIUM
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -743,16 +744,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-31/03/27-Virtus Bologna-Crvena Zvezda
   Meridianbet Belgrade@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270331T210000
-DTEND;TZID=Europe/Helsinki:20270331T230000
-SUMMARY:21:00 Virtus Bologna – Crvena Zvezda Meridianbet Belgrade 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 35\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270331T213000
+DTEND;TZID=Europe/Helsinki:20270331T233000
+SUMMARY:21:30 Virtus Bologna – Crvena Zvezda Meridianbet Belgrade
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 35\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -764,16 +765,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-06/04/27-Virtus Bologna-Valencia Bask
  et@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270406T210000
-DTEND;TZID=Europe/Helsinki:20270406T230000
-SUMMARY:21:00 Virtus Bologna – Valencia Basket 20–30
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 36\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–30
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270406T213000
+DTEND;TZID=Europe/Helsinki:20270406T233000
+SUMMARY:21:30 Virtus Bologna – Valencia Basket
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 36\n📍 Bologna\, Italy
+  — VIRTUS ARENA\n🕘 Orario: 21:30 (Europe/Helsinki)
+LOCATION:Bologna\, Italy — VIRTUS ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -784,36 +785,37 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-08/04/27-Panathinaikos Aktor Athens-V
  irtus Bologna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270408T210000
-DTEND;TZID=Europe/Helsinki:20270408T230000
-SUMMARY:21:00 Panathinaikos Aktor Athens – Virtus Bologna 20–15
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 37\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 20–15
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270408T211500
+DTEND;TZID=Europe/Helsinki:20270408T231500
+SUMMARY:21:15 Panathinaikos AKTOR Athens – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 37\n📍 Marousi\, Greec
+ e — TELEKOM CENTER ATHENS\n🕘 Orario: 21:15 (Europe/Helsinki)
+LOCATION:Marousi\, Greece — TELEKOM CENTER ATHENS
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Panathinaikos Aktor Athens – Virtus Bologna
+DESCRIPTION:Tra 30 minuti: Panathinaikos AKTOR Athens – Virtus Bologna
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-16/04/27-Besiktas Istanbul-Virtus Bol
  ogna@github.com
-SEQUENCE:2
-DTSTAMP:20260910T082620Z
-LAST-MODIFIED:20260910T082620Z
-DTSTART;TZID=Europe/Helsinki:20270416T210000
-DTEND;TZID=Europe/Helsinki:20270416T230000
-SUMMARY:21:00 Besiktas Istanbul – Virtus Bologna 19–00
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 38\n🕘 Orario: 21:00 (
- Europe/Helsinki)\nRisultato finale: 19–00
-LOCATION:Da definire
-URL:https://www.virtus.it/stagione/eurolegue/
+SEQUENCE:3
+DTSTAMP:20260924T061140Z
+LAST-MODIFIED:20260924T061140Z
+DTSTART;TZID=Europe/Helsinki:20270416T200000
+DTEND;TZID=Europe/Helsinki:20270416T220000
+SUMMARY:20:00 Besiktas Istanbul – Virtus Bologna
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 38\n📍 Istanbul\, Turk
+ iye — TURKCELL BASKETBALL DEVELOPMENT CENTER\n🕘 Orario: 20:00 (Europ
+ e/Helsinki)
+LOCATION:Istanbul\, Turkiye — TURKCELL BASKETBALL DEVELOPMENT CENTER
+URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
