@@ -48,15 +48,15 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:sports-calendar-coppa-italia-serie-a::Football_Match::092d872486fc462f9
  569fd5027fd13e1@github.com
-SEQUENCE:5
-DTSTAMP:20260924T141318Z
-LAST-MODIFIED:20260924T141318Z
-DTSTART;TZID=Europe/Helsinki:20261202T010000
-DTEND;TZID=Europe/Helsinki:20261202T030000
+SEQUENCE:6
+DTSTAMP:20260925T213551Z
+LAST-MODIFIED:20260925T213551Z
+DTSTART;TZID=Europe/Helsinki:20261215T220000
+DTEND;TZID=Europe/Helsinki:20261216T000000
 SUMMARY:Bologna – Palermo
 DESCRIPTION:🏆 Competizione: Coppa Italia 2026/27\n📅 Ottavi di finale\
  n🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orar
- io: 01:00 (Europe/Helsinki)
+ io: 22:00 (Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED

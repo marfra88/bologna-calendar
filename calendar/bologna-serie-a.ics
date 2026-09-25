@@ -291,15 +291,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::92e5cb913a5f4c638e5124
  3ad1ccc94a@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
-DTSTART;TZID=Europe/Helsinki:20261122T190000
-DTEND;TZID=Europe/Helsinki:20261122T210000
+SEQUENCE:4
+DTSTAMP:20260925T213550Z
+LAST-MODIFIED:20260925T213550Z
+DTSTART;TZID=Europe/Helsinki:20261122T160000
+DTEND;TZID=Europe/Helsinki:20261122T180000
 SUMMARY:Bologna – Udinese
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 12ª giornata\n🏟️
-  Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n🕘 Orar
- io: 19:00 (Europe/Helsinki)
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 16:00 (
+ Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -312,15 +312,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::561c74842f9f41568b1d1b
  f518b85315@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
-DTSTART;TZID=Europe/Helsinki:20261128T010000
-DTEND;TZID=Europe/Helsinki:20261128T030000
+SEQUENCE:4
+DTSTAMP:20260925T213550Z
+LAST-MODIFIED:20260925T213550Z
+DTSTART;TZID=Europe/Helsinki:20261127T214500
+DTEND;TZID=Europe/Helsinki:20261127T234500
 SUMMARY:Venezia – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 13ª giornata\n🏟️
-  Stadio: Pier Luigi Penzo\n📺 Diretta TV: Da definire\n🕘 Orario: 01:
- 00 (Europe/Helsinki)
+  Stadio: Pier Luigi Penzo\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n🕘 Ora
+ rio: 21:45 (Europe/Helsinki)
 LOCATION:Pier Luigi Penzo
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -333,15 +333,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::839fd8be82ae470d8d25b4
  6a98ccdd22@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
-DTSTART;TZID=Europe/Helsinki:20261205T010000
-DTEND;TZID=Europe/Helsinki:20261205T030000
+SEQUENCE:4
+DTSTAMP:20260925T213550Z
+LAST-MODIFIED:20260925T213550Z
+DTSTART;TZID=Europe/Helsinki:20261204T214500
+DTEND;TZID=Europe/Helsinki:20261204T234500
 SUMMARY:Bologna – Roma
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 14ª giornata\n🏟️
-  Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
- 0 (Europe/Helsinki)
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 21:45 (
+ Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -354,15 +354,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::b163589825fa4344940bd2
  c74e7eee29@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
-DTSTART;TZID=Europe/Helsinki:20261212T010000
-DTEND;TZID=Europe/Helsinki:20261212T030000
+SEQUENCE:4
+DTSTAMP:20260925T213550Z
+LAST-MODIFIED:20260925T213550Z
+DTSTART;TZID=Europe/Helsinki:20261212T214500
+DTEND;TZID=Europe/Helsinki:20261212T234500
 SUMMARY:Como – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 15ª giornata\n🏟️
-  Stadio: Giuseppe Sinigaglia\n📺 Diretta TV: Da definire\n🕘 Orario: 
- 01:00 (Europe/Helsinki)
+  Stadio: Giuseppe Sinigaglia\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n🕘 
+ Orario: 21:45 (Europe/Helsinki)
 LOCATION:Giuseppe Sinigaglia
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -375,15 +375,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::6159cd08ca144f4eab5069
  f1be14bd37@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
-DTSTART;TZID=Europe/Helsinki:20261219T010000
-DTEND;TZID=Europe/Helsinki:20261219T030000
+SEQUENCE:4
+DTSTAMP:20260925T213550Z
+LAST-MODIFIED:20260925T213550Z
+DTSTART;TZID=Europe/Helsinki:20261220T133000
+DTEND;TZID=Europe/Helsinki:20261220T153000
 SUMMARY:Fiorentina – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 16ª giornata\n🏟️
-  Stadio: Artemio Franchi\n📺 Diretta TV: Da definire\n🕘 Orario: 01:0
- 0 (Europe/Helsinki)
+  Stadio: Artemio Franchi\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 13:30 (
+ Europe/Helsinki)
 LOCATION:Artemio Franchi
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -396,15 +396,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::bfeee5e5facf42b496bcd9
  ce386d869d@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
-DTSTART;TZID=Europe/Helsinki:20270102T010000
-DTEND;TZID=Europe/Helsinki:20270102T030000
+SEQUENCE:4
+DTSTAMP:20260925T213550Z
+LAST-MODIFIED:20260925T213550Z
+DTSTART;TZID=Europe/Helsinki:20270103T214500
+DTEND;TZID=Europe/Helsinki:20270103T234500
 SUMMARY:Bologna – Juventus
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 17ª giornata\n🏟️
-  Stadio: Renato Dall'Ara\n📺 Diretta TV: BAZR\n🕘 Orario: 01:00 (Euro
- pe/Helsinki)
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 21:45 (
+ Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -417,15 +417,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::75cddc42ba3c409caa5fdc
  329117dd16@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
-DTSTART;TZID=Europe/Helsinki:20270105T010000
-DTEND;TZID=Europe/Helsinki:20270105T030000
+SEQUENCE:4
+DTSTAMP:20260925T213550Z
+LAST-MODIFIED:20260925T213550Z
+DTSTART;TZID=Europe/Helsinki:20270106T160000
+DTEND;TZID=Europe/Helsinki:20270106T180000
 SUMMARY:Frosinone – Bologna
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 18ª giornata\n🏟️
-  Stadio: Benito Stirpe\n📺 Diretta TV: Da definire\n🕘 Orario: 01:00 
- (Europe/Helsinki)
+  Stadio: Benito Stirpe\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n🕘 Orario
+ : 16:00 (Europe/Helsinki)
 LOCATION:Benito Stirpe
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -438,15 +438,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::1270fabb66d5497fb357d7
  b5f89d9e48@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
-DTSTART;TZID=Europe/Helsinki:20270109T010000
-DTEND;TZID=Europe/Helsinki:20270109T030000
+SEQUENCE:4
+DTSTAMP:20260925T213550Z
+LAST-MODIFIED:20260925T213550Z
+DTSTART;TZID=Europe/Helsinki:20270109T214500
+DTEND;TZID=Europe/Helsinki:20270109T234500
 SUMMARY:Bologna – Genoa
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 19ª giornata\n🏟️
-  Stadio: Renato Dall'Ara\n📺 Diretta TV: BAZR\n🕘 Orario: 01:00 (Euro
- pe/Helsinki)
+  Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n🕘 Orar
+ io: 21:45 (Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED

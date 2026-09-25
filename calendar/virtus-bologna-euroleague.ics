@@ -60,14 +60,15 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-25/09/26-Fenerbahce Tarfin Istanbul-V
  irtus Bologna@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20260925T213552Z
+LAST-MODIFIED:20260925T213552Z
 DTSTART;TZID=Europe/Helsinki:20260925T204500
 DTEND;TZID=Europe/Helsinki:20260925T224500
-SUMMARY:Fenerbahce Tarfin Istanbul – Virtus Bologna
+SUMMARY:Fenerbahce Tarfin Istanbul – Virtus Bologna 78–68
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 1\n📍 Istanbul\, Turki
- ye — ULKER SPORTS AND EVENT HALL\n🕘 Orario: 20:45 (Europe/Helsinki)
+ ye — ULKER SPORTS AND EVENT HALL\n🕘 Orario: 20:45 (Europe/Helsinki)\
+ nRisultato finale: 78–68
 LOCATION:Istanbul\, Turkiye — ULKER SPORTS AND EVENT HALL
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
