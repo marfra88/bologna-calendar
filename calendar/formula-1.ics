@@ -108,16 +108,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-formula-1-2026-azerbaijan@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141327Z
-LAST-MODIFIED:20260924T141327Z
+SEQUENCE:4
+DTSTAMP:20260926T162452Z
+LAST-MODIFIED:20260926T162452Z
 DTSTART;TZID=Europe/Helsinki:20260926T140000
 DTEND;TZID=Europe/Helsinki:20260926T160000
 SUMMARY:FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026
 DESCRIPTION:📍 Baku\, Azerbaijan\n🕘 Race start: 14:00 (Europe/Helsinki
- )
+ )\n🏁 Classifica finale\n1. George Russell — Mercedes\n2. Max Verstap
+ pen — Red Bull Racing\n3. Isack Hadjar — Red Bull Racing
 LOCATION:Baku\, Azerbaijan
-URL:https://www.formula1.com/en/racing/2026/azerbaijan
+URL:https://www.formula1.com/en/results/2026/races/1295/azerbaijan/race-res
+ ult
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
