@@ -81,14 +81,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-29/09/26-Armani Olimpia Milan-Virtus 
  Bologna@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20260929T221614Z
+LAST-MODIFIED:20260929T221614Z
 DTSTART;TZID=Europe/Helsinki:20260929T213000
 DTEND;TZID=Europe/Helsinki:20260929T233000
-SUMMARY:Armani Olimpia Milan – Virtus Bologna
+SUMMARY:Armani Olimpia Milan – Virtus Bologna 87–85
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 2\n📍 Assago\, Italy 
- — UNIPOL FORUM\n🕘 Orario: 21:30 (Europe/Helsinki)
+ — UNIPOL FORUM\n🕘 Orario: 21:30 (Europe/Helsinki)\nRisultato finale:
+  87–85
 LOCATION:Assago\, Italy — UNIPOL FORUM
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
