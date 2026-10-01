@@ -102,14 +102,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-01/10/26-Virtus Bologna-Olympiacos Pi
  raeus@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261001T224215Z
+LAST-MODIFIED:20261001T224215Z
 DTSTART;TZID=Europe/Helsinki:20261001T213000
 DTEND;TZID=Europe/Helsinki:20261001T233000
-SUMMARY:Virtus Bologna – Olympiacos Piraeus
+SUMMARY:Virtus Bologna – Olympiacos Piraeus 96–94
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 3\n📍 Bologna\, Italy 
- — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+ — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)\nRisultato finale: 96
+ –94
 LOCATION:Bologna\, Italy — PALADOZZA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
