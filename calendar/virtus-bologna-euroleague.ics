@@ -184,15 +184,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-21/10/26-Hapoel Ibi Tel Aviv-Virtus B
  ologna@github.com
-SEQUENCE:5
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:6
+DTSTAMP:20261002T221506Z
+LAST-MODIFIED:20261002T221506Z
 DTSTART;TZID=Europe/Helsinki:20261021T190000
 DTEND;TZID=Europe/Helsinki:20261021T210000
 SUMMARY:Hapoel IBI Tel Aviv – Virtus Bologna
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 7\n📍 Botevgrad\, Bulg
- aria — ARENA BOTEVGRAD\n🕘 Orario: 19:00 (Europe/Helsinki)
-LOCATION:Botevgrad\, Bulgaria — ARENA BOTEVGRAD
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 7\n📍 Tel Aviv\, Israe
+ l — ARENA 8888 SOFIA\n🕘 Orario: 19:00 (Europe/Helsinki)
+LOCATION:Tel Aviv\, Israel — ARENA 8888 SOFIA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
