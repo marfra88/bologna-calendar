@@ -130,15 +130,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-formula-1-2026-bahrain@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141327Z
-LAST-MODIFIED:20260924T141327Z
+SEQUENCE:4
+DTSTAMP:20261004T122326Z
+LAST-MODIFIED:20261004T122326Z
 DTSTART;TZID=Europe/Helsinki:20261004T100000
 DTEND;TZID=Europe/Helsinki:20261004T120000
 SUMMARY:FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026
 DESCRIPTION:📍 Sakhir\, Bahrain\n🕘 Race start: 10:00 (Europe/Helsinki)
+ \n🏁 Classifica finale\n1. Max Verstappen — Red Bull Racing\n2. Kimi 
+ Antonelli — Mercedes\n3. Lewis Hamilton — Ferrari
 LOCATION:Sakhir\, Bahrain
-URL:https://www.formula1.com/en/racing/2026/bahrain
+URL:https://www.formula1.com/en/results/2026/races/1308/bahrain/race-result
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
