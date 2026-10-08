@@ -123,14 +123,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-08/10/26-FC Bayern Munich-Virtus Bolo
  gna@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261008T232145Z
+LAST-MODIFIED:20261008T232145Z
 DTSTART;TZID=Europe/Helsinki:20261008T210000
 DTEND;TZID=Europe/Helsinki:20261008T230000
-SUMMARY:FC Bayern Munich – Virtus Bologna
+SUMMARY:FC Bayern Munich – Virtus Bologna 87–94
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 4\n📍 Munich\, Germany
-  — SAP GARDEN\n🕘 Orario: 21:00 (Europe/Helsinki)
+  — SAP GARDEN\n🕘 Orario: 21:00 (Europe/Helsinki)\nRisultato finale: 
+ 87–94
 LOCATION:Munich\, Germany — SAP GARDEN
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
