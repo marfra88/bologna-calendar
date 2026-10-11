@@ -165,15 +165,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::319953aed1404a84a0d9b2
  8149b674de@github.com
-SEQUENCE:4
-DTSTAMP:20261011T125156Z
-LAST-MODIFIED:20261011T125156Z
+SEQUENCE:5
+DTSTAMP:20261011T215850Z
+LAST-MODIFIED:20261011T215850Z
 DTSTART;TZID=Europe/Helsinki:20261011T160000
 DTEND;TZID=Europe/Helsinki:20261011T180000
-SUMMARY:Lecce – Bologna
+SUMMARY:Lecce – Bologna 1–2
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 6ª giornata\n🏟️ 
  Stadio: Ettore Giardiniero - Via Del Mare\n📺 Diretta TV: ⬛ DAZN\n
- 🕘 Orario: 16:00 (Europe/Helsinki)
+ 🕘 Orario: 16:00 (Europe/Helsinki)\nRisultato finale: 1–2
 LOCATION:Ettore Giardiniero - Via Del Mare
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED

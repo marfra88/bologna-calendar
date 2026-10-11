@@ -151,15 +151,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-formula-1-2026-singapore@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141327Z
-LAST-MODIFIED:20260924T141327Z
+SEQUENCE:4
+DTSTAMP:20261011T215859Z
+LAST-MODIFIED:20261011T215859Z
 DTSTART;TZID=Europe/Helsinki:20261011T150000
 DTEND;TZID=Europe/Helsinki:20261011T170000
 SUMMARY:FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026
-DESCRIPTION:📍 Singapore\n🕘 Race start: 15:00 (Europe/Helsinki)
+DESCRIPTION:📍 Singapore\n🕘 Race start: 15:00 (Europe/Helsinki)\n🏁 
+ Classifica finale\n1. Max Verstappen — Red Bull Racing\n2. Charles Lecl
+ erc — Ferrari\n3. Kimi Antonelli — Mercedes
 LOCATION:Singapore
-URL:https://www.formula1.com/en/racing/2026/singapore
+URL:https://www.formula1.com/en/results/2026/races/1296/singapore/race-resu
+ lt
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
