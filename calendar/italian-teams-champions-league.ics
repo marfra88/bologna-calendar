@@ -139,14 +139,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049571@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261013T224601Z
+LAST-MODIFIED:20261013T224601Z
 DTSTART;TZID=Europe/Helsinki:20261013T220000
 DTEND;TZID=Europe/Helsinki:20261014T000000
-SUMMARY:Inter – Club Brugge
+SUMMARY:Inter – Club Brugge 3–4
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Milan\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Milan\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 3
+ –4
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -158,14 +159,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049575@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261013T224601Z
+LAST-MODIFIED:20261013T224601Z
 DTSTART;TZID=Europe/Helsinki:20261013T220000
 DTEND;TZID=Europe/Helsinki:20261014T000000
-SUMMARY:Villarreal – Napoli
+SUMMARY:Villarreal – Napoli 3–1
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Villarreal\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Villarreal\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato final
+ e: 3–1
 LOCATION:Villarreal\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
