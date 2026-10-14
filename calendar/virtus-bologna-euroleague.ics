@@ -144,14 +144,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-14/10/26-Paris Basketball-Virtus Bolo
  gna@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261014T214201Z
+LAST-MODIFIED:20261014T214201Z
 DTSTART;TZID=Europe/Helsinki:20261014T214500
 DTEND;TZID=Europe/Helsinki:20261014T234500
-SUMMARY:Paris Basketball – Virtus Bologna
+SUMMARY:Paris Basketball – Virtus Bologna 94–96
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 5\n📍 Paris\, France 
- — ADIDAS ARENA\n🕘 Orario: 21:45 (Europe/Helsinki)
+ — ADIDAS ARENA\n🕘 Orario: 21:45 (Europe/Helsinki)\nRisultato finale:
+  94–96
 LOCATION:Paris\, France — ADIDAS ARENA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED

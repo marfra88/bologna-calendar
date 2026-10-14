@@ -179,14 +179,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049584@github.com
-SEQUENCE:5
-DTSTAMP:20261014T171231Z
-LAST-MODIFIED:20261014T171231Z
+SEQUENCE:6
+DTSTAMP:20261014T214207Z
+LAST-MODIFIED:20261014T214207Z
 DTSTART;TZID=Europe/Helsinki:20261014T194500
 DTEND;TZID=Europe/Helsinki:20261014T214500
-SUMMARY:Feyenoord – Como
+SUMMARY:Feyenoord – Como 3–2
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Rotterdam\, Netherlands\n🕘 Orario: 19:45 (Europe/Helsinki)
+ Rotterdam\, Netherlands\n🕘 Orario: 19:45 (Europe/Helsinki)\nRisultato 
+ finale: 3–2
 LOCATION:Rotterdam\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -198,14 +199,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049581@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261014T214207Z
+LAST-MODIFIED:20261014T214207Z
 DTSTART;TZID=Europe/Helsinki:20261014T220000
 DTEND;TZID=Europe/Helsinki:20261015T000000
-SUMMARY:Roma – Real Madrid
+SUMMARY:Roma – Real Madrid 3–4
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Rome\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Rome\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 3
+ –4
 LOCATION:Rome\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
