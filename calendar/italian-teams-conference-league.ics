@@ -86,14 +86,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2050309@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141332Z
-LAST-MODIFIED:20260924T141332Z
+SEQUENCE:5
+DTSTAMP:20261015T212401Z
+LAST-MODIFIED:20261015T212401Z
 DTSTART;TZID=Europe/Helsinki:20261015T220000
 DTEND;TZID=Europe/Helsinki:20261016T000000
-SUMMARY:Atalanta – Pafos
+SUMMARY:Atalanta – Pafos 3–1
 DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Fase campionato\n📍
-  Bergamo\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+  Bergamo\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale:
+  3–1
 LOCATION:Bergamo\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED

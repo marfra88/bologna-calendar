@@ -97,14 +97,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050082@github.com
-SEQUENCE:5
-DTSTAMP:20261015T170224Z
-LAST-MODIFIED:20261015T170224Z
+SEQUENCE:6
+DTSTAMP:20261015T212358Z
+LAST-MODIFIED:20261015T212358Z
 DTSTART;TZID=Europe/Helsinki:20261015T194500
 DTEND;TZID=Europe/Helsinki:20261015T214500
-SUMMARY:Salzburg – Milan
+SUMMARY:Salzburg – Milan 0–4
 DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Sal
- zburg\, Austria\n🕘 Orario: 19:45 (Europe/Helsinki)
+ zburg\, Austria\n🕘 Orario: 19:45 (Europe/Helsinki)\nRisultato finale: 
+ 0–4
 LOCATION:Salzburg\, Austria
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -116,14 +117,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050089@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141329Z
-LAST-MODIFIED:20260924T141329Z
+SEQUENCE:5
+DTSTAMP:20261015T212358Z
+LAST-MODIFIED:20261015T212358Z
 DTSTART;TZID=Europe/Helsinki:20261015T220000
 DTEND;TZID=Europe/Helsinki:20261016T000000
-SUMMARY:Celta – Juventus
+SUMMARY:Celta – Juventus 1–2
 DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Vig
- o\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)
+ o\, Spain\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 1–2
 LOCATION:Vigo\, Spain
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
