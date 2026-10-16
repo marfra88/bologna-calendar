@@ -165,14 +165,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-16/10/26-Virtus Bologna-Kosner Baskon
  ia Vitoria-gasteiz@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261016T210948Z
+LAST-MODIFIED:20261016T210948Z
 DTSTART;TZID=Europe/Helsinki:20261016T213000
 DTEND;TZID=Europe/Helsinki:20261016T233000
-SUMMARY:Virtus Bologna – Kosner Baskonia Vitoria-Gasteiz
+SUMMARY:Virtus Bologna – Kosner Baskonia Vitoria-Gasteiz 86–78
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 6\n📍 Bologna\, Italy 
- — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+ — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)\nRisultato finale: 86
+ –78
 LOCATION:Bologna\, Italy — PALADOZZA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
