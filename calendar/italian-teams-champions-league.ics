@@ -219,14 +219,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049592@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261020T213818Z
+LAST-MODIFIED:20261020T213818Z
 DTSTART;TZID=Europe/Helsinki:20261020T220000
 DTEND;TZID=Europe/Helsinki:20261021T000000
-SUMMARY:Roma – S. Bratislava
+SUMMARY:Roma – S. Bratislava 4–0
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Rome\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Rome\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 4
+ –0
 LOCATION:Rome\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -238,14 +239,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049594@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261020T213818Z
+LAST-MODIFIED:20261020T213818Z
 DTSTART;TZID=Europe/Helsinki:20261020T220000
 DTEND;TZID=Europe/Helsinki:20261021T000000
-SUMMARY:Napoli – Bodø/Glimt
+SUMMARY:Napoli – Bodø/Glimt 4–3
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Naples\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Naples\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 4
+ –3
 LOCATION:Naples\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
