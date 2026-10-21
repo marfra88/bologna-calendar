@@ -259,14 +259,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049606@github.com
-SEQUENCE:5
-DTSTAMP:20261021T171355Z
-LAST-MODIFIED:20261021T171355Z
+SEQUENCE:6
+DTSTAMP:20261021T214344Z
+LAST-MODIFIED:20261021T214344Z
 DTSTART;TZID=Europe/Helsinki:20261021T194500
 DTEND;TZID=Europe/Helsinki:20261021T214500
-SUMMARY:Como – Man Utd
+SUMMARY:Como – Man Utd 4–1
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Como\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
+ Como\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)\nRisultato finale: 4
+ –1
 LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -278,14 +279,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049600@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261021T214344Z
+LAST-MODIFIED:20261021T214344Z
 DTSTART;TZID=Europe/Helsinki:20261021T220000
 DTEND;TZID=Europe/Helsinki:20261022T000000
-SUMMARY:Inter – Shakhtar
+SUMMARY:Inter – Shakhtar 1–0
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Milan\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Milan\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 1
+ –0
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
