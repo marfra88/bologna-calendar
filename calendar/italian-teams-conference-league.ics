@@ -106,14 +106,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2050328@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141332Z
-LAST-MODIFIED:20260924T141332Z
+SEQUENCE:5
+DTSTAMP:20261022T213713Z
+LAST-MODIFIED:20261022T213713Z
 DTSTART;TZID=Europe/Helsinki:20261022T220000
 DTEND;TZID=Europe/Helsinki:20261023T000000
-SUMMARY:Ajax – Atalanta
+SUMMARY:Ajax – Atalanta 2–0
 DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Fase campionato\n📍
-  Amsterdam\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
+  Amsterdam\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato
+  finale: 2–0
 LOCATION:Amsterdam\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED

@@ -136,14 +136,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050093@github.com
-SEQUENCE:5
-DTSTAMP:20261022T171156Z
-LAST-MODIFIED:20261022T171156Z
+SEQUENCE:6
+DTSTAMP:20261022T213711Z
+LAST-MODIFIED:20261022T213711Z
 DTSTART;TZID=Europe/Helsinki:20261022T194500
 DTEND;TZID=Europe/Helsinki:20261022T214500
-SUMMARY:Juventus – Rennes
+SUMMARY:Juventus – Rennes 2–2
 DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Tur
- in\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
+ in\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)\nRisultato finale: 2–2
 LOCATION:Turin\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -155,14 +155,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050102@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141329Z
-LAST-MODIFIED:20260924T141329Z
+SEQUENCE:5
+DTSTAMP:20261022T213711Z
+LAST-MODIFIED:20261022T213711Z
 DTSTART;TZID=Europe/Helsinki:20261022T220000
 DTEND;TZID=Europe/Helsinki:20261023T000000
-SUMMARY:Bournemouth – Milan
+SUMMARY:Bournemouth – Milan 3–0
 DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Bou
- rnemouth\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
+ rnemouth\, England\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato final
+ e: 3–0
 LOCATION:Bournemouth\, England
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
