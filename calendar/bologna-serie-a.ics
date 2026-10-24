@@ -207,15 +207,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::35dc3bf2680a41d2a83a24
  2a8a4e61a7@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
+SEQUENCE:4
+DTSTAMP:20261024T155745Z
+LAST-MODIFIED:20261024T155745Z
 DTSTART;TZID=Europe/Helsinki:20261024T160000
 DTEND;TZID=Europe/Helsinki:20261024T180000
-SUMMARY:Cagliari – Bologna
+SUMMARY:Cagliari – Bologna 0–2
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 8ª giornata\n🏟️ 
  Stadio: Unipol Domus\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 16:00 (Euro
- pe/Helsinki)
+ pe/Helsinki)\nRisultato finale: 0–2
 LOCATION:Unipol Domus
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
