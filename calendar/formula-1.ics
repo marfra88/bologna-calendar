@@ -173,16 +173,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-formula-1-2026-united-states@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141327Z
-LAST-MODIFIED:20260924T141327Z
+SEQUENCE:4
+DTSTAMP:20261026T044852Z
+LAST-MODIFIED:20261026T044852Z
 DTSTART;TZID=Europe/Helsinki:20261025T220000
 DTEND;TZID=Europe/Helsinki:20261026T000000
 SUMMARY:FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026
 DESCRIPTION:📍 Austin\, United States\n🕘 Race start: 22:00 (Europe/Hel
- sinki)
+ sinki)\n🏁 Classifica finale\n1. Kimi Antonelli — Mercedes\n2. Charle
+ s Leclerc — Ferrari\n3. Max Verstappen — Red Bull Racing
 LOCATION:Austin\, United States
-URL:https://www.formula1.com/en/racing/2026/united-states
+URL:https://www.formula1.com/en/results/2026/races/1297/united-states/race-
+ result
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
