@@ -208,14 +208,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-28/10/26-Virtus Bologna-Zalgiris Kaun
  as@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261028T223603Z
+LAST-MODIFIED:20261028T223603Z
 DTSTART;TZID=Europe/Helsinki:20261028T213000
 DTEND;TZID=Europe/Helsinki:20261028T233000
-SUMMARY:Virtus Bologna – Zalgiris Kaunas
+SUMMARY:Virtus Bologna – Zalgiris Kaunas 74–91
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 8\n📍 Bologna\, Italy 
- — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+ — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)\nRisultato finale: 74
+ –91
 LOCATION:Bologna\, Italy — PALADOZZA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED

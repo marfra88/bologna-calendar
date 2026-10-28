@@ -228,15 +228,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::cc0031f17e30431f8d97e2
  a220243d76@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
+SEQUENCE:4
+DTSTAMP:20261028T223601Z
+LAST-MODIFIED:20261028T223601Z
 DTSTART;TZID=Europe/Helsinki:20261028T193000
 DTEND;TZID=Europe/Helsinki:20261028T213000
-SUMMARY:Milan – Bologna
+SUMMARY:Milan – Bologna 2–4
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 9ª giornata\n🏟️ 
  Stadio: Giuseppe Meazza\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 19:30 (E
- urope/Helsinki)
+ urope/Helsinki)\nRisultato finale: 2–4
 LOCATION:Giuseppe Meazza
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
