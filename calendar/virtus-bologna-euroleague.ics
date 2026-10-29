@@ -349,16 +349,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sports-calendar-virtus-euroleague-04/12/26-Virtus Bologna-Partizan Mozz
+UID:sports-calendar-virtus-euroleague-03/12/26-Virtus Bologna-Partizan Mozz
  art Bet Belgrade@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
-DTSTART;TZID=Europe/Helsinki:20261204T213000
-DTEND;TZID=Europe/Helsinki:20261204T233000
+SEQUENCE:1
+DTSTAMP:20261029T224535Z
+LAST-MODIFIED:20261029T224535Z
+DTSTART;TZID=Europe/Helsinki:20261203T220000
+DTEND;TZID=Europe/Helsinki:20261204T000000
 SUMMARY:Virtus Bologna – Partizan Mozzart Bet Belgrade
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 15\n📍 Bologna\, Italy
-  — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+  — PALADOZZA\n🕘 Orario: 22:00 (Europe/Helsinki)
 LOCATION:Bologna\, Italy — PALADOZZA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
