@@ -229,14 +229,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-30/10/26-Virtus Bologna-Besiktas Ista
  nbul@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261030T222115Z
+LAST-MODIFIED:20261030T222115Z
 DTSTART;TZID=Europe/Helsinki:20261030T213000
 DTEND;TZID=Europe/Helsinki:20261030T233000
-SUMMARY:Virtus Bologna – Besiktas Istanbul
+SUMMARY:Virtus Bologna – Besiktas Istanbul 101–103
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 9\n📍 Bologna\, Italy 
- — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+ — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)\nRisultato finale: 10
+ 1–103
 LOCATION:Bologna\, Italy — PALADOZZA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
