@@ -249,15 +249,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::57863eae8e0847799fe616
  0a7d946d95@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
+SEQUENCE:4
+DTSTAMP:20261031T213555Z
+LAST-MODIFIED:20261031T213555Z
 DTSTART;TZID=Europe/Helsinki:20261031T160000
 DTEND;TZID=Europe/Helsinki:20261031T180000
-SUMMARY:Bologna – Monza
+SUMMARY:Bologna – Monza 2–1
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 10ª giornata\n🏟️
   Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 16:00 (
- Europe/Helsinki)
+ Europe/Helsinki)\nRisultato finale: 2–1
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
