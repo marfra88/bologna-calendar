@@ -195,16 +195,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-formula-1-2026-mexico@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141327Z
-LAST-MODIFIED:20260924T141327Z
+SEQUENCE:4
+DTSTAMP:20261102T060556Z
+LAST-MODIFIED:20261102T060556Z
 DTSTART;TZID=Europe/Helsinki:20261101T220000
 DTEND;TZID=Europe/Helsinki:20261102T000000
 SUMMARY:FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026
 DESCRIPTION:📍 Mexico City\, Mexico\n🕘 Race start: 22:00 (Europe/Helsi
- nki)
+ nki)\n🏁 Classifica finale\n1. Max Verstappen — Red Bull Racing\n2. L
+ ewis Hamilton — Ferrari\n3. Kimi Antonelli — Mercedes
 LOCATION:Mexico City\, Mexico
-URL:https://www.formula1.com/en/racing/2026/mexico
+URL:https://www.formula1.com/en/results/2026/races/1298/mexico/race-result
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
