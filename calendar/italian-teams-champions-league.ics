@@ -299,14 +299,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049609@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261103T232438Z
+LAST-MODIFIED:20261103T232438Z
 DTSTART;TZID=Europe/Helsinki:20261103T220000
 DTEND;TZID=Europe/Helsinki:20261104T000000
-SUMMARY:Man Utd – Roma
+SUMMARY:Man Utd – Roma 3–2
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Manchester\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Manchester\, England\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato fin
+ ale: 3–2
 LOCATION:Manchester\, England
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -318,14 +319,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049610@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261103T232438Z
+LAST-MODIFIED:20261103T232438Z
 DTSTART;TZID=Europe/Helsinki:20261103T220000
 DTEND;TZID=Europe/Helsinki:20261104T000000
-SUMMARY:Feyenoord – Inter
+SUMMARY:Feyenoord – Inter 0–3
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Rotterdam\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Rotterdam\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato 
+ finale: 0–3
 LOCATION:Rotterdam\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
