@@ -339,14 +339,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049617@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261105T064821Z
+LAST-MODIFIED:20261105T064821Z
 DTSTART;TZID=Europe/Helsinki:20261104T220000
 DTEND;TZID=Europe/Helsinki:20261105T000000
-SUMMARY:Porto – Napoli
+SUMMARY:Porto – Napoli 4–1
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Porto\, Portugal\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Porto\, Portugal\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale:
+  4–1
 LOCATION:Porto\, Portugal
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -358,14 +359,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049623@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261105T064821Z
+LAST-MODIFIED:20261105T064821Z
 DTSTART;TZID=Europe/Helsinki:20261104T220000
 DTEND;TZID=Europe/Helsinki:20261105T000000
-SUMMARY:Lens – Como
+SUMMARY:Lens – Como 1–9
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Lens Agglo\, France\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Lens Agglo\, France\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato fina
+ le: 1–9
 LOCATION:Lens Agglo\, France
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
