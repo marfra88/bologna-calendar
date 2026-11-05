@@ -175,14 +175,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050113@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141329Z
-LAST-MODIFIED:20260924T141329Z
+SEQUENCE:5
+DTSTAMP:20261105T195807Z
+LAST-MODIFIED:20261105T195807Z
 DTSTART;TZID=Europe/Helsinki:20261105T194500
 DTEND;TZID=Europe/Helsinki:20261105T214500
-SUMMARY:Milan – Ferencváros
+SUMMARY:Milan – Ferencváros 0–2
 DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Mil
- an\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)
+ an\, Italy\n🕘 Orario: 19:45 (Europe/Helsinki)\nRisultato finale: 0–2
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED

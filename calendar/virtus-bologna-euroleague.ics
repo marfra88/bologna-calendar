@@ -573,15 +573,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-02/02/27-Maccabi Rapyd Tel Aviv-Virtu
  s Bologna@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261105T195756Z
+LAST-MODIFIED:20261105T195756Z
 DTSTART;TZID=Europe/Helsinki:20270202T210500
 DTEND;TZID=Europe/Helsinki:20270202T230500
 SUMMARY:Maccabi Rapyd Tel Aviv – Virtus Bologna
-DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 26\n📍 Belgrade\, Serb
- ia — ALEKSANDAR NIKOLIC HALL\n🕘 Orario: 21:05 (Europe/Helsinki)
-LOCATION:Belgrade\, Serbia — ALEKSANDAR NIKOLIC HALL
+DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 26\n📍 Tel Aviv\, Isra
+ el — SPYROS KYPRIANOU ATHLETIC CENTER\n🕘 Orario: 21:05 (Europe/Helsi
+ nki)
+LOCATION:Tel Aviv\, Israel — SPYROS KYPRIANOU ATHLETIC CENTER
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
