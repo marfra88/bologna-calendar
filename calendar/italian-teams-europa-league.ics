@@ -194,14 +194,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050114@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141329Z
-LAST-MODIFIED:20260924T141329Z
+SEQUENCE:5
+DTSTAMP:20261106T064815Z
+LAST-MODIFIED:20261106T064815Z
 DTSTART;TZID=Europe/Helsinki:20261105T220000
 DTEND;TZID=Europe/Helsinki:20261106T000000
-SUMMARY:AZ Alkmaar – Juventus
+SUMMARY:AZ Alkmaar – Juventus 1–2
 DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Alk
- maar\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)
+ maar\, Netherlands\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato final
+ e: 1–2
 LOCATION:Alkmaar\, Netherlands
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
