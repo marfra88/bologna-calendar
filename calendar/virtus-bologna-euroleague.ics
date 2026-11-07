@@ -250,14 +250,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-06/11/26-Virtus Bologna-Dubai Basketb
  all@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261107T055918Z
+LAST-MODIFIED:20261107T055918Z
 DTSTART;TZID=Europe/Helsinki:20261106T213000
 DTEND;TZID=Europe/Helsinki:20261106T233000
-SUMMARY:Virtus Bologna – Dubai Basketball
+SUMMARY:Virtus Bologna – Dubai Basketball 75–93
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 10\n📍 Bologna\, Italy
-  — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)
+  — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)\nRisultato finale: 7
+ 5–93
 LOCATION:Bologna\, Italy — PALADOZZA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
