@@ -270,15 +270,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::9ed516bb6d154cc783d9f8
  e49494beae@github.com
-SEQUENCE:3
-DTSTAMP:20260924T141316Z
-LAST-MODIFIED:20260924T141316Z
+SEQUENCE:4
+DTSTAMP:20261107T215158Z
+LAST-MODIFIED:20261107T215158Z
 DTSTART;TZID=Europe/Helsinki:20261107T190000
 DTEND;TZID=Europe/Helsinki:20261107T210000
-SUMMARY:Parma – Bologna
+SUMMARY:Parma – Bologna 1–2
 DESCRIPTION:🏆 Competizione: Serie A 2026/27\n📅 11ª giornata\n🏟️
   Stadio: Ennio Tardini\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario: 19:00 (Eu
- rope/Helsinki)
+ rope/Helsinki)\nRisultato finale: 1–2
 LOCATION:Ennio Tardini
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
