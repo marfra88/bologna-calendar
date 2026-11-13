@@ -271,15 +271,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-13/11/26-Anadolu Efes Istanbul-Virtus
   Bologna@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261113T194328Z
+LAST-MODIFIED:20261113T194328Z
 DTSTART;TZID=Europe/Helsinki:20261113T193000
 DTEND;TZID=Europe/Helsinki:20261113T213000
-SUMMARY:Anadolu Efes Istanbul – Virtus Bologna
+SUMMARY:Anadolu Efes Istanbul – Virtus Bologna 103–91
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 11\n📍 Istanbul\, Turk
  iye — TURKCELL BASKETBALL DEVELOPMENT CENTER\n🕘 Orario: 19:30 (Europ
- e/Helsinki)
+ e/Helsinki)\nRisultato finale: 103–91
 LOCATION:Istanbul\, Turkiye — TURKCELL BASKETBALL DEVELOPMENT CENTER
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
