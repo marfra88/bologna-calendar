@@ -292,14 +292,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-17/11/26-Virtus Bologna-Panathinaikos
   Aktor Athens@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261118T072958Z
+LAST-MODIFIED:20261118T072958Z
 DTSTART;TZID=Europe/Helsinki:20261117T220000
 DTEND;TZID=Europe/Helsinki:20261118T000000
-SUMMARY:Virtus Bologna – Panathinaikos AKTOR Athens
+SUMMARY:Virtus Bologna – Panathinaikos AKTOR Athens 84–79
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 12\n📍 Bologna\, Italy
-  — PALADOZZA\n🕘 Orario: 22:00 (Europe/Helsinki)
+  — PALADOZZA\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 8
+ 4–79
 LOCATION:Bologna\, Italy — PALADOZZA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
