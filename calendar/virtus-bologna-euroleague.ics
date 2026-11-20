@@ -227,14 +227,14 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sports-calendar-virtus-euroleague-30/10/26-Virtus Bologna-Besiktas Ista
- nbul@github.com
-SEQUENCE:5
-DTSTAMP:20261030T222115Z
-LAST-MODIFIED:20261030T222115Z
+UID:sports-calendar-virtus-euroleague-30/10/26-Virtus Bologna-Besiktas Fuzu
+ l Istanbul@github.com
+SEQUENCE:1
+DTSTAMP:20261120T202233Z
+LAST-MODIFIED:20261120T202233Z
 DTSTART;TZID=Europe/Helsinki:20261030T213000
 DTEND;TZID=Europe/Helsinki:20261030T233000
-SUMMARY:Virtus Bologna – Besiktas Istanbul 101–103
+SUMMARY:Virtus Bologna – Besiktas Fuzul Istanbul 101–103
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 9\n📍 Bologna\, Italy 
  — PALADOZZA\n🕘 Orario: 21:30 (Europe/Helsinki)\nRisultato finale: 10
  1–103
@@ -243,7 +243,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Virtus Bologna – Besiktas Istanbul
+DESCRIPTION:Tra 30 minuti: Virtus Bologna – Besiktas Fuzul Istanbul
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -816,14 +816,14 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sports-calendar-virtus-euroleague-16/04/27-Besiktas Istanbul-Virtus Bol
- ogna@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+UID:sports-calendar-virtus-euroleague-16/04/27-Besiktas Fuzul Istanbul-Virt
+ us Bologna@github.com
+SEQUENCE:1
+DTSTAMP:20261120T202233Z
+LAST-MODIFIED:20261120T202233Z
 DTSTART;TZID=Europe/Helsinki:20270416T200000
 DTEND;TZID=Europe/Helsinki:20270416T220000
-SUMMARY:Besiktas Istanbul – Virtus Bologna
+SUMMARY:Besiktas Fuzul Istanbul – Virtus Bologna
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 38\n📍 Istanbul\, Turk
  iye — TURKCELL BASKETBALL DEVELOPMENT CENTER\n🕘 Orario: 20:00 (Europ
  e/Helsinki)
@@ -832,7 +832,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Tra 30 minuti: Besiktas Istanbul – Virtus Bologna
+DESCRIPTION:Tra 30 minuti: Besiktas Fuzul Istanbul – Virtus Bologna
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
