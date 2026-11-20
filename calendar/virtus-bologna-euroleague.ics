@@ -313,14 +313,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-19/11/26-Valencia Basket-Virtus Bolog
  na@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261120T071743Z
+LAST-MODIFIED:20261120T071743Z
 DTSTART;TZID=Europe/Helsinki:20261119T220000
 DTEND;TZID=Europe/Helsinki:20261120T000000
-SUMMARY:Valencia Basket – Virtus Bologna
+SUMMARY:Valencia Basket – Virtus Bologna 92–87
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 13\n📍 Valencia\, Spai
- n — ROIG ARENA\n🕘 Orario: 22:00 (Europe/Helsinki)
+ n — ROIG ARENA\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale:
+  92–87
 LOCATION:Valencia\, Spain — ROIG ARENA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
