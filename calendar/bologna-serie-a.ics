@@ -291,15 +291,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::92e5cb913a5f4c638e5124
  3ad1ccc94a@github.com
-SEQUENCE:4
-DTSTAMP:20260925T213550Z
-LAST-MODIFIED:20260925T213550Z
+SEQUENCE:5
+DTSTAMP:20261122T194156Z
+LAST-MODIFIED:20261122T194156Z
 DTSTART;TZID=Europe/Helsinki:20261122T160000
 DTEND;TZID=Europe/Helsinki:20261122T180000
-SUMMARY:Bologna – Udinese
+SUMMARY:Bologna – Udinese 1–1
 DESCRIPTION:🏆 Competizione: Serie A Enilive 2026/27\n📅 12ª giornata\
  n🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario:
-  16:00 (Europe/Helsinki)
+  16:00 (Europe/Helsinki)\nRisultato finale: 1–1
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
