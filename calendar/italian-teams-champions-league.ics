@@ -379,14 +379,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049626@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261124T222740Z
+LAST-MODIFIED:20261124T222740Z
 DTSTART;TZID=Europe/Helsinki:20261124T220000
 DTEND;TZID=Europe/Helsinki:20261125T000000
-SUMMARY:Man City – Napoli
+SUMMARY:Man City – Napoli 2–2
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Manchester\, England\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Manchester\, England\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato fin
+ ale: 2–2
 LOCATION:Manchester\, England
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -398,14 +399,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049633@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141328Z
-LAST-MODIFIED:20260924T141328Z
+SEQUENCE:5
+DTSTAMP:20261124T222740Z
+LAST-MODIFIED:20261124T222740Z
 DTSTART;TZID=Europe/Helsinki:20261124T220000
 DTEND;TZID=Europe/Helsinki:20261125T000000
-SUMMARY:Como – AEK Athens
+SUMMARY:Como – AEK Athens 1–0
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Como\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Como\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 1
+ –0
 LOCATION:Como\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED

@@ -334,14 +334,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-virtus-euroleague-24/11/26-Crvena Zvezda Meridianbet Be
  lgrade-Virtus Bologna@github.com
-SEQUENCE:4
-DTSTAMP:20260924T141319Z
-LAST-MODIFIED:20260924T141319Z
+SEQUENCE:5
+DTSTAMP:20261124T222731Z
+LAST-MODIFIED:20261124T222731Z
 DTSTART;TZID=Europe/Helsinki:20261124T200000
 DTEND;TZID=Europe/Helsinki:20261124T220000
-SUMMARY:Crvena Zvezda Meridianbet Belgrade – Virtus Bologna
+SUMMARY:Crvena Zvezda Meridianbet Belgrade – Virtus Bologna 84–108
 DESCRIPTION:🏆 EuroLeague 2026/27\n📅 Matchday 14\n📍 Belgrade\, Serb
- ia — BELGRADE ARENA\n🕘 Orario: 20:00 (Europe/Helsinki)
+ ia — BELGRADE ARENA\n🕘 Orario: 20:00 (Europe/Helsinki)\nRisultato fi
+ nale: 84–108
 LOCATION:Belgrade\, Serbia — BELGRADE ARENA
 URL:https://www.euroleaguebasketball.net/euroleague/
 STATUS:CONFIRMED
