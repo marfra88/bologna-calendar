@@ -419,14 +419,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049634@github.com
-SEQUENCE:5
-DTSTAMP:20261125T214258Z
-LAST-MODIFIED:20261125T214258Z
+SEQUENCE:6
+DTSTAMP:20261126T082001Z
+LAST-MODIFIED:20261126T082001Z
 DTSTART;TZID=Europe/Helsinki:20261125T220000
 DTEND;TZID=Europe/Helsinki:20261126T000000
-SUMMARY:Paris – Roma
+SUMMARY:Paris – Roma 2–2
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Paris\, France\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Paris\, France\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 2
+ –2
 LOCATION:Paris\, France
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
@@ -438,14 +439,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-champions-league-italian-teams-2049635@github.com
-SEQUENCE:5
-DTSTAMP:20261125T214258Z
-LAST-MODIFIED:20261125T214258Z
+SEQUENCE:6
+DTSTAMP:20261126T082001Z
+LAST-MODIFIED:20261126T082001Z
 DTSTART;TZID=Europe/Helsinki:20261125T220000
 DTEND;TZID=Europe/Helsinki:20261126T000000
-SUMMARY:Inter – Stuttgart
+SUMMARY:Inter – Stuttgart 2–0
 DESCRIPTION:🏆 UEFA Champions League 2026/27\n📅 Fase campionato\n📍 
- Milan\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+ Milan\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 2
+ –0
 LOCATION:Milan\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
