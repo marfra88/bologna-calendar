@@ -234,14 +234,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-europa-league-italian-teams-2050129@github.com
-SEQUENCE:5
-DTSTAMP:20261126T213317Z
-LAST-MODIFIED:20261126T213317Z
+SEQUENCE:6
+DTSTAMP:20261127T083539Z
+LAST-MODIFIED:20261127T083539Z
 DTSTART;TZID=Europe/Helsinki:20261126T220000
 DTEND;TZID=Europe/Helsinki:20261127T000000
-SUMMARY:Juventus – Omonia
+SUMMARY:Juventus – Omonia 4–1
 DESCRIPTION:🏆 UEFA Europa League 2026/27\n📅 Fase campionato\n📍 Tur
- in\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)
+ in\, Italy\n🕘 Orario: 22:00 (Europe/Helsinki)\nRisultato finale: 4–1
 LOCATION:Turin\, Italy
 URL:https://www.uefa.com/
 STATUS:CONFIRMED

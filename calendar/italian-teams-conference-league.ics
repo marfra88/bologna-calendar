@@ -146,14 +146,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-conference-league-italian-teams-2050369@github.com
-SEQUENCE:5
-DTSTAMP:20261126T213318Z
-LAST-MODIFIED:20261126T213318Z
+SEQUENCE:6
+DTSTAMP:20261127T083542Z
+LAST-MODIFIED:20261127T083542Z
 DTSTART;TZID=Europe/Helsinki:20261126T220000
 DTEND;TZID=Europe/Helsinki:20261127T000000
-SUMMARY:Borac – Atalanta
+SUMMARY:Borac – Atalanta 2–3
 DESCRIPTION:🏆 UEFA Conference League 2026/27\n📅 Fase campionato\n📍
   Banjaluka\, Bosnia and Herzegovina\n🕘 Orario: 22:00 (Europe/Helsinki)
+ \nRisultato finale: 2–3
 LOCATION:Banjaluka\, Bosnia and Herzegovina
 URL:https://www.uefa.com/
 STATUS:CONFIRMED
