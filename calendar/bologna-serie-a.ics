@@ -312,15 +312,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::561c74842f9f41568b1d1b
  f518b85315@github.com
-SEQUENCE:5
-DTSTAMP:20261127T211815Z
-LAST-MODIFIED:20261127T211815Z
+SEQUENCE:6
+DTSTAMP:20261128T075036Z
+LAST-MODIFIED:20261128T075036Z
 DTSTART;TZID=Europe/Helsinki:20261127T214500
 DTEND;TZID=Europe/Helsinki:20261127T234500
-SUMMARY:Venezia – Bologna
+SUMMARY:Venezia – Bologna 0–0
 DESCRIPTION:🏆 Competizione: Serie A Enilive 2026/27\n📅 13ª giornata\
  n🏟️ Stadio: Pier Luigi Penzo\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n
- 🕘 Orario: 21:45 (Europe/Helsinki)
+ 🕘 Orario: 21:45 (Europe/Helsinki)\nRisultato finale: 0–0
 LOCATION:Pier Luigi Penzo
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -459,15 +459,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::0bfce1e871a34d1abdabba
  dcf3bf5ff8@github.com
-SEQUENCE:4
-DTSTAMP:20261106T192516Z
-LAST-MODIFIED:20261106T192516Z
+SEQUENCE:5
+DTSTAMP:20261128T075036Z
+LAST-MODIFIED:20261128T075036Z
 DTSTART;TZID=Europe/Helsinki:20270117T010000
 DTEND;TZID=Europe/Helsinki:20270117T030000
 SUMMARY:Lazio – Bologna
 DESCRIPTION:🏆 Competizione: Serie A Enilive 2026/27\n📅 20ª giornata\
- n🏟️ Stadio: Olimpico\n📺 Diretta TV: Da definire\n🕘 Orario: 01:
- 00 (Europe/Helsinki)
+ n🏟️ Stadio: Olimpico\n📺 Diretta TV: ⬛ DAZN | 🔵 SKY\n🕘 Ora
+ rio: 01:00 (Europe/Helsinki)
 LOCATION:Olimpico
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
@@ -480,15 +480,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sports-calendar-serie-a-serie-a::Football_Match::d3d202a88962412088112f
  2540ed7e82@github.com
-SEQUENCE:4
-DTSTAMP:20261106T192516Z
-LAST-MODIFIED:20261106T192516Z
+SEQUENCE:5
+DTSTAMP:20261128T075036Z
+LAST-MODIFIED:20261128T075036Z
 DTSTART;TZID=Europe/Helsinki:20270124T010000
 DTEND;TZID=Europe/Helsinki:20270124T030000
 SUMMARY:Bologna – Atalanta
 DESCRIPTION:🏆 Competizione: Serie A Enilive 2026/27\n📅 21ª giornata\
- n🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: Da definire\n🕘 Orar
- io: 01:00 (Europe/Helsinki)
+ n🏟️ Stadio: Renato Dall'Ara\n📺 Diretta TV: ⬛ DAZN\n🕘 Orario:
+  01:00 (Europe/Helsinki)
 LOCATION:Renato Dall'Ara
 URL:https://www.legaseriea.it/serie-a/calendario-risultati
 STATUS:CONFIRMED
